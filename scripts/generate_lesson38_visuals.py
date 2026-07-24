@@ -215,9 +215,91 @@ def side_eigendigits() -> None:
     save(fig, SIDE / "eigendigits.png")
 
 
+def fig_eigen_algorithms() -> None:
+    """Как собственные направления находят на самом деле: степенной метод и QR.
+
+    Оба метода работают на настоящей ковариации четырёх измерений ириса, поэтому
+    числа урока и числа этой фигуры - одни и те же собственные значения.
+    """
+    X = load_iris().data.astype(float)
+    S = np.cov((X - X.mean(0)).T, bias=False)
+    vals, vecs = np.linalg.eigh(S)
+    order = np.argsort(vals)[::-1]
+    vals, vecs = vals[order], vecs[:, order]
+    v1 = vecs[:, 0]
+    ratio = vals[1] / vals[0]
+
+    # Степенной метод: каждый шаг умножает на S и нормирует. Старт берём заведомо
+    # неудачный - почти вдоль самого слабого направления, иначе сходиться нечему.
+    u = vecs[:, 3] + 0.02 * vecs[:, 0]
+    u /= np.linalg.norm(u)
+    angles = []
+    for _ in range(26):
+        cos = abs(float(u @ v1))
+        angles.append(np.degrees(np.arccos(min(1.0, cos))))
+        u = S @ u
+        u /= np.linalg.norm(u)
+    angles = np.array(angles)
+
+    # QR-алгоритм: A <- RQ, внедиагональная часть тает
+    A = S.copy()
+    offdiag = []
+    for _ in range(26):
+        offdiag.append(float(np.sqrt((A ** 2).sum() - (np.diag(A) ** 2).sum())))
+        Q, R = np.linalg.qr(A)
+        A = R @ Q
+    offdiag = np.array(offdiag)
+    diag_final = np.sort(np.diag(A))[::-1]
+
+    steps_power = int(np.argmax(angles < 1e-9))      # шаг, на котором угол схлопнулся
+    steps_qr = int(np.argmax(offdiag < 1e-12))       # шаг, на котором матрица стала диагональной
+
+    assert abs(ratio - 0.05739) < 5e-6, ratio
+    assert angles[0] > 60 and angles[10] < 1e-3, (angles[0], angles[10])
+    assert steps_power == 7, steps_power
+    assert steps_qr == 14, steps_qr
+    assert offdiag[0] > 1 and offdiag[12] < 1e-6, (offdiag[0], offdiag[12])
+    assert abs(diag_final[1] - 0.2427) < 5e-5, diag_final[1]
+    assert np.allclose(diag_final, vals, atol=1e-8), (diag_final, vals)
+    assert abs(vals[0] - 4.2282) < 5e-5, vals[0]
+
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(10.6, 3.9))
+
+    # После машинной точности угол пляшет на уровне ошибок округления - показывать
+    # этот шум незачем, обрезаем на первом шаге, где сходимость уже достигнута.
+    stop = int(np.argmax(angles < 1e-9)) + 1
+    k = np.arange(stop)
+    a1.semilogy(k, np.maximum(angles[:stop], 1e-10), color=BLUE, lw=2.4, marker="o",
+                markersize=4, label="степенной метод")
+    a1.semilogy(k, angles[0] * ratio ** k, color=RED, lw=1.6, ls="--",
+                label=r"скорость $(\lambda_2/\lambda_1)^k$")
+    a1.set_title("Умножай на $S$ и нормируй", fontsize=13)
+    a1.set_xlabel("шаг"); a1.set_ylabel("угол до первой оси, градусы")
+    a1.set_ylim(1e-10, 1e3)
+    a1.grid(True, color=GRID, lw=0.7)
+    a1.legend(frameon=False, fontsize=10, loc="upper right")
+    a1.text(0.4, 3e-9, f"$\\lambda_2/\\lambda_1={ratio:.4f}$".replace(".", ","),
+            color=MUTED, fontsize=11)
+
+    a2.semilogy(np.arange(len(offdiag)), np.maximum(offdiag, 1e-18), color=GREEN, lw=2.2)
+    a2.set_title("QR-алгоритм: матрица становится диагональной", fontsize=13)
+    a2.set_xlabel("шаг"); a2.set_ylabel("норма внедиагональной части")
+    a2.grid(True, color=GRID, lw=0.7)
+    a2.text(0.5, 4e-14,
+            "на диагонали остаются\nсобственные значения:\n"
+            + ", ".join(f"{v:.3f}".replace(".", ",") for v in diag_final[:3]) + ", …",
+            color=MUTED, fontsize=10.5, va="bottom")
+
+    fig.suptitle("Собственные направления никто не решает формулой — их итерируют", y=1.02, fontsize=14)
+    fig.tight_layout()
+    save(fig, OUT / "eigen_algorithms.png")
+    print(f"eigen: l1={vals[0]:.4f} ratio={ratio:.4f} angle8={angles[8]:.2e} off12={offdiag[12]:.2e}")
+
+
 fig_rotation()
 fig_ellipse()
 fig_scree()
+fig_eigen_algorithms()
 side_center()
 side_scale()
 side_eigendigits()
