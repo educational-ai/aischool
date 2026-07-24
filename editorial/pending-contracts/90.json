@@ -1,0 +1,24 @@
+{
+  "90": {
+    "minimumBodyWords": 2800,
+    "minimumHomeworkWords": 260,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 15,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 25,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "capstone-protocol-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+ "attn_low_words": [
+  [
+   "that",
+   -1.49
+  ],
+  [
+   "and",
+   -1.39
+  ],
+  [
+   "it",
+   -1.37
+  ],
+  [
+   "are",
+   -1.33
+  ],
+  [
+   "do",
+   -1.31
+  ],
+  [
+   "about",
+   -1.31
+  ]
+ ],
+ "attn_top_words": [
+  [
+   "tone",
+   0.36
+  ],
+  [
+   "uk",
+   0.33
+  ],
+  [
+   "co",
+   0.32
+  ],
+  [
+   "www",
+   0.22
+  ],
+  [
+   "pobox",
+   0.19
+  ],
+  [
+   "wk",
+   0.13
+  ],
+  [
+   "com",
+   0.11
+  ],
+  [
+   "cs",
+   0.06
+  ],
+  [
+   "per",
+   0.04
+  ],
+  [
+   "txt",
+   0.03
+  ]
+ ],
+ "cost_ms": [
+  0.05,
+  0.17,
+  0.63,
+  2.56,
+  10.1
+ ],
+ "cost_ns": [
+  128,
+  256,
+  512,
+  1024,
+  2048
+ ],
+ "cost_ratio_1024_512": 4.04,
+ "cost_slope": 1.92,
+ "demo_call_orange_causal": 0.05,
+ "demo_entropy_full": 1.413,
+ "demo_entropy_last_causal": 1.628,
+ "demo_entropy_uniform": 2.197,
+ "demo_first_row_selfweight": 1.0,
+ "demo_free_weight": 0.036,
+ "demo_n": 9,
+ "demo_query": "call",
+ "demo_self_weight": 0.616,
+ "demo_self_weight_causal": 0.793,
+ "demo_tokens": [
+  "free",
+  "nokia",
+  "motorola",
+  "on",
+  "orange",
+  "call",
+  "mobileupd",
+  "or",
+  "optout"
+ ],
+ "demo_trained_max_token": "optout",
+ "demo_trained_max_weight": 0.187,
+ "demo_trained_weights": [
+  0.107,
+  0.133,
+  0.119,
+  0.058,
+  0.115,
+  0.091,
+  0.127,
+  0.063,
+  0.187
+ ],
+ "demo_uniform_weight": 0.111,
+ "dilute_half_k": 22,
+ "dilute_w0": 0.953,
+ "dilute_w10": 0.646,
+ "dilute_w40": 0.329,
+ "emb_dim": 32,
+ "ent_raw_d512": 0.107,
+ "ent_sc_d512": 1.729,
+ "ent_uniform8": 2.079,
+ "grad_ratio_d512": 11.9,
+ "grad_raw_d512": 0.0648,
+ "grad_sc_d512": 0.7688,
+ "headA_prev_weight": 0.911,
+ "headB_maxpair": [
+  "mobileupd",
+  "motorola"
+ ],
+ "headB_maxweight": 0.354,
+ "kv_ratio_512": 512,
+ "kv_total_ratio": 341.7,
+ "local_saving_8192": 64,
+ "maxw_raw_d512": 0.955,
+ "maxw_sc_d4": 0.344,
+ "maxw_sc_d512": 0.36,
+ "mem_2048_mib": 16.0,
+ "mem_8192_mib": 256.0,
+ "n_sms": 5569,
+ "n_spam": 747,
+ "near_call": [
+  [
+   "land",
+   0.847
+  ],
+  [
+   "valid",
+   0.83
+  ],
+  [
+   "from",
+   0.82
+  ],
+  [
+   "claim",
+   0.799
+  ]
+ ],
+ "near_free": [
+  [
+   "nokia",
+   0.912
+  ],
+  [
+   "mobile",
+   0.85
+  ],
+  [
+   "latest",
+   0.841
+  ],
+  [
+   "video",
+   0.839
+  ]
+ ],
+ "pe_dot_lag1": 30.92,
+ "pe_dot_lag32": 19.55,
+ "pe_dot_lag8": 22.41,
+ "pe_self_dot": 32.0,
+ "perm_maxdiff": 1.1102230246251565e-16,
+ "pool_acc_attn": 96.6,
+ "pool_acc_base": 87.0,
+ "pool_acc_mean": 96.3,
+ "pool_err_attn": 47,
+ "pool_err_mean": 51,
+ "pool_gain_pp": 0.3,
+ "pool_mid_attn": 95.2,
+ "pool_mid_mean": 94.5,
+ "pool_mid_n": 586,
+ "pool_test_n": 1368,
+ "spam_share_pct": 13.4,
+ "toy_entropy": 0.832,
+ "toy_out": 1.4641,
+ "toy_out_mask": 1.8068,
+ "toy_scores": [
+  2,
+  1,
+  0
+ ],
+ "toy_values": [
+  1,
+  4,
+  -2
+ ],
+ "toy_weights": [
+  0.6652,
+  0.2447,
+  0.09
+ ],
+ "toy_weights_mask": [
+  0.7311,
+  0.2689
+ ],
+ "var_d64": 64.2,
+ "var_ratio_d": [
+  0.986,
+  0.983,
+  0.985,
+  0.993,
+  1.003,
+  0.977,
+  1.0,
+  0.998
+ ],
+ "vocab": 1045
+}

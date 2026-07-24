@@ -1,0 +1,181 @@
+{
+ "cell_c": 1.5,
+ "cell_h": 0.5431,
+ "cell_c_noinput": 1.6,
+ "cell_h_noinput": 0.553,
+ "regime_accumulate_c80": 4.2,
+ "regime_forget_c80": 0.000218,
+ "regime_accumulate_tanh": 0.99955,
+ "halflife": {
+  "0.9": 6.6,
+  "0.95": 13.5,
+  "0.99": 69.0,
+  "0.999": 692.8
+ },
+ "sigmoid_at_4": 0.982,
+ "sigmoid_deriv_at_4": 0.0177,
+ "sigmoid_deriv_max": 0.25,
+ "params_equal_width": {
+  "RNN": 4674,
+  "GRU": 13762,
+  "LSTM": 18306
+ },
+ "gru_z02_halfway": 4,
+ "mask_c_true": 1.1,
+ "mask_c_padded": 0.156,
+ "mask_drift_pct": 85.8,
+ "params_matched": {
+  "rnn": 4674,
+  "gru": 4718,
+  "lstm": 4776
+ },
+ "params_spread_pct": 2.18,
+ "copy_delays": [
+  25,
+  50,
+  100,
+  200
+ ],
+ "copy_seeds": [
+  1,
+  2,
+  3
+ ],
+ "copy_acc_mean": {
+  "rnn": [
+   1.0,
+   0.829,
+   0.831,
+   0.497
+  ],
+  "gru": [
+   1.0,
+   1.0,
+   1.0,
+   0.494
+  ],
+  "lstm": [
+   1.0,
+   1.0,
+   1.0,
+   0.668
+  ]
+ },
+ "copy_acc_all": {
+  "rnn": [
+   [
+    1.0,
+    1.0,
+    1.0
+   ],
+   [
+    0.487,
+    1.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.493,
+    1.0
+   ],
+   [
+    0.512,
+    0.494,
+    0.484
+   ]
+  ],
+  "gru": [
+   [
+    1.0,
+    1.0,
+    1.0
+   ],
+   [
+    1.0,
+    1.0,
+    1.0
+   ],
+   [
+    1.0,
+    1.0,
+    1.0
+   ],
+   [
+    0.512,
+    0.487,
+    0.484
+   ]
+  ],
+  "lstm": [
+   [
+    1.0,
+    1.0,
+    1.0
+   ],
+   [
+    1.0,
+    1.0,
+    1.0
+   ],
+   [
+    1.0,
+    1.0,
+    1.0
+   ],
+   [
+    1.0,
+    0.487,
+    0.516
+   ]
+  ]
+ },
+ "forget_bias_acc": {
+  "1.0": [
+   0.494,
+   0.487,
+   0.482
+  ],
+  "3.0": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "forget_bias_solved": {
+  "1.0": 0,
+  "3.0": 3
+ },
+ "grad_D": 100,
+ "grad_init_keep_rnn": 0.00142,
+ "grad_init_keep_lstm": 3.72,
+ "grad_init_drop_rnn": 704.0,
+ "grad_init_drop_lstm": 0.269,
+ "grad_init_advantage": 2620.0,
+ "grad_trained_rnn_acc": 1.0,
+ "grad_trained_rnn_keep": 0.919,
+ "gates_acc": 1.0,
+ "gates_D": 30,
+ "gate_coord": 6,
+ "gate_f_pause": 0.956,
+ "gate_f_halflife": 15.3,
+ "gate_i_first": 0.511,
+ "gate_i_pause": 0.529,
+ "gate_o_pause": 0.617,
+ "gate_o_query": 0.675,
+ "cell_gap_t1": 0.179,
+ "cell_gap_end": 5.997,
+ "cell_gap_growth": 33.4,
+ "bike_rows": 17379,
+ "bike_train_mean": 159.9,
+ "bike_train_std": 152.6,
+ "bike_mae_naive": 86.7,
+ "bike_mae_seasonal": 81.4,
+ "bike_mae_ridge": 55.5,
+ "bike_mae_lstm": 34.4,
+ "bike_test_n": 5207,
+ "bike_gain_pct": 57.8,
+ "bike_peak_threshold": 380.0,
+ "bike_peak_share_pct": 25.6,
+ "bike_mae_lstm_peak": 53.7,
+ "bike_mae_seasonal_peak": 131.4
+}

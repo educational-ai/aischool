@@ -1,192 +1,4 @@
 {
-  "01": {
-    "minimumBodyWords": 5500,
-    "minimumHomeworkWords": 1300,
-    "minimumSections": 15,
-    "minimumFigures": 6,
-    "minimumSidenotes": 14,
-    "minimumSidenoteImages": 2,
-    "minimumQuoteSidenotes": 2,
-    "minimumInlineExercises": 7,
-    "minimumProblems": 9,
-    "minimumDisplayMathBlocks": 16,
-    "requiredSideCalculations": [
-      "threshold-shift"
-    ],
-    "requiredWidgets": [
-      "system-feedback-lab"
-    ],
-    "forbiddenWidgets": [
-      "task-map"
-    ]
-  },
-  "02": {
-    "minimumBodyWords": 5500,
-    "minimumHomeworkWords": 1300,
-    "minimumSections": 19,
-    "minimumFigures": 6,
-    "minimumSidenotes": 19,
-    "minimumSidenoteImages": 3,
-    "minimumQuoteSidenotes": 3,
-    "minimumInlineExercises": 10,
-    "minimumProblems": 10,
-    "minimumDisplayMathBlocks": 50,
-    "requiredSideCalculations": [
-      "terminal-velocity"
-    ],
-    "requiredWidgets": [
-      "mechanism-fit-lab"
-    ],
-    "forbiddenWidgets": [
-      "model-residual-lab",
-      "task-map"
-    ]
-  },
-  "03": {
-    "minimumBodyWords": 5400,
-    "minimumHomeworkWords": 1300,
-    "minimumSections": 20,
-    "minimumFigures": 6,
-    "minimumSidenotes": 20,
-    "minimumSidenoteImages": 4,
-    "minimumQuoteSidenotes": 4,
-    "minimumInlineExercises": 10,
-    "minimumProblems": 10,
-    "minimumDisplayMathBlocks": 35,
-    "requiredSideCalculations": [
-      "kappa-matrix"
-    ],
-    "requiredWidgets": [
-      "missingness-selection-lab"
-    ],
-    "forbiddenWidgets": [
-      "dataset-forensics",
-      "task-map"
-    ]
-  },
-  "04": {
-    "minimumBodyWords": 5400,
-    "minimumHomeworkWords": 1300,
-    "minimumSections": 20,
-    "minimumFigures": 6,
-    "minimumSidenotes": 20,
-    "minimumSidenoteImages": 4,
-    "minimumQuoteSidenotes": 4,
-    "minimumInlineExercises": 10,
-    "minimumProblems": 12,
-    "minimumDisplayMathBlocks": 28,
-    "requiredSideCalculations": [],
-    "requiredWidgets": [
-      "turing-machine-lab",
-      "blind-jury-study"
-    ],
-    "forbiddenWidgets": [
-      "task-map",
-      "g10-data"
-    ]
-  },
-  "05": {
-    "minimumBodyWords": 5500,
-    "minimumHomeworkWords": 1200,
-    "minimumSections": 19,
-    "minimumFigures": 7,
-    "minimumSidenotes": 18,
-    "minimumSidenoteImages": 3,
-    "minimumQuoteSidenotes": 3,
-    "minimumInlineExercises": 8,
-    "minimumProblems": 11,
-    "minimumDisplayMathBlocks": 26,
-    "requiredSideCalculations": [],
-    "requiredWidgets": [
-      "survey-sampling-lab",
-      "dispatch-threshold-lab"
-    ],
-    "forbiddenWidgets": [
-      "task-map",
-      "discipline-layers"
-    ]
-  },
-  "06": {
-    "minimumBodyWords": 5300,
-    "minimumHomeworkWords": 1100,
-    "minimumSections": 15,
-    "minimumFigures": 6,
-    "minimumSidenotes": 16,
-    "minimumSidenoteImages": 3,
-    "minimumQuoteSidenotes": 3,
-    "minimumInlineExercises": 7,
-    "minimumProblems": 11,
-    "minimumDisplayMathBlocks": 17,
-    "requiredSideCalculations": [],
-    "requiredWidgets": [
-      "pseudo-label-lab",
-      "reward-design-lab"
-    ],
-    "forbiddenWidgets": [
-      "task-map",
-      "learning-signals"
-    ]
-  },
-  "07": {
-    "minimumBodyWords": 5100,
-    "minimumHomeworkWords": 1000,
-    "minimumSections": 18,
-    "minimumFigures": 6,
-    "minimumSidenotes": 16,
-    "minimumSidenoteImages": 3,
-    "minimumQuoteSidenotes": 3,
-    "minimumInlineExercises": 7,
-    "minimumProblems": 10,
-    "minimumDisplayMathBlocks": 16,
-    "requiredSideCalculations": [],
-    "requiredWidgets": [
-      "spam-threshold-lab"
-    ],
-    "forbiddenWidgets": [
-      "task-map",
-      "classifier-studio"
-    ]
-  },
-  "08": {
-    "minimumBodyWords": 5000,
-    "minimumHomeworkWords": 900,
-    "minimumSections": 19,
-    "minimumFigures": 6,
-    "minimumSidenotes": 16,
-    "minimumSidenoteImages": 3,
-    "minimumQuoteSidenotes": 3,
-    "minimumInlineExercises": 7,
-    "minimumProblems": 12,
-    "minimumDisplayMathBlocks": 16,
-    "requiredSideCalculations": [],
-    "requiredWidgets": [
-      "regression-lab"
-    ],
-    "forbiddenWidgets": [
-      "task-map",
-      "regression-workbench"
-    ]
-  },
-  "09": {
-    "minimumBodyWords": 4700,
-    "minimumHomeworkWords": 850,
-    "minimumSections": 14,
-    "minimumFigures": 6,
-    "minimumSidenotes": 15,
-    "minimumSidenoteImages": 3,
-    "minimumQuoteSidenotes": 3,
-    "minimumInlineExercises": 7,
-    "minimumProblems": 11,
-    "minimumDisplayMathBlocks": 13,
-    "requiredSideCalculations": [],
-    "requiredWidgets": [
-      "gapminder-cluster-lab"
-    ],
-    "forbiddenWidgets": [
-      "task-map",
-      "clustering-lens"
-    ]
-  },
   "10": {
     "minimumBodyWords": 4400,
     "minimumHomeworkWords": 720,
@@ -1041,16 +853,16 @@
     ]
   },
   "51": {
-    "minimumBodyWords": 1400,
-    "minimumHomeworkWords": 260,
-    "minimumSections": 10,
-    "minimumFigures": 3,
-    "minimumSidenotes": 6,
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
     "minimumSidenoteImages": 3,
     "minimumQuoteSidenotes": 3,
-    "minimumInlineExercises": 4,
-    "minimumProblems": 8,
-    "minimumDisplayMathBlocks": 1,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
     "requiredSideCalculations": [],
     "requiredWidgets": [
       "shrinkage-lab"
@@ -1060,6 +872,1058 @@
       "g10-neuron",
       "g10-vision",
       "g11-stats"
+    ]
+  },
+  "52": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "bayes-regression-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "53": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "decision-boundary-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "54": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "lda-qda-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "55": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "ab-test-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "56": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "uncertainty-map-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "57": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "cost-loss-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "58": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "risk-estimate-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "59": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "double-descent-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "60": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "dimension-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "61": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "batch-schedule-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "62": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "optimizer-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "63": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "oracle-selection-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "64": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "federated-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "65": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "pagerank-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "66": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "random-walk-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "67": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "metropolis-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "68": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "cipher-mcmc-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "69": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "mdp-bellman-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "70": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "bandit-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "71": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "td-learning-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "72": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "self-play-league-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats",
+      "g11-rl"
+    ]
+  },
+  "73": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "recurrent-memory-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "74": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "gated-memory-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "75": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "tokenizer-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "76": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "attention-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "77": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "transformer-block-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "78": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "corpus-mixture-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats",
+      "g11-generative"
+    ]
+  },
+  "79": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "scaling-law-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "80": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "preference-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats",
+      "g11-generative"
+    ]
+  },
+  "81": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "preference-optimization-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats",
+      "g11-generative"
+    ]
+  },
+  "82": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "gan-game-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "83": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "latent-scale-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats",
+      "g11-generative"
+    ]
+  },
+  "84": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "contrastive-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats",
+      "g11-generative"
+    ]
+  },
+  "85": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "vae-latent-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "86": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "diffusion-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "87": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "forensic-threshold-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "88": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "world-rollout-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "89": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "agent-loop-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "90": {
+    "minimumBodyWords": 3000,
+    "minimumHomeworkWords": 400,
+    "minimumSections": 12,
+    "minimumFigures": 5,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "capstone-protocol-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-neuron",
+      "g10-vision",
+      "g11-stats"
+    ]
+  },
+  "01": {
+    "minimumBodyWords": 5500,
+    "minimumHomeworkWords": 1300,
+    "minimumSections": 15,
+    "minimumFigures": 6,
+    "minimumSidenotes": 14,
+    "minimumSidenoteImages": 2,
+    "minimumQuoteSidenotes": 2,
+    "minimumInlineExercises": 7,
+    "minimumProblems": 9,
+    "minimumDisplayMathBlocks": 16,
+    "requiredSideCalculations": [
+      "threshold-shift"
+    ],
+    "requiredWidgets": [
+      "system-feedback-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map"
+    ]
+  },
+  "02": {
+    "minimumBodyWords": 5500,
+    "minimumHomeworkWords": 1300,
+    "minimumSections": 19,
+    "minimumFigures": 6,
+    "minimumSidenotes": 19,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 10,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 50,
+    "requiredSideCalculations": [
+      "terminal-velocity"
+    ],
+    "requiredWidgets": [
+      "mechanism-fit-lab"
+    ],
+    "forbiddenWidgets": [
+      "model-residual-lab",
+      "task-map"
+    ]
+  },
+  "03": {
+    "minimumBodyWords": 5400,
+    "minimumHomeworkWords": 1300,
+    "minimumSections": 20,
+    "minimumFigures": 6,
+    "minimumSidenotes": 20,
+    "minimumSidenoteImages": 4,
+    "minimumQuoteSidenotes": 4,
+    "minimumInlineExercises": 10,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 35,
+    "requiredSideCalculations": [
+      "kappa-matrix"
+    ],
+    "requiredWidgets": [
+      "missingness-selection-lab"
+    ],
+    "forbiddenWidgets": [
+      "dataset-forensics",
+      "task-map"
+    ]
+  },
+  "04": {
+    "minimumBodyWords": 5400,
+    "minimumHomeworkWords": 1300,
+    "minimumSections": 20,
+    "minimumFigures": 6,
+    "minimumSidenotes": 20,
+    "minimumSidenoteImages": 4,
+    "minimumQuoteSidenotes": 4,
+    "minimumInlineExercises": 10,
+    "minimumProblems": 12,
+    "minimumDisplayMathBlocks": 28,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "turing-machine-lab",
+      "blind-jury-study"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "g10-data"
+    ]
+  },
+  "05": {
+    "minimumBodyWords": 5500,
+    "minimumHomeworkWords": 1200,
+    "minimumSections": 19,
+    "minimumFigures": 7,
+    "minimumSidenotes": 18,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 8,
+    "minimumProblems": 11,
+    "minimumDisplayMathBlocks": 26,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "survey-sampling-lab",
+      "dispatch-threshold-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "discipline-layers"
+    ]
+  },
+  "06": {
+    "minimumBodyWords": 5300,
+    "minimumHomeworkWords": 1100,
+    "minimumSections": 15,
+    "minimumFigures": 6,
+    "minimumSidenotes": 16,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 7,
+    "minimumProblems": 11,
+    "minimumDisplayMathBlocks": 17,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "pseudo-label-lab",
+      "reward-design-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "learning-signals"
+    ]
+  },
+  "07": {
+    "minimumBodyWords": 5100,
+    "minimumHomeworkWords": 1000,
+    "minimumSections": 18,
+    "minimumFigures": 6,
+    "minimumSidenotes": 16,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 7,
+    "minimumProblems": 10,
+    "minimumDisplayMathBlocks": 16,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "spam-threshold-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "classifier-studio"
+    ]
+  },
+  "08": {
+    "minimumBodyWords": 5000,
+    "minimumHomeworkWords": 900,
+    "minimumSections": 19,
+    "minimumFigures": 6,
+    "minimumSidenotes": 16,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 7,
+    "minimumProblems": 12,
+    "minimumDisplayMathBlocks": 16,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "regression-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "regression-workbench"
+    ]
+  },
+  "09": {
+    "minimumBodyWords": 4700,
+    "minimumHomeworkWords": 850,
+    "minimumSections": 14,
+    "minimumFigures": 6,
+    "minimumSidenotes": 15,
+    "minimumSidenoteImages": 3,
+    "minimumQuoteSidenotes": 3,
+    "minimumInlineExercises": 7,
+    "minimumProblems": 11,
+    "minimumDisplayMathBlocks": 13,
+    "requiredSideCalculations": [],
+    "requiredWidgets": [
+      "gapminder-cluster-lab"
+    ],
+    "forbiddenWidgets": [
+      "task-map",
+      "clustering-lens"
     ]
   }
 }
