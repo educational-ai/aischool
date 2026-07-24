@@ -973,9 +973,8 @@ a:hover {
   clear: both;
   width: min(1040px, calc(100% - 96px));
   margin-top: 4.5rem;
-  padding: 1.4rem 0 1.6rem;
+  padding: 1.4rem 0 0;
   border-top: 1px solid var(--ink);
-  border-bottom: 1px solid var(--line);
 }
 
 .article-connections > header span {
@@ -1010,6 +1009,7 @@ a:hover {
   margin: 0;
   padding: 0;
   list-style: none;
+  border-bottom: 1px solid var(--line);
 }
 
 .article-connections li {
@@ -1112,11 +1112,11 @@ a:hover {
 /* Catalog */
 
 .catalog-topbar {
-  left: 220px;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 26px;
+  padding: 0 clamp(20px, 5vw, 48px);
 }
 
 .catalog-brand {
@@ -1214,8 +1214,8 @@ a:hover {
 }
 
 .catalog-page {
-  width: min(900px, calc(100% - 300px));
-  margin-left: calc(220px + clamp(40px, 7vw, 120px));
+  width: min(820px, calc(100% - 80px));
+  margin: 0 auto;
   padding: 126px 0 80px;
 }
 

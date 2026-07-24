@@ -35,19 +35,6 @@ export function CourseHome() {
         </nav>
       </header>
 
-      <aside className="catalog-rail">
-        <p>Содержание</p>
-        <a href="#about">Об учебнике</a>
-        <a href="#course">Программа {grade} класса</a>
-        {gradeModules.map((module) => (
-          <a href={`#${module.id}`} key={module.id}>
-            <span>{module.number}</span>
-            {module.shortTitle}
-          </a>
-        ))}
-        <a href="#reading">Как читать урок</a>
-      </aside>
-
       <main className="catalog-page">
         <section className="catalog-intro" id="about">
           <p className="catalog-kicker">Учебник для 10–11 классов</p>
