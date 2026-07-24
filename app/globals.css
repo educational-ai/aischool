@@ -217,16 +217,6 @@ a:hover {
   text-decoration: none;
 }
 
-.book-rail > header a span {
-  display: grid;
-  width: 30px;
-  height: 30px;
-  place-items: center;
-  border: 1px solid var(--ink);
-  border-radius: 50%;
-  font-family: var(--font-text);
-}
-
 .book-rail > header a strong {
   font-size: 0.86rem;
   letter-spacing: 0.08em;
@@ -1125,16 +1115,6 @@ a:hover {
   gap: 10px;
   color: var(--ink);
   text-decoration: none;
-}
-
-.catalog-brand span {
-  display: grid;
-  width: 30px;
-  height: 30px;
-  place-items: center;
-  border: 1px solid var(--ink);
-  border-radius: 50%;
-  font-family: var(--font-text);
 }
 
 .catalog-brand strong {

@@ -21,8 +21,7 @@ export function CourseHome() {
     <div className="catalog-shell">
       <header className="catalog-topbar">
         <Link href="/" className="catalog-brand">
-          <span>К</span>
-          <strong>Контур</strong>
+          <strong>Информатика и&nbsp;ИИ</strong>
         </Link>
         <nav aria-label="Разделы курса">
           <button type="button" className={grade === 10 ? "is-active" : ""} onClick={() => setGrade(10)}>

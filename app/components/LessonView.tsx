@@ -52,8 +52,7 @@ function CourseRail({
       <aside className={`book-rail${open ? " is-open" : ""}`}>
         <header>
           <Link href="/" onClick={onClose} aria-label="К оглавлению">
-            <span>К</span>
-            <strong>Контур</strong>
+            <strong>Оглавление</strong>
           </Link>
           <button type="button" onClick={onClose} aria-label="Закрыть содержание">
             ×
@@ -146,7 +145,7 @@ export function LessonView({
           <span />
         </button>
         <Link href="/" className="book-topbar__mark" aria-label="К оглавлению">
-          К
+          ↑
         </Link>
         <p>
           {lesson.grade} класс <span>/</span> {courseModule.shortTitle}
