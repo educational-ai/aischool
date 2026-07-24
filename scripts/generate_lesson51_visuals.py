@@ -892,6 +892,85 @@ def check_problems():
     print(f"units: 1 m^2 = {1 / FT_PER_M ** 2:.4f} ft^2")
 
 
+def fig_prox_vs_sub():
+    """Разреженность делает не функционал, а последний шаг метода.
+
+    Одна и та же задача lasso на z-стандартизованном диабете решается двумя
+    способами: субградиентным спуском и проксимальным шагом. Значение цели у них
+    почти одинаково, но точные нули появляются только у второго.
+    """
+    Xz, y_raw, _names = diabetes_z()
+    y = y_raw - y_raw.mean()          # свободный член не штрафуется: убираем его центрированием
+    n, p = Xz.shape
+    G = Xz.T @ Xz
+    Xty = Xz.T @ y
+    L = float(np.linalg.eigvalsh(G / n).max())
+    lam = 1.0
+
+    def grad(w):
+        return (G @ w - Xty) / n
+
+    def obj(w):
+        return 0.5 * float(np.sum((Xz @ w - y) ** 2)) / n + lam * float(np.abs(w).sum())
+
+    def soft(v, k):
+        return np.sign(v) * np.maximum(np.abs(v) - k, 0.0)
+
+    steps = 400
+    w = np.zeros(p); zeros_prox = []; obj_prox = []
+    for _ in range(steps):
+        w = soft(w - grad(w) / L, lam / L)
+        zeros_prox.append(int(np.sum(w == 0))); obj_prox.append(obj(w))
+    w_prox = w.copy()
+
+    w = np.zeros(p); zeros_sub = []; obj_sub = []
+    for k in range(steps):
+        a = 1.0 / (L * np.sqrt(k + 1))
+        w = w - a * (grad(w) + lam * np.sign(w))
+        zeros_sub.append(int(np.sum(w == 0))); obj_sub.append(obj(w))
+    w_sub = w.copy()
+
+    min_abs_sub = float(np.min(np.abs(w_sub)))
+
+    assert zeros_prox[-1] == 3, zeros_prox[-1]
+    assert zeros_sub[-1] == 0, zeros_sub[-1]
+    assert abs(obj_prox[-1] - 1533.77) < 0.005, obj_prox[-1]
+    assert abs(obj_sub[-1] - 1535.30) < 0.005, obj_sub[-1]
+    assert abs(min_abs_sub - 0.00038) < 5e-6, min_abs_sub
+    assert float(np.min(np.abs(w_prox))) == 0.0
+
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(11.0, 4.0))
+
+    it = np.arange(1, steps + 1)
+    a1.plot(it, zeros_prox, color=GREEN, lw=2.4, label="проксимальный шаг")
+    a1.plot(it, zeros_sub, color=RED, lw=2.4, label="субградиентный спуск")
+    a1.set_xscale("log")
+    a1.set_ylim(-0.3, 4.3); a1.set_yticks([0, 1, 2, 3, 4])
+    a1.set_xlabel("шаг"); a1.set_ylabel("сколько весов ровно нулевые")
+    a1.set_title("Нули появляются только у одного из методов", fontsize=12.5)
+    a1.grid(True, color=GRID, lw=0.6, alpha=0.6); a1.set_axisbelow(True)
+    a1.legend(frameon=False, fontsize=10, loc="upper left")
+
+    idx = np.argsort(np.abs(w_prox))
+    xs = np.arange(p)
+    a2.semilogy(xs, np.maximum(np.abs(w_sub[idx]), 1e-6), color=RED, lw=0, marker="o",
+                ms=6, label="субградиент: нулей нет")
+    vis = np.maximum(np.abs(w_prox[idx]), 1e-6)
+    a2.semilogy(xs, vis, color=GREEN, lw=0, marker="s", ms=6, label="проксимальный: три нуля")
+    a2.axhline(1e-6, color=LINE, lw=1.0, ls=(0, (4, 3)))
+    a2.text(0.15, 1.35e-6, "уровень «ровно ноль»", color=MUTED, fontsize=9.5)
+    a2.set_xticks(xs); a2.set_xticklabels([NAMES[i] for i in idx], fontsize=9)
+    a2.set_ylabel("$|w_j|$"); a2.set_ylim(5e-7, 1e3)
+    a2.set_title(f"Наименьший вес субградиента: {min_abs_sub:.5f}".replace(".", ","), fontsize=12.5)
+    a2.grid(True, color=GRID, lw=0.6, alpha=0.6, axis="y"); a2.set_axisbelow(True)
+    a2.legend(frameon=False, fontsize=10, loc="upper left")
+
+    fig.suptitle("Разреженность делает последний шаг метода, а не функционал", y=1.03, fontsize=13.5)
+    fig.tight_layout()
+    save(fig, OUT / "prox_vs_sub.png")
+    print(f"prox_vs_sub: zeros {zeros_sub[-1]} vs {zeros_prox[-1]}, obj {obj_sub[-1]:.2f} vs {obj_prox[-1]:.2f}, min|w_sub|={min_abs_sub:.5f}")
+
+
 check_problems()
 
 fig_losses()
@@ -902,6 +981,7 @@ fig_delta_mad()
 fig_collinear()
 fig_conditioning()
 fig_lasso_path()
+fig_prox_vs_sub()
 fig_elastic()
 fig_bias_variance()
 side_influence()

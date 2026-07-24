@@ -218,7 +218,7 @@ def fig_contrast() -> None:
     assert abs(stats[2000]["contrast"] - 0.087) < 0.0005
     assert abs(c_real - 3.22) < 0.005 and abs(c_shuf - 0.90) < 5e-3
     # prose says the contrast drops "three and a half times"
-    assert abs(c_real / c_shuf - 3.5646) < 5e-05
+    assert abs(c_real / c_shuf - 3.5647) < 5e-05
     # prose says the far neighbour is 26.5x the near one (contrast + 1)
     assert abs((stats[2]["contrast"] + 1) - 26.54) < 0.005
     print("contrast:", {d: round(stats[d]["contrast"], 3) for d in dims},

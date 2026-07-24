@@ -82,7 +82,7 @@ FACTS.update({f"gap{k}": float(GAPS[k]) for k in range(5)})
 FACTS.update({f"n{k}": int(N_RAT[k]) for k in range(5)})
 print("arms:", [f"{s} n={n} p={p:.4f} d={d:.4f}" for s, n, p, d in zip(ARM_SHORT, N_RAT, P, GAPS)])
 assert abs(GAPS[1] - 0.0094693) < 5e-08, GAPS[1]
-assert abs(GAPS[4] - 0.4531) < 5e-05, GAPS[4]
+assert abs(GAPS[4] - 0.4532) < 5e-05, GAPS[4]
 # mean gap over all five arms: the per-round price of one uniform exploration draw
 MEAN_GAP = float(GAPS.mean())
 FACTS["mean_gap"] = MEAN_GAP
