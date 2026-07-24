@@ -92,7 +92,7 @@ def register_basics():
     FACTS["w_norm"] = float(np.hypot(*W))
     FACTS["acc"] = float(ACC); FACTS["auc"] = float(AUC)
     assert FACTS["n_total"] == 5574 and FACTS["n_spam"] == 747
-    assert abs(FACTS["spam_share"] - 0.134) < 0.001
+    assert abs(FACTS["spam_share"] - 0.134) < 0.0005
     assert FACTS["n_train"] == 3901 and FACTS["n_test"] == 1673
     assert 19.3 < FACTS["w1"] < 19.7, FACTS["w1"]
     assert 7.0 < FACTS["w2"] < 7.4, FACTS["w2"]
@@ -187,7 +187,7 @@ def fig_score_to_prob():
     ax.set_title("Порог вероятности — это порог по score")
     ax.grid(True, color=GRID, lw=0.4, alpha=0.4); ax.set_axisbelow(True)
     FACTS["logit02"] = float(np.log(0.2 / 0.8)); FACTS["logit08"] = float(np.log(4))
-    assert abs(FACTS["logit08"] - 1.3863) < 1e-3
+    assert abs(FACTS["logit08"] - 1.3863) < 5e-05
     fig.tight_layout()
     save(fig, OUT / "score_to_prob.png")
 
@@ -240,7 +240,7 @@ def fig_cost():
     FACTS["thr_best"] = best; FACTS["thr_theory"] = theo
     FACTS["cost_half"] = cost_at_half; FACTS["cost_best"] = cost_best
     FACTS["cost_drop"] = cost_at_half - cost_best
-    assert abs(theo - 0.0909) < 1e-3
+    assert abs(theo - 0.0909) < 5e-05
     assert 0.03 < best < 0.20, best
     assert cost_best < cost_at_half, (cost_best, cost_at_half)
 
@@ -441,14 +441,14 @@ def side_odds():
     save(fig, SIDE / "odds.png")
     FACTS["sigma1"] = float(1 / (1 + np.exp(-1)))
     FACTS["sigma2"] = float(1 / (1 + np.exp(-2)))
-    assert abs(FACTS["sigma1"] - 0.7311) < 1e-3 and abs(FACTS["sigma2"] - 0.8808) < 1e-3
+    assert abs(FACTS["sigma1"] - 0.7311) < 5e-05 and abs(FACTS["sigma2"] - 0.8808) < 1e-3
     # inline exercise: p=0,9 -> s=ln 9; the same increment again -> sigma(2 ln 9)
     FACTS["logit09"] = float(np.log(9.0))
     FACTS["dx_digits_for_09"] = float(np.log(9.0) / 19.495051505221575)
     FACTS["sigma_2logit09"] = float(1 / (1 + np.exp(-2 * np.log(9.0))))
-    assert abs(FACTS["logit09"] - 2.20) < 0.01, FACTS["logit09"]
-    assert abs(FACTS["dx_digits_for_09"] - 0.113) < 0.001, FACTS["dx_digits_for_09"]
-    assert abs(FACTS["sigma_2logit09"] - 0.988) < 5e-4, FACTS["sigma_2logit09"]
+    assert abs(FACTS["logit09"] - 2.20) < 0.005, FACTS["logit09"]
+    assert abs(FACTS["dx_digits_for_09"] - 0.113) < 0.0005, FACTS["dx_digits_for_09"]
+    assert abs(FACTS["sigma_2logit09"] - 0.988) < 0.0005, FACTS["sigma_2logit09"]
 
 
 def side_scaling():

@@ -442,8 +442,8 @@ def side_compound():
     fig.tight_layout()
     save(fig, SIDE / "compound.png")
     FACT["grid_pn"] = {f"{pp}^{n}": round(pp ** n, 4) for pp in ps for n in ns}
-    assert abs(0.98 ** 40 - 0.4457) < 1e-3
-    assert abs(0.95 ** 80 - 0.0165) < 1e-3
+    assert abs(0.98 ** 40 - 0.4457) < 5e-05
+    assert abs(0.95 ** 80 - 0.0165) < 5e-05
 
 
 side_compound()

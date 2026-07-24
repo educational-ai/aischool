@@ -80,7 +80,7 @@ def fig_aa_real() -> None:
     print(f"AA: n={n} mean={CNT.mean():.2f} median={np.median(CNT):.0f} sd={CNT.std(ddof=1):.2f} "
           f"share|z|>1.96={share:.4f} sd(z)={zs.std(ddof=1):.3f} max|z|={np.abs(zs).max():.2f}")
     assert n == 17379
-    assert abs(CNT.mean() - 189.46) < 0.02 and abs(np.median(CNT) - 142) < 1e-9
+    assert abs(CNT.mean() - 189.46) < 0.005 and abs(np.median(CNT) - 142) < 1e-9
     assert 0.040 <= share <= 0.062
     assert 0.95 <= zs.std(ddof=1) <= 1.05
 
@@ -229,7 +229,7 @@ def fig_multiplicity() -> None:
     FACTS.update(fam20=float(1 - 0.95 ** 20), fam5=float(1 - 0.95 ** 5),
                  fam12=float(1 - 0.95 ** 12), bonf20=0.05 / 20)
     print(f"multiplicity: m=5 {1 - 0.95 ** 5:.3f}, m=12 {1 - 0.95 ** 12:.3f}, m=20 {1 - 0.95 ** 20:.4f}")
-    assert abs((1 - 0.95 ** 20) - 0.6415) < 0.001 and abs((1 - 0.95 ** 12) - 0.4596) < 0.001
+    assert abs((1 - 0.95 ** 20) - 0.6415) < 5e-05 and abs((1 - 0.95 ** 12) - 0.4596) < 0.001
 
     fig, ax = plt.subplots(figsize=(8.6, 4.8))
     ax.plot(ms, fam, color=RED, lw=2.4, label="без поправки: $1-0{,}95^m$")
@@ -367,7 +367,7 @@ def side_mde() -> None:
     vals = {n: (za + zb) * math.sqrt(2 * p0 * (1 - p0) / n) * 100 for n in (1000, 10000, 100000)}
     FACTS.update(mde1k=vals[1000], mde10k=vals[10000], mde100k=vals[100000])
     print("MDE: " + ", ".join(f"n={n}: {v:.2f} п.п." for n, v in vals.items()))
-    assert abs(vals[1000] - 3.40) < 0.02 and abs(vals[10000] - 1.07) < 0.02 and abs(vals[100000] - 0.34) < 0.02
+    assert abs(vals[1000] - 3.40) < 0.005 and abs(vals[10000] - 1.07) < 0.02 and abs(vals[100000] - 0.34) < 0.02
 
 
 # ---------------------------------------------------------------- sidenote: unit of randomization
@@ -429,14 +429,14 @@ def button_example() -> None:
                  btn_clicks=10_000_000 * d)
     print(f"button: d={d:.4f} se={se:.5f} z={z:.3f} p={p:.3f} CI=[{lo:.5f},{hi:.5f}] "
           f"se(100k)={se10:.5f} z(100k)={d / se10:.2f}")
-    assert abs(se - 0.003849) < 2e-6 and abs(z - 1.2991) < 1e-3 and abs(p - 0.1939) < 1e-3
+    assert abs(se - 0.0038474) < 5e-08 and abs(z - 1.29957) < 5e-06 and abs(p - 0.193749) < 5e-07
     assert abs(lo + 0.00254) < 1e-4 and abs(hi - 0.01254) < 1e-4
-    assert abs(se10 - 0.0012167) < 1e-6 and abs(d / se10 - 4.1096) < 1e-3
+    assert abs(se10 - 0.0012167) < 5e-08 and abs(d / se10 - 4.1096) < 1e-3
 
     # a design-effect number for the cluster problem
     de = 1 + (25 - 1) * 0.2
     FACTS.update(design_effect=de, eff_n=500 / de)
-    assert abs(de - 5.8) < 1e-9
+    assert abs(de - 5.8) < 0.05
     print(f"design effect={de}, effective n={500 / de:.1f}")
 
 

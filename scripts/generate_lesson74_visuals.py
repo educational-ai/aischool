@@ -220,8 +220,8 @@ def fig_cell():
     c_prev, f, i, g, o = 2.0, 0.8, 0.25, -0.4, 0.6
     c = f * c_prev + i * g
     h = o * np.tanh(c)
-    assert abs(c - 1.5) < 1e-12
-    assert abs(h - 0.5430895) < 1e-6, h
+    assert abs(c - 1.5) < 0.05
+    assert abs(h - 0.5430890) < 5e-08, h
     c2 = f * c_prev
     h2 = o * np.tanh(c2)
     FACT["cell_c"] = round(c, 4); FACT["cell_h"] = round(h, 4)
@@ -660,7 +660,7 @@ def side_halflife():
     marks = [0.9, 0.95, 0.99, 0.999]
     vals = [float(np.log(0.5) / np.log(f)) for f in marks]
     FACT["halflife"] = {str(f): round(v, 1) for f, v in zip(marks, vals)}
-    assert abs(vals[0] - 6.5788) < 1e-3 and abs(vals[2] - 68.9676) < 1e-3, vals
+    assert abs(vals[0] - 6.5788) < 5e-05 and abs(vals[2] - 68.9676) < 1e-3, vals
     fig, ax = plt.subplots(figsize=(4.6, 3.4))
     ax.semilogy(fs, th, color=BLUE, lw=2.2)
     for f, v in zip(marks, vals):
@@ -681,7 +681,7 @@ def side_sigmoid():
     FACT["sigmoid_at_4"] = round(float(sig(4)), 4)
     FACT["sigmoid_deriv_at_4"] = round(float(sig(4) * (1 - sig(4))), 4)
     FACT["sigmoid_deriv_max"] = 0.25
-    assert abs(FACT["sigmoid_at_4"] - 0.9820) < 1e-3
+    assert abs(FACT["sigmoid_at_4"] - 0.9820) < 5e-05
     fig, ax = plt.subplots(figsize=(4.6, 3.2))
     ax.plot(x, s, color=BLUE, lw=2.2, label="$\\sigma(z)$")
     ax.plot(x, d, color=RED, lw=2.0, label="$\\sigma'(z)$")

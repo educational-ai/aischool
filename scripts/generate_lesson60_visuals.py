@@ -142,12 +142,12 @@ def fig_ball_cube() -> None:
     assert facts["ball_argmax"] == 5
     assert facts["ball_frac_d20"] < 1e-7
     # every mantissa quoted in the prose, pinned to its third significant digit
-    assert abs(facts["ball_frac_d10"] / 1e-3 - 2.49) < 5e-3
-    assert abs(facts["ball_frac_d20"] / 1e-8 - 2.46) < 5e-3
-    assert abs(facts["ball_frac_d50"] / 1e-28 - 1.54) < 5e-3
+    assert abs(facts["ball_frac_d10"] / 1e-3 - 2.49) < 0.005
+    assert abs(facts["ball_frac_d20"] / 1e-8 - 2.46) < 0.005
+    assert abs(facts["ball_frac_d50"] / 1e-28 - 1.54) < 0.005
     # caption: one hit in ~40.6 million, NOT twenty million
     facts["ball_odds_d20"] = float(1 / facts["ball_frac_d20"])
-    assert abs(facts["ball_odds_d20"] / 1e7 - 4.06) < 5e-3
+    assert abs(facts["ball_odds_d20"] / 1e7 - 4.06) < 0.005
     print("ball:", facts["ball_argmax"], facts["ball_frac_d20"])
 
 
@@ -212,15 +212,15 @@ def fig_contrast() -> None:
     save(fig, OUT / "distance_contrast.png")
 
     # each contrast quoted in the prose, pinned to the printed precision
-    assert abs(stats[2]["contrast"] - 25.54) < 5e-3
-    assert abs(stats[20]["contrast"] - 1.89) < 5e-3
-    assert abs(stats[200]["contrast"] - 0.366) < 5e-4
-    assert abs(stats[2000]["contrast"] - 0.087) < 5e-4
-    assert abs(c_real - 3.22) < 5e-3 and abs(c_shuf - 0.90) < 5e-3
+    assert abs(stats[2]["contrast"] - 25.54) < 0.005
+    assert abs(stats[20]["contrast"] - 1.89) < 0.005
+    assert abs(stats[200]["contrast"] - 0.366) < 0.0005
+    assert abs(stats[2000]["contrast"] - 0.087) < 0.0005
+    assert abs(c_real - 3.22) < 0.005 and abs(c_shuf - 0.90) < 5e-3
     # prose says the contrast drops "three and a half times"
-    assert abs(c_real / c_shuf - 3.57) < 0.02
+    assert abs(c_real / c_shuf - 3.5646) < 5e-05
     # prose says the far neighbour is 26.5x the near one (contrast + 1)
-    assert abs((stats[2]["contrast"] + 1) - 26.54) < 5e-3
+    assert abs((stats[2]["contrast"] + 1) - 26.54) < 0.005
     print("contrast:", {d: round(stats[d]["contrast"], 3) for d in dims},
           "digits", round(c_real, 3), "shuffled", round(c_shuf, 3))
 
@@ -420,8 +420,8 @@ def side_hamming() -> None:
     ax.set_yticks([]); ax.legend(frameon=False, fontsize=8)
     ax.set_title("расстояние Хэмминга\nсжимается к 0,5", fontsize=9)
     save(fig, SIDE / "hamming.png")
-    assert abs(facts["hamming_rel_lo"] - 0.4526) < 1e-3
-    assert abs(facts["hamming_rel_hi"] - 0.5474) < 1e-3
+    assert abs(facts["hamming_rel_lo"] - 0.4526) < 5e-05
+    assert abs(facts["hamming_rel_hi"] - 0.5474) < 5e-05
 
 
 def side_peaking() -> None:
@@ -470,8 +470,8 @@ def checks() -> None:
     facts["ex_fill_1e6"] = 1e6 / cells
     facts["ex_needed_20"] = 20 * cells
     assert cells == 244140625
-    assert abs(facts["ex_fill_1e6"] - 0.0041) < 5e-5
-    assert abs(facts["ex_needed_20"] / 1e9 - 4.88) < 0.01
+    assert abs(facts["ex_fill_1e6"] - 0.0041) < 5e-05
+    assert abs(facts["ex_needed_20"] / 1e9 - 4.88) < 0.005
 
     # corner vs face distance
     facts["corner_ratio_d20"] = float(np.sqrt(20))
@@ -479,7 +479,7 @@ def checks() -> None:
     assert abs(facts["corner_ratio_d20"] - 4.47) < 0.005
     assert facts["corners_count_d20"] == 1048576
     facts["corner_share_d2"] = 1 - np.pi / 4
-    assert abs(facts["corner_share_d2"] - 0.215) < 0.001
+    assert abs(facts["corner_share_d2"] - 0.215) < 0.0005
 
     # radius of the ball taking half of the cube
     def half_radius(dim):
@@ -493,20 +493,20 @@ def checks() -> None:
     def half_radius_log(dim):
         log_v = dim / 2 * np.log(np.pi) - gammaln(dim / 2 + 1)
         return 2 * np.exp((-np.log(2) - log_v) / dim)
-    assert abs(half_radius_log(2000) / np.sqrt(2000) - 0.5) < 0.02
+    assert abs(half_radius_log(2000) / np.sqrt(2000) - 0.5) < 0.05
 
     # ball fractions quoted with three digits
-    assert abs(np.pi / 4 - 0.785) < 5e-4 and abs(np.pi / 6 - 0.524) < 5e-4
-    assert abs(ball_volume(3) - 4.19) < 5e-3 and abs(ball_volume(5) - 5.264) < 5e-4
-    assert abs(ball_volume(20) - 0.0258) < 5e-5
+    assert abs(np.pi / 4 - 0.785) < 0.0005 and abs(np.pi / 6 - 0.524) < 5e-4
+    assert abs(ball_volume(3) - 4.19) < 0.005 and abs(ball_volume(5) - 5.264) < 5e-4
+    assert abs(ball_volume(20) - 0.0258) < 5e-05
 
     # noise share exercise: 1/(1+m) < 0.1  =>  m > 9
     assert 1 / (1 + 9) == 0.1 and 1 / (1 + 10) < 0.1
     facts["noise_share_m1000"] = 1 / 1001
 
     # Hamming
-    assert abs(np.sqrt(10) / 2 - 1.58) < 0.01
-    assert abs(np.sqrt(1000) / 2 - 15.81) < 0.01
+    assert abs(np.sqrt(10) / 2 - 1.58) < 0.005
+    assert abs(np.sqrt(1000) / 2 - 15.81) < 0.005
     facts["hamming_noise_contrib"] = 980 * 0.5      # expected differing bits among the 980
     assert abs(facts["hamming_noise_contrib"] - 490) < 1e-9
 

@@ -71,29 +71,29 @@ BEST = int(np.argmax(P))
 GAPS = P.max() - P
 
 assert BEST == 0
-assert abs(P[0] - 0.8593) < 5e-4, P[0]
-assert abs(P[1] - 0.8499) < 5e-4, P[1]
-assert abs(P[2] - 0.7992) < 5e-4, P[2]
-assert abs(P[3] - 0.6758) < 5e-4, P[3]
-assert abs(P[4] - 0.4062) < 5e-4, P[4]
+assert abs(P[0] - 0.8593) < 5e-05, P[0]
+assert abs(P[1] - 0.8499) < 5e-05, P[1]
+assert abs(P[2] - 0.7992) < 5e-05, P[2]
+assert abs(P[3] - 0.6758) < 5e-05, P[3]
+assert abs(P[4] - 0.4062) < 5e-05, P[4]
 assert list(N_RAT) == [583, 413, 508, 509, 485], list(N_RAT)
 FACTS.update({f"p{k}": float(P[k]) for k in range(5)})
 FACTS.update({f"gap{k}": float(GAPS[k]) for k in range(5)})
 FACTS.update({f"n{k}": int(N_RAT[k]) for k in range(5)})
 print("arms:", [f"{s} n={n} p={p:.4f} d={d:.4f}" for s, n, p, d in zip(ARM_SHORT, N_RAT, P, GAPS)])
-assert abs(GAPS[1] - 0.00944) < 5e-4, GAPS[1]
-assert abs(GAPS[4] - 0.4531) < 5e-4, GAPS[4]
+assert abs(GAPS[1] - 0.0094693) < 5e-08, GAPS[1]
+assert abs(GAPS[4] - 0.4531) < 5e-05, GAPS[4]
 # mean gap over all five arms: the per-round price of one uniform exploration draw
 MEAN_GAP = float(GAPS.mean())
 FACTS["mean_gap"] = MEAN_GAP
-assert abs(MEAN_GAP - 0.1413) < 5e-5, MEAN_GAP
-assert abs(0.1 * MEAN_GAP - 0.01413) < 5e-6
-assert abs(5000 * 0.1 * MEAN_GAP - 70.6) < 0.1, 5000 * 0.1 * MEAN_GAP
+assert abs(MEAN_GAP - 0.1413) < 5e-05, MEAN_GAP
+assert abs(0.1 * MEAN_GAP - 0.01413) < 5e-06
+assert abs(5000 * 0.1 * MEAN_GAP - 70.6) < 0.05, 5000 * 0.1 * MEAN_GAP
 # quoted 1/Delta^2 sample-complexity estimates
 assert abs(1 / GAPS[1] ** 2 - 11152) < 1.0, 1 / GAPS[1] ** 2
 assert abs(1 / GAPS[2] ** 2 - 277) < 1.0, 1 / GAPS[2] ** 2
 assert abs(1 / GAPS[3] ** 2 - 30) < 0.5, 1 / GAPS[3] ** 2
-assert abs(11152 / 400 - 27.88) < 0.05
+assert abs(11152 / 400 - 27.88) < 0.005
 print(f"mean gap = {MEAN_GAP:.4f}; 1/D^2 = "
       f"{1/GAPS[1]**2:.0f}, {1/GAPS[2]**2:.0f}, {1/GAPS[3]**2:.1f}")
 
@@ -332,8 +332,8 @@ def fig_posteriors():
     assert cnt[0] + cnt[1] > 0.85 * T
     # exact figures quoted in the caption of fig. 70.5
     assert [int(x) for x in cnt] == [1210, 635, 97, 53, 5], cnt
-    assert abs(FACTS["ts_share_best"] - 0.9225) < 1e-4, FACTS["ts_share_best"]
-    assert abs(FACTS["ts_share_worst"] - 0.0025) < 1e-6, FACTS["ts_share_worst"]
+    assert abs(FACTS["ts_share_best"] - 0.9225) < 5e-05, FACTS["ts_share_best"]
+    assert abs(FACTS["ts_share_worst"] - 0.0025) < 5e-05, FACTS["ts_share_worst"]
     from math import lgamma
     grid = np.linspace(0, 1, 600)
 
@@ -417,7 +417,7 @@ def fig_context():
                       (f[4], 0.7992), (j[4], 0.7475)]:
         assert abs(float(got) - want) < 5e-5, (got, want)
     assert abs(round(float(j[0] - f[0]), 3) - 0.075) < 1e-9, j[0] - f[0]
-    assert abs(300 * (j[0] - f[0]) - 22.4) < 0.2, 300 * (j[0] - f[0])
+    assert abs(300 * (j[0] - f[0]) - 22.4) < 0.05, 300 * (j[0] - f[0])
     assert j[0] > f[0], "young prefer Jedi"
     assert f[2] > j[2], "older prefer Fargo"
     assert f[4] > j[4], "aggregate prefers Fargo"
@@ -503,7 +503,7 @@ def side_greedy_trap():
     assert share[2] + share[3] > 0.15, share
     # exact shares quoted in the sidenote "На чём застревает жадность"
     assert [round(float(x), 3) for x in share] == [0.434, 0.384, 0.163, 0.019, 0.001], share
-    assert abs(FACTS["greedy_wrong"] - 0.566) < 1e-9, FACTS["greedy_wrong"]
+    assert abs(FACTS["greedy_wrong"] - 0.566) < 0.0005, FACTS["greedy_wrong"]
     FACTS['greedy_costly'] = round(float(share[2] + share[3] + share[4]), 3)
     fig, ax = plt.subplots(figsize=(4.1, 2.5))
     ax.bar(np.arange(5), share, color=[BLUE if k == 0 else RED for k in range(5)])

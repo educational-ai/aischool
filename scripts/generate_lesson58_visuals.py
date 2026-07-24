@@ -373,7 +373,7 @@ def fig_shift():
     night_rate = 0.15
     w_hour = np.where((hr >= 7) & (hr <= 19), 1.0, night_rate)   # старый сбор ночью реже
     night_ratio = 1.0 / night_rate
-    assert abs(night_ratio - 6.67) < 0.01
+    assert abs(night_ratio - 6.67) < 0.005
     FACTS["night_ratio"] = night_ratio
     sel = rng.random(D["n"]) < w_hour * 0.5
     old = np.where(sel)[0]

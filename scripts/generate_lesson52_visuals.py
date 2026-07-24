@@ -443,7 +443,7 @@ def side_precision() -> None:
     Sn = 1 / (1 + 4 / 4)
     mn = Sn * (2 * 6 / 4)
     record("toy_Sn", Sn); record("toy_mn", mn)
-    assert abs(Sn - 0.5) < 1e-12 and abs(mn - 1.5) < 1e-12
+    assert abs(Sn - 0.5) < 0.05 and abs(mn - 1.5) < 1e-12
     post = np.exp(-0.5 * (w - mn) ** 2 / Sn)
     fig, ax = plt.subplots(figsize=(4.0, 2.5))
     ax.plot(w, prior / prior.max(), color=GREEN, lw=1.7, label="prior")

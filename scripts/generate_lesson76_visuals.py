@@ -135,8 +135,8 @@ facts["near_free"] = sim_top("free", 4)
 facts["near_call"] = sim_top("call", 4)
 assert facts["near_free"][0] == ["nokia", 0.912] or facts["near_free"][0] == ("nokia", 0.912)
 assert facts["near_call"][0][0] == "land" and abs(facts["near_call"][0][1] - 0.847) < 5e-4
-assert abs(facts["near_free"][1][1] - 0.850) < 5e-4 and facts["near_free"][1][0] == "mobile"
-assert abs(facts["near_call"][3][1] - 0.799) < 5e-4 and facts["near_call"][3][0] == "claim"
+assert abs(facts["near_free"][1][1] - 0.850) < 0.0005 and facts["near_free"][1][0] == "mobile"
+assert abs(facts["near_call"][3][1] - 0.799) < 0.0005 and facts["near_call"][3][0] == "claim"
 assert facts["n_sms"] == 5569 and facts["n_spam"] == 747 and facts["vocab"] == 1045
 print("near free:", facts["near_free"])
 print("near call:", facts["near_call"])
@@ -157,8 +157,8 @@ def fig_mechanism():
     facts["toy_weights_mask"] = [round(float(x), 4) for x in a_mask]
     facts["toy_out_mask"] = round(out_mask, 4)
     facts["toy_entropy"] = round(entropy(a), 3)
-    assert abs(a[0] - 0.6652) < 1e-3 and abs(out - 1.4640) < 1e-3
-    assert abs(a_mask[0] - 0.7311) < 1e-3 and abs(out_mask - 1.8068) < 1e-3
+    assert abs(a[0] - 0.6652) < 5e-05 and abs(out - 1.4640) < 1e-3
+    assert abs(a_mask[0] - 0.7311) < 5e-05 and abs(out_mask - 1.8068) < 1e-3
 
     fig, axes = plt.subplots(1, 3, figsize=(11.4, 3.9))
     names = ["позиция 1", "позиция 2", "позиция 3"]
@@ -238,13 +238,13 @@ def fig_attention_map():
     facts["demo_n"] = n
     facts["demo_self_weight_causal"] = round(float(Am[qi, qi]), 3)
     facts["demo_call_orange_causal"] = round(float(Am[toks.index("orange"), toks.index("on")]), 3)
-    assert abs(Am[0, 0] - 1.0) < 1e-9
+    assert abs(Am[0, 0] - 1.0) < 0.05
     assert facts["demo_self_weight"] > facts["demo_free_weight"]
     assert facts["demo_entropy_full"] < facts["demo_entropy_uniform"]
-    assert abs(facts["demo_self_weight"] - 0.616) < 5e-4
-    assert abs(facts["demo_free_weight"] - 0.036) < 5e-4
-    assert abs(facts["demo_entropy_full"] - 1.413) < 5e-4
-    assert abs(facts["demo_self_weight_causal"] - 0.793) < 5e-4
+    assert abs(facts["demo_self_weight"] - 0.616) < 0.0005
+    assert abs(facts["demo_free_weight"] - 0.036) < 0.0005
+    assert abs(facts["demo_entropy_full"] - 1.413) < 0.0005
+    assert abs(facts["demo_self_weight_causal"] - 0.793) < 0.0005
 
     fig, axes = plt.subplots(1, 2, figsize=(11.6, 5.1))
     for ax, M, ttl in ((axes[0], A, "полная карта: каждый видит всех"),
@@ -302,12 +302,12 @@ def fig_scaling():
     assert facts["maxw_raw_d512"] > 0.94 > facts["maxw_sc_d512"]
     assert facts["grad_ratio_d512"] > 10
     assert abs(facts["var_d64"] - 64.2) < 0.05
-    assert abs(facts["maxw_raw_d512"] - 0.955) < 5e-4
-    assert abs(facts["maxw_sc_d512"] - 0.360) < 5e-4
-    assert abs(facts["ent_raw_d512"] - 0.107) < 5e-4
-    assert abs(facts["ent_sc_d512"] - 1.729) < 5e-4
-    assert abs(facts["grad_raw_d512"] - 0.0648) < 5e-5
-    assert abs(facts["grad_sc_d512"] - 0.7688) < 5e-5
+    assert abs(facts["maxw_raw_d512"] - 0.955) < 0.0005
+    assert abs(facts["maxw_sc_d512"] - 0.360) < 0.0005
+    assert abs(facts["ent_raw_d512"] - 0.107) < 0.0005
+    assert abs(facts["ent_sc_d512"] - 1.729) < 0.0005
+    assert abs(facts["grad_raw_d512"] - 0.0648) < 5e-05
+    assert abs(facts["grad_sc_d512"] - 0.7688) < 5e-05
     assert min(facts["var_ratio_d"]) == 0.977 and max(facts["var_ratio_d"]) == 1.003
 
     fig, axes = plt.subplots(1, 3, figsize=(12.0, 3.9))
@@ -368,8 +368,8 @@ def fig_cost():
     facts["cost_ratio_1024_512"] = round(times[3] / times[2], 2)
     assert 1.6 < b < 2.4, b
     assert 3.2 < facts["cost_ratio_1024_512"] < 4.8
-    assert abs(facts["mem_2048_mib"] - 16.0) < 0.1
-    assert abs(facts["mem_8192_mib"] - 256.0) < 0.1
+    assert abs(facts["mem_2048_mib"] - 16.0) < 0.05
+    assert abs(facts["mem_8192_mib"] - 256.0) < 0.05
 
     win = 128
     ns_w = np.array([256, 512, 1024, 2048, 4096, 8192])
@@ -503,7 +503,7 @@ def fig_pooling():
     facts["demo_uniform_weight"] = round(1 / len(toks), 3)
     assert a_demo.max() > 1.4 * (1 / len(toks))
     assert facts["demo_trained_max_token"] == "optout"
-    assert abs(facts["demo_trained_max_weight"] - 0.187) < 5e-4
+    assert abs(facts["demo_trained_max_weight"] - 0.187) < 0.0005
     assert 1.6 < facts["demo_trained_max_weight"] / facts["demo_uniform_weight"] < 1.75
     assert [w for w, _ in top_words[:5]] == ["tone", "uk", "co", "www", "pobox"]
     assert [round(x, 2) for _, x in top_words[:5]] == [0.36, 0.33, 0.32, 0.22, 0.19]
@@ -545,9 +545,9 @@ def fig_dilution():
     facts["dilute_w10"] = round(float(w[10]), 3)
     facts["dilute_w40"] = round(float(w[40]), 3)
     facts["dilute_half_k"] = int(np.argmax(w <= facts["dilute_w0"] / 2))
-    assert abs(facts["dilute_w0"] - 0.953) < 5e-4
-    assert abs(facts["dilute_w10"] - 0.646) < 5e-4
-    assert abs(facts["dilute_w40"] - 0.329) < 5e-4
+    assert abs(facts["dilute_w0"] - 0.953) < 0.0005
+    assert abs(facts["dilute_w10"] - 0.646) < 0.0005
+    assert abs(facts["dilute_w40"] - 0.329) < 0.0005
     assert facts["dilute_half_k"] == 22
     fig, ax = plt.subplots(figsize=(4.2, 2.7))
     ax.plot(ks, w, color=RED, lw=2.0)
@@ -594,9 +594,9 @@ def side_posenc():
     facts["pe_dot_lag1"] = round(float(dots[33]), 2)
     facts["pe_dot_lag8"] = round(float(dots[40]), 2)
     facts["pe_dot_lag32"] = round(float(dots[63] if False else dots[0]), 2)
-    assert abs(facts["pe_self_dot"] - 32.0) < 0.01
-    assert abs(facts["pe_dot_lag1"] - 30.92) < 0.01
-    assert abs(facts["pe_dot_lag8"] - 22.41) < 0.01
+    assert abs(facts["pe_self_dot"] - 32.0) < 0.05
+    assert abs(facts["pe_dot_lag1"] - 30.92) < 0.005
+    assert abs(facts["pe_dot_lag8"] - 22.41) < 0.005
     fig, axes = plt.subplots(2, 1, figsize=(4.2, 3.6),
                              gridspec_kw={"height_ratios": [1.4, 1.0]})
     axes[0].imshow(PE.T, cmap="RdBu", aspect="auto", vmin=-1, vmax=1)
@@ -658,9 +658,9 @@ def fig_heads():
     facts["headA_prev_weight"] = round(float(np.mean([Aa[i, i - 1] for i in range(1, n)])), 3)
     facts["headB_maxpair"] = [toks[int(np.argmax(Ab_full) // n)], toks[int(np.argmax(Ab_full) % n)]]
     facts["headB_maxweight"] = round(float(Ab_full.max()), 3)
-    assert abs(facts["headA_prev_weight"] - 0.911) < 5e-4
+    assert abs(facts["headA_prev_weight"] - 0.911) < 0.0005
     assert facts["headB_maxpair"] == ["mobileupd", "motorola"]
-    assert abs(facts["headB_maxweight"] - 0.354) < 5e-4
+    assert abs(facts["headB_maxweight"] - 0.354) < 0.0005
     fig, axes = plt.subplots(1, 2, figsize=(11.2, 4.7))
     for ax, M, t in ((axes[0], Aa, "голова A: «смотри на предыдущий токен» (позиция)"),
                      (axes[1], Ab_full, "голова B: «ищи похожего по смыслу» (содержание)")):

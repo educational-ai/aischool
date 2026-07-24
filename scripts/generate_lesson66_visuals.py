@@ -194,7 +194,7 @@ def fig_return() -> None:
     approx = 1 / np.sqrt(math.pi * ns)
     FACTS["p_return_100"] = round(float(exact[49]), 4)          # 2n = 100
     FACTS["p_return_100_approx"] = round(float(approx[49]), 4)
-    assert abs(exact[49] - 0.0796) < 5e-4, exact[49]
+    assert abs(exact[49] - 0.0796) < 5e-05, exact[49]
     FACTS["stirling_rel_err_n50_pct"] = round(float(abs(exact[49] / approx[49] - 1) * 100), 2)
     FACTS["harmonic_sum_200"] = round(float(exact.sum()), 2)
 
@@ -409,8 +409,8 @@ def side_parity() -> None:
     FACTS["p8_0"] = round(float(probs[list(ms).index(0)]), 4)
     FACTS["p8_4"] = round(float(probs[list(ms).index(4)]), 4)
     FACTS["p8_ge6"] = round(float(probs[[abs(m) >= 6 for m in ms]].sum()), 4)
-    assert abs(FACTS["p8_0"] - 0.2734) < 1e-3
-    assert abs(FACTS["p8_ge6"] - 0.0703) < 1e-3
+    assert abs(FACTS["p8_0"] - 0.2734) < 5e-05
+    assert abs(FACTS["p8_ge6"] - 0.0703) < 5e-05
     FACTS["p8_2"] = round(float(probs[list(ms).index(2)]), 4)
     assert abs(FACTS["p8_2"] - 56 / 256) < 1e-4
     fig, ax = plt.subplots(figsize=(4.4, 3.0))
@@ -490,12 +490,12 @@ def misc_facts() -> None:
     st1 = 1.0 / math.sqrt(math.pi)
     FACTS["stirling_n1_approx"] = round(st1, 3)
     FACTS["stirling_n1_exact"] = round(math.comb(2, 1) / 4, 3)
-    assert abs(st1 - 0.564) < 5e-4 and FACTS["stirling_n1_exact"] == 0.5
+    assert abs(st1 - 0.564) < 0.0005 and FACTS["stirling_n1_exact"] == 0.5
 
     # Khinchin envelope: how much wider than sqrt(n) it is at n = 300 000.
     lil = math.sqrt(2 * math.log(math.log(300000)))
     FACTS["lil_factor_300k"] = round(lil, 2)
-    assert abs(lil - 2.25) < 5e-3, lil
+    assert abs(lil - 2.25) < 0.005, lil
 
     # One-sigma threshold for p = 0.51 (used in the inline exercise).
     p = 0.51
@@ -509,7 +509,7 @@ def misc_facts() -> None:
 
     tail = 200 * (1 - NormalDist().cdf(2))
     FACTS["outside_2sigma_pct"] = round(tail, 2)
-    assert abs(tail - 4.55) < 5e-3, tail
+    assert abs(tail - 4.55) < 0.005, tail
 
 
 def main() -> None:

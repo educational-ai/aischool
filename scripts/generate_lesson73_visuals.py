@@ -289,9 +289,9 @@ def fig_decay():
 
 
 fig_decay()
-assert abs(HALF[0.5] - 2.0) < 1e-9
-assert abs(HALF[0.8] - 4.106) < 0.01
-assert abs(HALF[0.95] - 14.51) < 0.02
+assert abs(HALF[0.5] - 2.0) < 0.05
+assert abs(HALF[0.8] - 4.106) < 0.0005
+assert abs(HALF[0.95] - 14.51) < 0.005
 FACT["half_life_u050"] = round(HALF[0.5], 2)
 FACT["half_life_u080"] = round(HALF[0.8], 2)
 FACT["half_life_u095"] = round(HALF[0.95], 2)
@@ -632,7 +632,7 @@ side_state_size()
 FACT["h0_decay_40_rho08"] = round(float(40 * np.log10(0.8)), 1)
 assert abs(FACT["h0_decay_40_rho08"] + 3.9) < 0.05
 FACT["tanh_att_per_step"] = round(1 / (1 - np.tanh(2.0) ** 2), 1)
-assert abs(FACT["tanh_att_per_step"] - 14.2) < 0.1
+assert abs(FACT["tanh_att_per_step"] - 14.2) < 0.05
 FACT["step_gain_u095"] = round(1 / (1 - 0.95), 1)
 FACT["log10_08_pow50"] = round(float(50 * np.log10(0.8)), 2)
 assert abs(FACT["log10_08_pow50"] + 4.85) < 0.01

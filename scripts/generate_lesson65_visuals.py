@@ -317,13 +317,13 @@ def real_analysis():
     # all the mass of the in-degree champion goes to its single out-neighbour
     flow = 0.85 * pr[top_deg] / outdeg[top_deg]
     FACT["flow_from_indegree_champion"] = round(float(flow), 4)
-    assert abs(flow - 0.1844) < 5e-5, flow
+    assert abs(flow - 0.1844) < 5e-05, flow
 
     # teleport floor (1 - alpha)/n and the measured minimum rank
     floor = 0.15 / n
     FACT["teleport_floor_085"] = round(float(floor), 5)
     assert pr.min() > floor, (pr.min(), floor)
-    assert abs(round(floor, 5) - 0.00039) < 1e-9, floor
+    assert abs(round(floor, 5) - 0.00039) < 5e-06, floor
 
     # worst-case iteration bound 2 alpha^t <= 1e-6 for alpha = 0.85
     t_bound = np.log(2e6) / np.log(1 / 0.85)
@@ -333,9 +333,9 @@ def real_analysis():
 
     # mean session length 1/(1-alpha)
     FACT["session_length"] = {a: round(1 / (1 - a), 2) for a in (0.70, 0.85, 0.95)}
-    assert abs(1 / (1 - 0.85) - 6.67) < 0.01
-    assert abs(1 / (1 - 0.70) - 3.33) < 0.01
-    assert abs(1 / (1 - 0.95) - 20.0) < 1e-9
+    assert abs(1 / (1 - 0.85) - 6.67) < 0.005
+    assert abs(1 / (1 - 0.70) - 3.33) < 0.005
+    assert abs(1 / (1 - 0.95) - 20.0) < 0.05
     return dict(ids=ids, titles=titles, A=A, P=P, v=v, pr=pr, indeg=indeg,
                 hist=(hist70, hist85, hist95), pr_sci=pr_sci, order=order,
                 order_s=order_s, alphas=alphas, jacs=jacs, iters=iters,

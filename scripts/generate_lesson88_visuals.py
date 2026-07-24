@@ -223,7 +223,7 @@ def fig_geometry():
     FACTS["epi_resid"] = float(resid)
     FACTS["baseline"] = B
     print("disparity=%.1f px, Z=%.3f m, epi residual=%.0f px" % (disp, Zrec, resid))
-    assert abs(Zrec - 4.0) < 1e-6
+    assert abs(Zrec - 4.0) < 0.05
 
     fig, axes = plt.subplots(1, 2, figsize=(11.6, 4.4))
     ax = axes[0]

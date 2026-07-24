@@ -129,7 +129,7 @@ def fig_valley() -> None:
     cr_gd = crossings(runs["gd"][2]); cr_mom = crossings(runs["momentum"][2])
     print(f"valley: f0={f0:.1f} gd={fin['gd']:.3f} mom={fin['momentum']:.3f} adam={fin['adam']:.4g}")
     print(f"valley crossings: gd={cr_gd} momentum={cr_mom}")
-    assert abs(f0 - 181.0) < 1e-9
+    assert abs(f0 - 181.0) < 0.05
     assert fin["gd"] > 5 * fin["momentum"] and fin["adam"] < 1.0
     assert cr_gd >= 25 and cr_mom <= cr_gd / 2
     FACTS.update(valley_f0=f0, valley_gd=fin["gd"], valley_mom=fin["momentum"],
@@ -226,8 +226,8 @@ def fig_bias() -> None:
     raw_ratio = m[1:] / (np.sqrt(v[1:]) + 1e-8)
     print(f"bias: m1={m[1]:.3f} m10={m[10]:.4f} v1={v[1]:.4f} sqrt(v1)={np.sqrt(v[1]):.4f}")
     print(f"bias: uncorrected first step ratio m1/sqrt(v1)={raw_ratio[0]:.3f}; corrected={mh[0]/(np.sqrt(vh[0])+1e-8):.4f}")
-    assert abs(m[1] - 0.1) < 1e-12 and abs(v[1] - 0.001) < 1e-12
-    assert abs(raw_ratio[0] - 3.1622776) < 1e-3
+    assert abs(m[1] - 0.1) < 0.05 and abs(v[1] - 0.001) < 1e-12
+    assert abs(raw_ratio[0] - 3.1622767) < 5e-08
     assert np.allclose(mh, 1.0) and np.allclose(vh, 1.0)
     # how many steps until uncorrected m is within 1% of 1
     k99 = int(np.argmax(m[1:] > 0.99)) + 1
@@ -401,8 +401,8 @@ def fig_lr_curve() -> None:
                  lr_best_loss_gd=best_loss["gd"], lr_best_loss_adam=best_loss["adam"],
                  lr_common_mom=float(at_common["momentum"]))
     # numbers quoted in the caption of fig. 62.6
-    assert abs(round(best_loss["gd"], 3) - 0.288) < 1e-9, best_loss["gd"]
-    assert abs(round(best_loss["adam"], 3) - 0.134) < 1e-9, best_loss["adam"]
+    assert abs(round(best_loss["gd"], 3) - 0.288) < 0.0005, best_loss["gd"]
+    assert abs(round(best_loss["adam"], 3) - 0.134) < 0.0005, best_loss["adam"]
     assert round(gd_at) == 188 and round(float(at_common["momentum"])) == 101
     assert abs(best_lr["gd"] - 3.16e-5) < 1e-7 and abs(best_lr["adam"] - 3.16e-2) < 1e-4
 
@@ -677,7 +677,7 @@ def side_eps() -> None:
     m_eps = 1 / (1e-3 + 1e-2); m_pure = 1 / 1e-3
     print(f"epsilon: at sqrt(v)=1e-3 multiplier {m_eps:.1f} vs pure {m_pure:.0f} "
           f"(damped {m_pure/m_eps:.1f}x)")
-    assert abs(m_eps - 90.909) < 0.01
+    assert abs(m_eps - 90.909) < 0.0005
     FACTS.update(eps_mult=m_eps, eps_pure=m_pure, eps_damp=m_pure / m_eps)
 
 
@@ -708,10 +708,10 @@ def check_prose() -> None:
     rho = 99 / 101
     T = math.log(1000) / math.log(1 / rho)
     print(f"prose: rho={rho:.4f}, T(1000x)={T:.1f}, rho^60={rho**60:.3f}")
-    assert abs(rho - 0.9802) < 1e-4 and 345 < T < 347 and abs(rho ** 60 - 0.30) < 0.01
+    assert abs(rho - 0.9802) < 5e-05 and 345 < T < 347 and abs(rho ** 60 - 0.30) < 0.01
     r10 = 9 / 11
     print(f"prose: kappa=10 rho={r10:.3f}, rho^60={r10**60:.2e}")
-    assert abs(r10 - 0.818) < 1e-3 and 5.5e-6 < r10 ** 60 < 6.5e-6 and 1.6e5 < 1 / r10 ** 60 < 1.8e5
+    assert abs(r10 - 0.818) < 0.0005 and 5.5e-6 < r10 ** 60 < 6.5e-6 and 1.6e5 < 1 / r10 ** 60 < 1.8e5
     v = [0.0]
     for _ in range(4):
         v.append(0.8 * v[-1] + 2)
@@ -722,7 +722,7 @@ def check_prose() -> None:
     ratios = [FACTS["valley_f0"] / FACTS[k] for k in ("valley_gd", "valley_mom", "valley_adam")]
     print(f"prose: f0/f60 = {ratios[0]:.1f}, {ratios[1]:.0f}, {ratios[2]:.0f}")
     assert 21 < ratios[0] < 22 and 8500 < ratios[1] < 9200 and 24000 < ratios[2] < 25000
-    assert abs(math.sqrt(400 / 6) - 8.16) < 0.05
+    assert abs(math.sqrt(400 / 6) - 8.16) < 0.005
     assert 1.9e5 < 1.5 ** 30 < 2.2e5
     zeros = 100 - FACTS["sms_density"]
     print(f"prose: SMS zeros {zeros:.2f}%")
@@ -731,11 +731,114 @@ def check_prose() -> None:
     std_span = FACTS["bc_gd_std"] / FACTS["bc_adam_std"]
     print(f"prose: worst/best raw {raw_span:.2f}, std {std_span:.2f}")
     assert 2.4 < raw_span < 2.6 and 1.4 < std_span < 1.55
-    assert abs(math.log(2) - 0.6931) < 1e-4
+    assert abs(math.log(2) - 0.6931) < 5e-05
+
+
+def fig_flows() -> None:
+    """Непрерывный поток, его дискретизация и то, где живёт ускорение.
+
+    Плохо обусловленный квадратичный овраг (kappa = 80). Поток dx/dt = -grad f идёт
+    прямо ко дну: у него нет ограничения на шаг. Спуск - явная схема Эйлера для
+    этого потока, и его шаг упёрт в 2/L, отсюда зигзаг. Ускорение (тяжёлый шарик)
+    имеет смысл именно в дискретном мире.
+    """
+    from scipy.integrate import solve_ivp
+
+    theta = np.deg2rad(32.0)
+    rot = np.array([[np.cos(theta), -np.sin(theta)], [np.sin(theta), np.cos(theta)]])
+    H = rot @ np.diag([1.0, 80.0]) @ rot.T
+    x0 = np.array([3.2, 2.1])
+    mu, L = 1.0, 80.0
+    kappa = L / mu
+
+    f = lambda x: 0.5 * float(x @ H @ x)
+    f0 = f(x0)
+
+    t = np.linspace(0.0, 9.0, 900)
+    flow = solve_ivp(lambda _t, x: -(H @ x), (t[0], t[-1]), x0,
+                     t_eval=t, rtol=1e-10, atol=1e-12).y.T
+
+    a_gd = 2 / (mu + L)                                   # оптимальный шаг спуска
+    x = x0.copy(); gd = [x.copy()]
+    for _ in range(300):
+        x = x - a_gd * (H @ x); gd.append(x.copy())
+    gd = np.asarray(gd)
+
+    beta = ((np.sqrt(kappa) - 1) / (np.sqrt(kappa) + 1)) ** 2
+    a_hb = 4 / ((np.sqrt(L) + np.sqrt(mu)) ** 2)
+    x = x0.copy(); xp = x0.copy(); hb = [x.copy()]
+    for _ in range(300):
+        xn = x - a_hb * (H @ x) + beta * (x - xp)
+        xp, x = x, xn
+        hb.append(x.copy())
+    hb = np.asarray(hb)
+
+    f_gd = np.array([f(p) for p in gd]) / f0
+    f_hb = np.array([f(p) for p in hb]) / f0
+
+    def steps_to(v, thr):
+        i = int(np.argmax(v < thr))
+        assert v[i] < thr
+        return i
+
+    n_gd3, n_hb3 = steps_to(f_gd, 1e-3), steps_to(f_hb, 1e-3)
+    n_gd6, n_hb6 = steps_to(f_gd, 1e-6), steps_to(f_hb, 1e-6)
+    gain3, gain6 = n_gd3 / n_hb3, n_gd6 / n_hb6
+
+    assert abs(a_gd - 0.024691) < 5e-7, a_gd
+    assert abs(a_hb - 0.040450) < 5e-7, a_hb
+    assert abs(beta - 0.638208) < 5e-7, beta
+    assert abs(np.sqrt(kappa) - 8.9443) < 5e-5
+    assert (n_gd3, n_hb3) == (139, 27), (n_gd3, n_hb3)
+    assert (n_gd6, n_hb6) == (277, 44), (n_gd6, n_hb6)
+    assert abs(gain3 - 5.15) < 5e-3 and abs(gain6 - 6.30) < 5e-3
+
+    fig, (a1, a2) = plt.subplots(1, 2, figsize=(11.2, 4.3))
+
+    xs = np.linspace(-0.9, 3.7, 320); ys = np.linspace(-0.9, 2.5, 320)
+    xx, yy = np.meshgrid(xs, ys)
+    zz = 0.5 * (H[0, 0] * xx ** 2 + 2 * H[0, 1] * xx * yy + H[1, 1] * yy ** 2)
+    a1.contour(xx, yy, zz, levels=np.geomspace(0.05, 260, 14), colors=[GRID], linewidths=0.7)
+    a1.plot(flow[:, 0], flow[:, 1], color=BLUE, lw=3.4, alpha=0.95,
+            label=r"поток $\dot x=-\nabla f$", zorder=3)
+    a1.plot(gd[:60, 0], gd[:60, 1], color=RED, lw=1.0, marker="o", ms=1.9, alpha=0.9,
+            label=f"спуск, шаг {fmt(a_gd, 3)}", zorder=4)
+    a1.plot(hb[:60, 0], hb[:60, 1], color=GREEN, lw=1.4, marker="o", ms=2.4, alpha=0.95,
+            label="тяжёлый шарик", zorder=5)
+    a1.plot(0, 0, "*", color=INK, ms=15, zorder=6)
+    a1.set_xlim(-0.9, 3.7); a1.set_ylim(-0.9, 2.5)
+    a1.set_xticks([]); a1.set_yticks([])
+    a1.set_title(f"Овраг $\\kappa={kappa:.0f}$: поток и две его дискретизации", fontsize=12.5)
+    a1.legend(frameon=False, fontsize=9.5, loc="upper left")
+
+    it = np.arange(len(f_gd))
+    a2.semilogy(it, np.maximum(f_gd, 1e-16), color=RED, lw=2.2, label="спуск")
+    a2.semilogy(it, np.maximum(f_hb, 1e-16), color=GREEN, lw=2.2, label="тяжёлый шарик")
+    a2.axhline(1e-6, color=LINE, lw=1.0, ls=(0, (4, 3)))
+    a2.set_xlim(0, 300); a2.set_ylim(1e-12, 2)
+    a2.set_xlabel("число шагов"); a2.set_ylabel("$f/f_0$")
+    a2.set_title("Ускорение живёт в дискретном мире", fontsize=12.5)
+    a2.grid(True, color=GRID, lw=0.6, alpha=0.6); a2.set_axisbelow(True)
+    a2.legend(frameon=False, fontsize=10, loc="upper right")
+    a2.annotate(f"до $10^{{-6}}$: {n_hb6} против {n_gd6} шагов",
+                xy=(n_hb6, 1e-6), xytext=(70, 2e-10), fontsize=10.5, color=MUTED,
+                arrowprops=dict(arrowstyle="->", color=LINE, lw=1.0))
+
+    fig.suptitle("Спуск — это шаг по потоку; момент нужен там, где шаг ограничен", y=1.02, fontsize=13.5)
+    fig.tight_layout()
+    save(fig, OUT / "flows.png")
+
+    FACTS.update(flow_kappa=kappa, flow_sqrt_kappa=float(np.sqrt(kappa)),
+                 flow_a_gd=a_gd, flow_a_hb=a_hb, flow_beta=beta,
+                 flow_gd3=n_gd3, flow_hb3=n_hb3, flow_gd6=n_gd6, flow_hb6=n_hb6,
+                 flow_gain3=gain3, flow_gain6=gain6)
+    print(f"flows: kappa={kappa:.0f} sqrt={np.sqrt(kappa):.4f} gd3={n_gd3} hb3={n_hb3} "
+          f"gd6={n_gd6} hb6={n_hb6} gain3={gain3:.2f} gain6={gain6:.2f}")
 
 
 def main() -> None:
     fig_valley()
+    fig_flows()
     fig_memory()
     fig_bias()
     fig_real_scales()

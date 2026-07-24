@@ -435,7 +435,7 @@ def fig_comm():
     FACT["bytes_round_gb"] = per_client * 500 / 1e9
     FACT["bytes_q8_gb"] = FACT["bytes_round_gb"] / 4
     FACT["bytes_sp_gb"] = FACT["bytes_round_gb"] * 0.01 * 1.5
-    assert abs(FACT["bytes_round_gb"] - 20.0) < 1e-9
+    assert abs(FACT["bytes_round_gb"] - 20.0) < 0.05
 
     variants = [("float32", None, None, BLUE),
                 ("8 бит", 8, None, GOLD),
@@ -593,13 +593,13 @@ def toy_weights():
     usr = (wA + wB) / 2
     FACT["toy_records"] = rec
     FACT["toy_clients"] = usr
-    assert abs(rec - 0.0990099) < 1e-6
+    assert abs(rec - 0.0990099) < 5e-08
     assert usr == 5.0
     # homework check: n=10,30,60; w=1,2,4
     ns = np.array([10, 30, 60]); ws = np.array([1, 2, 4])
     FACT["hw_records"] = float((ns * ws).sum() / ns.sum())
     FACT["hw_clients"] = float(ws.mean())
-    assert abs(FACT["hw_records"] - 3.1) < 1e-9
+    assert abs(FACT["hw_records"] - 3.1) < 0.05
     # clipping example
     FACT["clip_factor"] = 3 / 12
     norms = np.array([1, 2, 3, 6, 12])

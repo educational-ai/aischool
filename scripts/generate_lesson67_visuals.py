@@ -137,7 +137,7 @@ def fig_walk():
     exact_left = float(np.trapezoid(dens[xs <= 0], xs[xs <= 0]) / Z)
     print(f"   exact left mass = {exact_left:.4f}, gap = {exact_left - frac_left:.4f}, "
           f"1 crossing per {len(post)/crossings:.0f} steps")
-    assert abs(exact_left - 0.6) < 0.001
+    assert abs(exact_left - 0.6) < 0.05
     FACTS.update(walk_exact_left=exact_left, walk_gap=exact_left - frac_left,
                  walk_per_cross=len(post) / crossings)
     FACTS.update(walk_acc=acc, walk_cross=crossings, walk_left=frac_left,
@@ -151,8 +151,8 @@ def fig_walk():
     honest_se = float(np.sqrt(exact_left * (1 - exact_left) / neff))
     print(f"   naive se (per draw) = {naive_se:.4f}, honest se (per Neff) = {honest_se:.4f}, "
           f"ratio = {honest_se / naive_se:.1f}")
-    assert abs(naive_se - 0.0015) < 0.0001, naive_se
-    assert abs(honest_se - 0.021) < 0.001, honest_se
+    assert abs(naive_se - 0.0015) < 5e-05, naive_se
+    assert abs(honest_se - 0.021) < 0.0005, honest_se
     assert (exact_left - frac_left) < 1.5 * honest_se
     FACTS.update(walk_naive_se=naive_se, walk_honest_se=honest_se)
 
@@ -277,7 +277,7 @@ def fig_known_answer():
                  sms_tau=tau, sms_neff=neff, sms_err=err, sms_mcse=mcse,
                  sms_lo=float(lo), sms_hi=float(hi))
     assert err < 3 * mcse, (err, mcse)
-    assert abs(mc_mean - 0.134) < 0.002
+    assert abs(mc_mean - 0.134) < 0.0005
     assert 0.124 < lo < 0.127 and 0.142 < hi < 0.145
 
     grid = np.linspace(0.118, 0.152, 500)

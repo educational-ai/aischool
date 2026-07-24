@@ -173,9 +173,9 @@ def fig_penalty() -> None:
     # heuristic optimism of the maximum, and how many looks a hold-out survives
     FACTS["opt_100_2000"] = math.sqrt(math.log(100) / (2 * 2000))
     FACTS["looks_2000_003"] = math.exp(2 * 2000 * 0.03 ** 2)
-    assert abs(FACTS["e_1_1000"] - 0.043) < 0.001
-    assert abs(FACTS["e_100_1000"] - 0.064) < 0.001
-    assert abs(FACTS["e_10000_1000"] - 0.080) < 0.001
+    assert abs(FACTS["e_1_1000"] - 0.043) < 0.0005
+    assert abs(FACTS["e_100_1000"] - 0.064) < 0.0005
+    assert abs(FACTS["e_10000_1000"] - 0.080) < 0.0005
     print("fig2 penalty:", {k: round(v, 4) for k, v in FACTS.items() if k.startswith("e_")})
 
 

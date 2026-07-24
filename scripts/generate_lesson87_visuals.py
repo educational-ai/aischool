@@ -350,7 +350,7 @@ def fig_base_rate():
     for pi, key in [(0.01, "ppv_01"), (0.10, "ppv_10"), (0.30, "ppv_30")]:
         ppv = sens * pi / (sens * pi + (1 - spec) * (1 - pi))
         FACTS[key] = round(ppv, 3)
-    assert abs(FACTS["ppv_01"] - 0.154) < 0.002, FACTS["ppv_01"]
+    assert abs(FACTS["ppv_01"] - 0.154) < 0.0005, FACTS["ppv_01"]
     tp, fn_, fp, tn = 90, 10, 495, 9405
     assert tp + fn_ + fp + tn == N
     FACTS["flags_total"] = tp + fp
@@ -401,7 +401,7 @@ def fig_base_rate():
     FACTS["ppv_half_pct"] = round(float(cross) * 100, 1)
     assert 4.5 < FACTS["ppv_half_pct"] < 6.0, FACTS["ppv_half_pct"]
     FACTS["ppv_half_exact_pct"] = round((1 - spec) / (sens + 1 - spec) * 100, 2)
-    assert abs(FACTS["ppv_half_exact_pct"] - 5.26) < 0.01, FACTS["ppv_half_exact_pct"]
+    assert abs(FACTS["ppv_half_exact_pct"] - 5.26) < 0.005, FACTS["ppv_half_exact_pct"]
     print("base rate:", FACTS["ppv_01"], FACTS["ppv_10"], FACTS["ppv_30"], FACTS["ppv_half_pct"])
 
 

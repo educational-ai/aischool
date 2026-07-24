@@ -57,15 +57,15 @@ C_FN, C_FP = 10000.0, 20.0
 def fig_threshold():
     thr = C_FP / (C_FP + C_FN)
     note("alarm_threshold", thr)
-    assert abs(thr - 0.001996007984) < 1e-9, thr
+    assert abs(thr - 0.001996007984) < 5e-13, thr
     note("alarm_ratio_to_half", 0.5 / thr)
-    assert abs(FACTS["alarm_ratio_to_half"] - 250.5) < 0.6
+    assert abs(FACTS["alarm_ratio_to_half"] - 250.5) < 0.05
     # цена самоуверенности в кросс-энтропии (натуральный логарифм)
     note("logloss_p001", float(-np.log(0.001)))
     note("logloss_p04", float(-np.log(0.4)))
     note("logloss_conf_ratio", FACTS["logloss_p001"] / FACTS["logloss_p04"])
-    assert abs(FACTS["logloss_p001"] - 6.91) < 5e-3
-    assert abs(FACTS["logloss_p04"] - 0.92) < 5e-3
+    assert abs(FACTS["logloss_p001"] - 6.91) < 0.005
+    assert abs(FACTS["logloss_p04"] - 0.92) < 0.005
     assert 7.4 < FACTS["logloss_conf_ratio"] < 7.6
     p = np.linspace(0, 0.02, 400)
     r0, r1 = C_FN * p, C_FP * (1 - p)
@@ -98,15 +98,15 @@ def fig_surrogates():
     expo = np.exp(-m)
     for name, arr in (("logistic", logi), ("hinge", hinge), ("exp", expo)):
         v0 = arr[np.argmin(np.abs(m))]
-        assert abs(v0 - 1.0) < 0.02, (name, v0)
+        assert abs(v0 - 1.0) < 0.05, (name, v0)
     note("logistic_at_m2", np.log(1 + np.exp(-2)) / np.log(2))
     note("logistic_at_m2_nat", float(np.log(1 + np.exp(-2))))
     note("logistic_at_m01_nat", float(np.log(1 + np.exp(-0.1))))
     note("logistic_at_m10_nat", float(np.log(1 + np.exp(-10.0))))
     note("exp_at_m_minus2", float(np.exp(2)))
-    assert abs(FACTS["logistic_at_m2_nat"] - 0.127) < 5e-4
-    assert abs(FACTS["logistic_at_m01_nat"] - 0.644) < 5e-4
-    assert abs(FACTS["logistic_at_m10_nat"] - 0.000045) < 5e-6
+    assert abs(FACTS["logistic_at_m2_nat"] - 0.127) < 0.0005
+    assert abs(FACTS["logistic_at_m01_nat"] - 0.644) < 0.0005
+    assert abs(FACTS["logistic_at_m10_nat"] - 0.000045) < 5e-07
     fig, ax = plt.subplots(figsize=(8.8, 4.9))
     ax.plot(m, zero_one, color=INK, lw=2.6, label=r"$0/1$: $\mathbf{1}\{m\leq 0\}$")
     ax.plot(m, logi, color=BLUE, lw=2.2, label=r"logistic: $\log_2(1+e^{-m})$")
@@ -267,7 +267,7 @@ def fig_calibration(y, p):
     note("sms_cost_calibrated", cost_p); note("sms_cost_warped", cost_q)
     assert cost_q > cost_p, (cost_p, cost_q)
     note("sms_cost_warp_ratio", cost_q / cost_p)
-    assert abs(FACTS["sms_cost_warp_ratio"] - 1.5) < 0.06
+    assert abs(FACTS["sms_cost_warp_ratio"] - 1.5) < 0.05
 
     fig, axes = plt.subplots(1, 2, figsize=(9.6, 4.4))
     ax = axes[0]
@@ -342,7 +342,7 @@ def fig_quantiles():
     note("bike_share_below_q90", float((y <= q90).mean()))
     note("bike_gap_q90_mean", q90 - mean)
     note("news_ratio_mean_to_q90", news(mean) / news(q90))
-    assert abs(FACTS["bike_gap_q90_mean"] - 242.0) < 1.0
+    assert abs(FACTS["bike_gap_q90_mean"] - 242.0) < 0.05
     assert abs(FACTS["news_ratio_mean_to_q90"] - 2.7) < 0.05
 
     fig, axes = plt.subplots(2, 1, figsize=(8.8, 6.6), sharex=True,

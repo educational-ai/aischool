@@ -64,7 +64,7 @@ fact("n_all", N_ALL)
 fact("n_features", X_ALL.shape[1])
 fact("base_rate", BASE_RATE)
 assert N_ALL == 569 and X_ALL.shape[1] == 30
-assert abs(BASE_RATE - 0.3726) < 0.001
+assert abs(BASE_RATE - 0.3726) < 5e-05
 
 RNG = np.random.default_rng(56)
 perm = RNG.permutation(N_ALL)
@@ -151,7 +151,7 @@ P_PAT = fact("patient_p", p_te[I_PAT])
 P_PAT_T = fact("patient_p_cal", p_te_T[I_PAT])
 fact("patient_y", y_te[I_PAT])
 assert P_PAT < 0.1 < P_PAT_T
-assert abs(p_te[HI].mean() - 0.996) < 0.002 and abs(y_te[HI].mean() - 0.917) < 0.002
+assert abs(p_te[HI].mean() - 0.996) < 0.0005 and abs(y_te[HI].mean() - 0.917) < 0.002
 print(f"patient: p={P_PAT:.4f} -> {P_PAT_T:.4f} (y={y_te[I_PAT]}); "
       f"bin>0.9: n={int(HI.sum())} meanp={p_te[HI].mean():.4f} freq={y_te[HI].mean():.4f}; "
       f"after T: n={int(HI2.sum())} freq={y_te[HI2].mean():.4f}")

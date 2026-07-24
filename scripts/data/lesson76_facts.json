@@ -70,9 +70,9 @@
  "cost_ms": [
   0.05,
   0.17,
-  0.63,
-  2.56,
-  10.1
+  0.66,
+  2.78,
+  10.23
  ],
  "cost_ns": [
   128,
@@ -81,7 +81,7 @@
   1024,
   2048
  ],
- "cost_ratio_1024_512": 4.04,
+ "cost_ratio_1024_512": 4.24,
  "cost_slope": 1.92,
  "demo_call_orange_causal": 0.05,
  "demo_entropy_full": 1.413,

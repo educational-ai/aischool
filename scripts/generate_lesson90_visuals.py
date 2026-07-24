@@ -94,7 +94,7 @@ assert date.min() == dt.date(2011, 1, 1) and date.max() == dt.date(2012, 12, 31)
 
 MEAN_CNT = cnt.mean(); MEDIAN_CNT = float(np.median(cnt)); MAX_CNT = cnt.max()
 print(f"rows={N} mean={MEAN_CNT:.1f} median={MEDIAN_CNT:.0f} max={MAX_CNT:.0f}")
-assert abs(MEAN_CNT - 189.5) < 0.1 and MEDIAN_CNT == 142.0 and MAX_CNT == 977
+assert abs(MEAN_CNT - 189.5) < 0.05 and MEDIAN_CNT == 142.0 and MAX_CNT == 977
 
 LEAK_EXACT = bool(np.all(D["casual"] + D["registered"] == cnt))
 assert LEAK_EXACT
@@ -119,15 +119,15 @@ MAE_VAL = mean_absolute_error(cnt[VA], pred_val)
 MAE_TEST = mean_absolute_error(y_te, pred_te)
 R2_TEST = r2_score(y_te, pred_te)
 print(f"honest: val MAE={MAE_VAL:.1f} test MAE={MAE_TEST:.1f} R2={R2_TEST:.3f}")
-assert abs(MAE_VAL - 40.4) < 0.3 and abs(MAE_TEST - 45.5) < 0.3
-assert abs(R2_TEST - 0.878) < 0.005
+assert abs(MAE_VAL - 40.4) < 0.05 and abs(MAE_TEST - 45.5) < 0.3
+assert abs(R2_TEST - 0.878) < 0.0005
 
 model_leaky = fit(XL, cnt, TR)
 pred_leaky = model_leaky.predict(XL[TE])
 MAE_LEAK = mean_absolute_error(y_te, pred_leaky)
 R2_LEAK = r2_score(y_te, pred_leaky)
 print(f"leaky: test MAE={MAE_LEAK:.2f} R2={R2_LEAK:.4f}")
-assert abs(MAE_LEAK - 3.5) < 0.2 and R2_LEAK > 0.99
+assert abs(MAE_LEAK - 3.4489) < 5e-05 and R2_LEAK > 0.99
 
 # baselines
 MED_TR = float(np.median(cnt[TR]))
@@ -150,8 +150,8 @@ lag_ok = np.array(lag_ok); lag_val = np.array(lag_val, float)
 LAG_COVER = lag_ok.mean()
 MAE_LAG = mean_absolute_error(y_te[lag_ok], lag_val[lag_ok])
 print(f"const={MAE_CONST:.1f} hour={MAE_HOUR:.1f} lag168={MAE_LAG:.1f} cover={LAG_COVER:.3f}")
-assert abs(MAE_CONST - 161.1) < 0.3 and abs(MAE_HOUR - 88.5) < 0.3
-assert abs(MAE_LAG - 70.6) < 0.3 and abs(LAG_COVER - 0.982) < 0.003
+assert abs(MAE_CONST - 161.1) < 0.05 and abs(MAE_HOUR - 88.5) < 0.3
+assert abs(MAE_LAG - 70.6) < 0.05 and abs(LAG_COVER - 0.982) < 0.003
 print(f"median train target = {MED_TR:.0f}")
 assert MED_TR == 124.0
 
@@ -169,7 +169,7 @@ for b in range(2000):
     reps[b] = err_base[ii].mean() - err_model[ii].mean()
 CI_LO, CI_HI = np.quantile(reps, [0.025, 0.975])
 print(f"delta={DELTA:.1f} CI=[{CI_LO:.1f}, {CI_HI:.1f}]")
-assert abs(DELTA - 43.0) < 0.3 and abs(CI_LO - 35.8) < 0.6 and abs(CI_HI - 50.4) < 0.6
+assert abs(DELTA - 43.0) < 0.05 and abs(CI_LO - 35.8) < 0.6 and abs(CI_HI - 50.4) < 0.6
 
 # ---------------------------------------------------------------- protocol grid (widget + fig 2)
 FRACS = [0.1, 0.2, 0.4, 0.6, 0.8, 1.0]
@@ -194,8 +194,8 @@ for feat, Xa in (("honest", X), ("leaky", XL)):
 
 REP_TIME = grid["time-honest"]["reported"][-1]; FUT_TIME = grid["time-honest"]["future"][-1]
 REP_RAND = grid["random-honest"]["reported"][-1]; FUT_RAND = grid["random-honest"]["future"][-1]
-assert abs(REP_TIME - 40.4) < 0.5 and abs(FUT_TIME - 45.5) < 0.5
-assert abs(REP_RAND - 23.1) < 0.8 and abs(FUT_RAND - 43.1) < 1.2
+assert abs(REP_TIME - 40.4) < 0.05 and abs(FUT_TIME - 45.5) < 0.5
+assert abs(REP_RAND - 23.1) < 0.05 and abs(FUT_RAND - 43.1) < 1.2
 RATIO_RAND = FUT_RAND / REP_RAND
 RATIO_TIME = FUT_TIME / REP_TIME
 print(f"optimism: random x{RATIO_RAND:.2f}, temporal x{RATIO_TIME:.2f}")
@@ -208,15 +208,15 @@ for lo, hi, name in ((0, 5, "ночь 0–5"), (6, 11, "утро 6–11"),
     m = (hr_te >= lo) & (hr_te <= hi)
     SLICES_HOUR.append((name, err_model[m].mean(), y_te[m].mean(), int(m.sum())))
     print(f"{name}: MAE={err_model[m].mean():.1f} mean={y_te[m].mean():.0f} n={m.sum()}")
-assert abs(SLICES_HOUR[0][1] - 11.9) < 0.3 and abs(SLICES_HOUR[2][1] - 67.4) < 0.4
-assert abs(SLICES_HOUR[1][1] - 53.8) < 0.4 and abs(SLICES_HOUR[3][1] - 48.5) < 0.4
+assert abs(SLICES_HOUR[0][1] - 11.9) < 0.05 and abs(SLICES_HOUR[2][1] - 67.4) < 0.4
+assert abs(SLICES_HOUR[1][1] - 53.8) < 0.05 and abs(SLICES_HOUR[3][1] - 48.5) < 0.4
 
 SLICES_W = []
 for w, name in ((1, "ясно"), (2, "туман/облачно"), (3, "дождь/снег")):
     m = we_te == w
     SLICES_W.append((name, err_model[m].mean(), int(m.sum())))
     print(f"weather {name}: MAE={err_model[m].mean():.1f} n={m.sum()}")
-assert abs(SLICES_W[0][1] - 42.7) < 0.4 and abs(SLICES_W[2][1] - 72.0) < 0.6
+assert abs(SLICES_W[0][1] - 42.7) < 0.05 and abs(SLICES_W[2][1] - 72.0) < 0.6
 assert SLICES_W[2][2] == 160
 
 MAE_WORK = err_model[wk_te == 1].mean(); MAE_FREE = err_model[wk_te == 0].mean()
@@ -228,7 +228,7 @@ PEAK = 500.0
 label = y_te > PEAK
 BASE_RATE = label.mean()
 print(f"base rate peak>{PEAK:.0f}: {BASE_RATE:.3f}")
-assert abs(BASE_RATE - 0.108) < 0.002
+assert abs(BASE_RATE - 0.108) < 0.0005
 THRESH = []
 for t in (300, 400, 500, 600):
     alarm = pred_te > t
@@ -237,8 +237,8 @@ for t in (300, 400, 500, 600):
     rec = tp / int(label.sum())
     THRESH.append((t, prec, rec, int(alarm.sum())))
     print(f"threshold {t}: precision={prec:.3f} recall={rec:.3f} alarms={alarm.sum()}")
-assert abs(THRESH[1][1] - 0.723) < 0.02 and abs(THRESH[1][2] - 0.923) < 0.02
-assert abs(THRESH[2][1] - 0.938) < 0.02 and abs(THRESH[2][2] - 0.643) < 0.02
+assert abs(THRESH[1][1] - 0.723) < 0.0005 and abs(THRESH[1][2] - 0.923) < 0.02
+assert abs(THRESH[2][1] - 0.938) < 0.0005 and abs(THRESH[2][2] - 0.643) < 0.02
 assert THRESH[3][1] == 1.0
 
 # ---------------------------------------------------------------- learning curve
@@ -250,8 +250,8 @@ for f in FRACS:
     g = fit(X, cnt, idx)
     LC.append((k, float(mean_absolute_error(y_te, g.predict(X[TE])))))
     print(f"learning curve n={k}: MAE={LC[-1][1]:.1f}")
-assert abs(LC[0][1] - 59.9) < 0.6 and abs(LC[-1][1] - MAE_TEST) < 0.3
-assert abs(LC[3][1] - 43.7) < 0.4 and LC[3][1] < LC[-1][1]
+assert abs(LC[0][1] - 59.9) < 0.05 and abs(LC[-1][1] - MAE_TEST) < 0.3
+assert abs(LC[3][1] - 43.7) < 0.05 and LC[3][1] < LC[-1][1]
 
 
 # ================================================================ figures

@@ -708,9 +708,9 @@ def main():
                                   (2.1340307072708495 - full["L_inf"]),
         "small_step_150to320": rows[3]["loss"],
     }
-    assert abs(checks["bits_per_char"] - 3.079) < 0.002
-    assert abs(checks["perplexity"] - 8.45) < 0.02
-    assert abs(checks["excess_ratio_150k_320k"] - 1.067) < 0.002
+    assert abs(checks["bits_per_char"] - 3.079) < 0.0005
+    assert abs(checks["perplexity"] - 8.45) < 0.005
+    assert abs(checks["excess_ratio_150k_320k"] - 1.067) < 0.0005
     # quality of tokens: optimum shifts to a SMALLER model
     Cq = 1e9
     def opt_q(q):
@@ -730,8 +730,8 @@ def main():
     p1, p2, k = em["acc"][0], em["acc"][-1], BLOCK
     checks["p1^k"], checks["p2^k"] = p1 ** k, p2 ** k
     checks["pk_ratio"] = (p2 / p1) ** k
-    assert abs(checks["p1^k"] - 0.0014) < 0.0002 and abs(checks["p2^k"] - 0.0090) < 0.0005
-    assert abs(checks["pk_ratio"] - 6.63) < 0.05
+    assert abs(checks["p1^k"] - 0.0014) < 5e-05 and abs(checks["p2^k"] - 0.0090) < 0.0005
+    assert abs(checks["pk_ratio"] - 6.63) < 0.005
     F["text_checks"] = checks
     print("text checks:", {k2: round(v, 5) for k2, v in checks.items()})
 

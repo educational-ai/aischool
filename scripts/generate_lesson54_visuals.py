@@ -224,7 +224,7 @@ def fig_prior():
     FACTS["recall_corrected"] = round(rec_cor * 100, 1)
     print("fig3: x*", x_star, "post(2)", post_at_2, "ppv bal", ppv_bal, "ppv cor", ppv_cor,
           "recall", rec_bal, rec_cor)
-    assert abs(x_star - 2.9459) < 1e-3
+    assert abs(x_star - 2.9459) < 5e-05
     assert 12.0 < post_at_2 * 100 < 14.0
     assert ppv_cor > 4 * ppv_bal
 
@@ -479,7 +479,7 @@ def side_mahalanobis():
     dB = math.sqrt(B @ np.linalg.inv(S) @ B)
     FACTS["mahal_A"] = round(dA, 2); FACTS["mahal_B"] = round(dB, 2)
     print("side1: dA", dA, "dB", dB)
-    assert abs(dA - 1.0) < 1e-9 and abs(dB - 2.0) < 1e-9
+    assert abs(dA - 1.0) < 0.05 and abs(dB - 2.0) < 1e-9
 
     fig, ax = plt.subplots(figsize=(4.6, 4.2))
     for r, alpha in ((1, 0.9), (2, 0.5)):

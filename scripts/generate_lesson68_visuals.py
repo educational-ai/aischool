@@ -693,8 +693,8 @@ print(json.dumps({
 assert abs(TOP_FREQ * 100 - 10.4) < 0.05
 assert abs(SECOND_FREQ * 100 - 8.7) < 0.05 and SECOND_LETTER == "е"
 assert abs(space_share * 100 - 14.6) < 0.05
-assert abs(H0 - 5.09) < 0.01 and abs(H1 - 4.42) < 0.01
-assert abs(H2 - 3.59) < 0.01 and abs(H3 - 2.88) < 0.01
+assert abs(H0 - 5.09) < 0.005 and abs(H1 - 4.42) < 0.01
+assert abs(H2 - 3.59) < 0.005 and abs(H3 - 2.88) < 0.01
 assert abs(KEY_BITS - 122.7) < 0.05 and abs(REDUND - 2.20) < 0.01
 assert abs(UNICITY - 56) < 1.0
 assert len(TRAIN) == 921_345 and len(TEST) == 128_344
@@ -705,14 +705,14 @@ assert abs(med(2, 200) - 0.92) < 0.005 and med(2, 500) == 1.0
 assert abs(med(1, 1000) - 0.30) < 0.005 and abs(med(1, 2000) - 0.39) < 0.005
 assert abs(G_ACC - 0.15) < 0.005 and MC_ACC == 1.0 and G_WINS == 18
 assert abs(GAP_TRUE - 880) < 5 and OVERSHOOT == 2
-assert abs(ACC_RATE - 0.119) < 0.002 and abs(ACC_RATE_G - 0.0027) < 0.0002
+assert abs(ACC_RATE - 0.1195) < 5e-05 and abs(ACC_RATE_G - 0.00265) < 5e-06
 assert abs(UNFOLD_AT100 - 0.18) < 0.005 and UNFOLD_FINAL == 1.0
 assert present_letters == 25 and N_SURE == 23 and N_DISPUTED == 2
 assert DISTINCT_KEYS == 20 and 0 < BEST_GAP < 1.0 and abs(MED_ACC_200 - 0.99) < 0.005
-assert abs(STAB_FREQ - 0.91) < 0.01 and abs(STAB_RARE - 0.60) < 0.01
+assert abs(STAB_FREQ - 0.91) < 0.005 and abs(STAB_RARE - 0.60) < 0.01
 assert COV_50 == 19 and COV_200 == 27 and COV_1000 == 32
 SNAP_ACC = [r[2] for r in unfold["snaps"]]
-assert abs(SNAP_ACC[0] - 0.173) < 0.005 and abs(SNAP_ACC[1] - 0.18) < 0.005
+assert abs(SNAP_ACC[0] - 0.173) < 0.0005 and abs(SNAP_ACC[1] - 0.18) < 0.005
 assert abs(SNAP_ACC[2] - 0.58) < 0.005 and abs(SNAP_ACC[3] - 0.745) < 0.005
 assert SNAP_ACC[4] == 1.0
 assert abs(letter_freq[IDX["а"]] * 100 - 8.0) < 0.05
