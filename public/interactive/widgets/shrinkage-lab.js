@@ -7,8 +7,17 @@
 //
 // Scene A carries no raw table: everything the two solvers need is the Gram matrix of the
 // z-scored features and X^T y, computed once in scripts/generate_lesson51_visuals.py from
-// load_diabetes(scaled=False) + StandardScaler. Standardization is therefore baked in, and
-// alpha = 0 reproduces the figures exactly: w(s1) = -37.7, w(s2) = +22.7.
+// load_diabetes(scaled=False) + StandardScaler. Standardization is therefore baked in.
+//
+// Verified by running these solvers in node (rule P12), so the lesson's imperatives hold:
+//   * log10(alpha) = -4  ->  s1 = -37.68, s2 = +22.68, i.e. the readout shows -37,7 / +22,7.
+//     (At the old lower bound -2 it showed -37,58 / +22,60 and the instruction was false;
+//      hence min: -4 and one decimal in the s1/s2 readout.)
+//   * lasso at log10(alpha) = 1.25 (alpha ~ 17.8) leaves exactly 3 features, R2 = 0.392
+//     against 0.518 at the weakest penalty.
+//   * scene B, default outlier (+2000): Huber slope is 12.91 at delta = 1.35 sigma, 10.26 at
+//     4 sigma and exactly equal to the OLS 6.97 from delta = 8 sigma on. 4 sigma is NOT enough
+//     to erase robustness, so the delta slider now reaches 10 sigma.
 (function () {
   "use strict";
 
@@ -184,8 +193,8 @@
       }, function (next) { mode = next; draw(); });
 
       K.slider(pathBox, {
-        label: "log₁₀ α", min: -2, max: 3.5, step: 0.05, value: logAlpha,
-        format: function (v) { return ru(Math.pow(10, v), Math.pow(10, v) < 1 ? 2 : 1); },
+        label: "log₁₀ α", min: -4, max: 3.5, step: 0.05, value: logAlpha,
+        format: function (v) { return ru(Math.pow(10, v), Math.pow(10, v) < 1 ? 4 : 1); },
         unit: ""
       }, function (v) { logAlpha = v; draw(); });
 
@@ -196,7 +205,7 @@
       }, function (next) { lossMode = next; draw(); });
 
       K.slider(robustBox, {
-        label: "порог δ", min: 0.3, max: 4, step: 0.05, value: deltaSigma,
+        label: "порог δ", min: 0.3, max: 10, step: 0.05, value: deltaSigma,
         format: function (v) { return ru(v, 2); }, unit: " σ̂"
       }, function (v) { deltaSigma = v; draw(); });
 
@@ -255,14 +264,14 @@
         }
 
         output.set([
-          { label: "α", value: ru(alpha, alpha < 1 ? 3 : 1), color: C.gold },
-          { label: "вес s1", value: ru(w[4], 2), color: C.violet },
-          { label: "вес s2", value: ru(w[5], 2), color: C.violet },
+          { label: "α", value: ru(alpha, alpha < 1 ? 4 : 1), color: C.gold },
+          { label: "вес s1", value: ru(w[4], 1), color: C.violet },
+          { label: "вес s2", value: ru(w[5], 1), color: C.violet },
           { label: "ненулевых весов", value: q.nnz + " из 10", color: C.ink },
           { label: "‖w‖₂", value: ru(q.norm, 1), color: C.blue },
           { label: "R² на обучении", value: ru(q.r2, 3), color: C.green }
         ]);
-        cap.textContent = "Реальная таблица диабета, признаки z-стандартизованы. При α → 0 повторяются числа урока: s1 = −37,7 и s2 = +22,7. Ridge стягивает пару к нулю согласованно, lasso сначала обнуляет s2 и оставляет s1 представителем группы.";
+        cap.textContent = "Реальная таблица диабета, признаки z-стандартизованы. В самом левом положении ползунка (log₁₀ α = −4) повторяются числа урока: s1 = −37,7 и s2 = +22,7. Ridge стягивает пару к нулю согласованно, lasso сначала обнуляет s2 и оставляет s1 представителем группы.";
       }
 
       // ------------------------------------------------------------- scene B
@@ -327,7 +336,7 @@
           { label: "остаток выброса (МНК)", value: ru(resid, 0), color: C.gold },
           { label: "остаток выброса (Хьюбер)", value: ru(residRob, 0), color: C.gold }
         ]);
-        cap.textContent = "Серая штриховая прямая — МНК по чистым данным (наклон 13,7). Тащите жёлтую точку вверх: красная прямая уходит за ней, зелёная держится, пока δ не станет слишком большим. При δ около 4σ̂ Хьюбер почти совпадает с квадратом.";
+        cap.textContent = "Серая штриховая прямая — МНК по чистым данным (наклон 13,7). Тащите жёлтую точку вверх: красная прямая уходит за ней, зелёная держится. Совпадение Хьюбера с МНК — это предел δ → ∞: порог должен перекрыть остаток выброса. Для исходного положения точки (+2000) при δ = 1,35σ̂ наклон Хьюбера 12,9, при δ = 4σ̂ ещё 10,3, и только с δ = 8σ̂ он в точности равен МНК 7,0.";
       }
 
       function draw() {
