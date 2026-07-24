@@ -1,0 +1,922 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="662.4pt" height="377.76pt" viewBox="0 0 662.4 377.76" version="1.1" role="img">
+ <title>Ранг не равен числу входящих ссылок</title><desc>Диаграмма рассеяния логарифма входящей степени и PageRank с отмеченными вершинами-исключениями. Каждая точка — вершина фрагмента Web-Google. По горизонтали отложен $\log(1+d_i^{in})$, по вертикали — $\log \pi_i$. Подписаны вершины, у которых PageRank особенно велик или мал относительно степени: именно они требуют объяснения через качество источников и число исходящих ссылок.</desc><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-07-18T10:23:33.621182</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 377.76  L 662.4 377.76  L 662.4 0  L 0 0  z " style="fill: #fffdf7" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 46.368 328.6512  L 635.904 328.6512  L 635.904 67.9968  L 46.368 67.9968  z " style="fill: #fffdf7" />
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="C0_0_107e4c85db" d="M 0 2  C 0.530406 2 1.03916 1.789267 1.414214 1.414214  C 1.789267 1.03916 2 0.530406 2 -0  C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214  C 1.03916 -1.789267 0.530406 -2 0 -2  C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214  C -1.789267 -1.03916 -2 -0.530406 -2 0  C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214  C -1.03916 1.789267 -0.530406 2 0 2  z " />
+    </defs>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="155.227053" y="250.947571" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="273.594002" y="214.497077" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="381.921049" y="185.846721" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="122.028691" y="248.400621" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="194.919225" y="232.400319" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="184.659121" y="193.627404" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="262.876544" y="138.763128" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="271.086799" y="219.66898" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="144.16783" y="301.404594" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="280.80648" y="130.184846" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="323.29953" y="230.064566" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="446.897439" y="165.151238" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="245.902155" y="271.785533" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="371.999491" y="148.748331" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="229.975832" y="152.380163" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="139.785439" y="293.547124" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="309.381783" y="216.945428" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="134.963009" y="284.83437" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="311.726663" y="193.265369" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="302.806303" y="160.775521" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="357.553596" y="115.986886" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="172.148036" y="235.90681" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="269.16784" y="190.15035" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="231.095976" y="212.264418" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="355.089798" y="215.39315" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="433.514052" y="167.582944" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="235.89876" y="268.813133" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="129.521544" y="286.516272" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="179.535144" y="217.317025" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="243.953808" y="246.717069" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="128.534666" y="276.47986" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="482.204064" y="106.840268" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="506.837442" y="152.06248" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="206.681368" y="203.833003" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="345.507086" y="146.500153" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="293.376551" y="214.009695" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="376.43723" y="162.533103" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="428.491168" y="180.696709" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="240.241523" y="160.558024" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="408.17635" y="142.581504" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="161.178795" y="260.417507" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="248.014157" y="120.68914" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="469.442198" y="123.580847" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="185.273833" y="249.258123" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="165.87855" y="242.541791" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="186.320136" y="238.063307" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="199.461526" y="232.128978" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="275.667741" y="216.267412" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="259.94256" y="180.430534" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="300.208735" y="255.181591" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="249.282817" y="202.750216" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="256.735389" y="236.899339" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="247.655118" y="189.654291" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="252.163469" y="258.510136" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="204.094323" y="207.118551" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="339.173382" y="210.440516" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="609.106909" y="119.709273" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="228.282961" y="168.035206" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="338.890313" y="170.48092" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="207.415714" y="267.886147" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="159.836123" y="268.9763" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="79.231012" y="293.379429" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="348.760307" y="213.153055" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="249.455393" y="222.652376" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="135.322563" y="206.941198" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="303.872028" y="187.686369" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="454.191748" y="117.481204" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="219.482909" y="212.258382" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="163.348532" y="258.710583" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="185.645659" y="180.525225" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="292.249124" y="189.335709" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="555.196678" y="106.531848" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="244.709968" y="176.823718" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="412.250668" y="137.139908" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="145.130572" y="285.88654" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="148.019123" y="226.229556" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="174.874168" y="281.3093" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="183.610507" y="250.564253" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="294.25771" y="265.694067" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="447.168735" y="187.000477" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="401.182601" y="209.096771" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="211.01809" y="263.007649" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="247.054591" y="229.694411" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="277.306313" y="184.942399" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="238.27336" y="223.029336" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="222.17296" y="214.665803" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="478.367967" y="128.067251" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="220.937061" y="213.71577" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="394.295699" y="135.795635" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="259.254789" y="215.35243" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="332.150558" y="193.507724" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="225.508819" y="267.940531" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="454.330523" y="174.577657" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="388.220166" y="198.39908" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="387.383233" y="175.955141" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="239.587893" y="221.455487" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="364.461018" y="162.225204" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="159.201989" y="220.690443" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="151.044995" y="257.306475" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="287.445058" y="209.089911" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="268.249787" y="212.290461" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="174.670727" y="283.112279" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="239.752315" y="163.220881" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="372.041973" y="151.805027" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="121.447218" y="218.926703" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="201.548657" y="197.964518" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="251.883911" y="181.604556" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="82.482697" y="281.676728" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="208.186437" y="252.620604" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="387.955295" y="205.905167" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="164.705314" y="225.16904" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="252.875793" y="233.052157" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="165.233819" y="272.425356" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="315.133372" y="151.534275" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="313.124949" y="189.767173" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="318.315853" y="231.403687" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="395.14077" y="183.306485" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="157.03911" y="260.237037" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="382.245344" y="144.570182" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="390.735495" y="168.92024" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="185.479867" y="237.266571" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="259.318083" y="230.59388" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="164.233595" y="242.072628" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="164.292511" y="221.759465" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="236.016303" y="231.054159" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="256.875754" y="190.45703" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="247.170407" y="210.040459" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="134.988847" y="194.278071" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="288.878903" y="191.631484" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="291.018842" y="164.482857" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="378.250364" y="145.440963" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="378.612361" y="173.322544" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="273.130675" y="210.348827" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="336.210956" y="181.192354" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="213.857453" y="138.353532" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="393.870283" y="150.75527" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="165.825257" y="173.771741" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="167.215291" y="190.121503" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="195.660442" y="213.22097" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="151.719273" y="278.336121" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="161.821062" y="275.426353" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="265.008736" y="271.120952" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="496.032966" y="79.844727" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="212.597514" y="240.551115" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="314.248185" y="220.756618" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="274.392043" y="216.108234" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="419.208887" y="162.550865" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="399.242927" y="174.440555" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="188.544667" y="271.656997" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="284.413669" y="236.030814" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="481.849881" y="178.466262" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="387.505625" y="159.692595" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="129.94616" y="240.788378" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="134.237376" y="310.40355" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="231.21324" y="167.88276" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="226.224055" y="291.74648" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="360.184702" y="139.647397" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="393.653078" y="146.993239" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="332.125425" y="243.711235" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="404.03386" y="131.4129" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="432.037929" y="140.994553" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="394.092322" y="141.487492" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="121.345684" y="206.062702" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="462.169673" y="124.51421" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="315.683343" y="204.444463" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="259.147912" y="243.878831" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="245.022635" y="212.016941" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="157.953439" y="313.409651" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="165.239045" y="286.721095" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="205.457243" y="254.457779" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="333.86096" y="131.035548" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="306.373929" y="239.423592" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="159.059343" y="214.581631" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="398.770083" y="163.353096" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="354.888524" y="113.107674" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="297.483098" y="171.739451" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="349.542486" y="149.86766" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="327.436875" y="248.049435" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="316.350884" y="155.338155" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="264.805656" y="193.938648" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="211.673476" y="236.158655" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="308.380835" y="126.341998" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="205.281674" y="304.917243" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="237.803242" y="239.349913" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="364.406361" y="175.16815" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="353.815437" y="194.758623" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="243.12643" y="221.206752" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="336.602802" y="169.082044" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="319.628401" y="138.713957" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="270.463043" y="255.818597" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="396.883127" y="137.736223" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="256.662822" y="240.343248" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="351.345838" y="241.912951" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="192.802244" y="219.259511" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="216.883845" y="224.557737" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="218.986581" y="201.707799" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="122.414188" y="316.803273" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="300.609387" y="223.152655" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="312.934268" y="186.511611" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="296.778239" y="169.31111" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="221.167117" y="198.232081" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="278.872106" y="144.299538" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="121.801197" y="283.037137" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="121.318536" y="304.45093" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="73.165091" y="272.621294" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="208.237559" y="201.722572" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="193.666345" y="251.13948" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="177.516848" y="186.410475" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="127.065324" y="293.590136" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="275.892423" y="222.786335" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="347.528047" y="159.168517" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="314.970506" y="169.808835" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="98.68731" y="236.76389" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="247.303986" y="194.893861" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="188.267701" y="267.65624" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="204.998265" y="218.086337" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="335.776689" y="125.33405" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="124.202509" y="286.413537" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="217.793034" y="231.851681" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#C0_0_107e4c85db" x="200.876757" y="253.140031" style="fill: #315f8c; fill-opacity: 0.42" />
+    </g>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 129.501386 328.6512  L 129.501386 67.9968  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="ma886aa6d1a" d="M 0 0  L 0 3  " style="stroke: #68716b; stroke-width: 0.7" />
+      </defs>
+      <g>
+       <use ns4:href="#ma886aa6d1a" x="129.501386" y="328.6512" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="129.501386" y="342.78995" transform="rotate(-0 129.501386 342.78995)">1</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 240.256807 328.6512  L 240.256807 67.9968  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use ns4:href="#ma886aa6d1a" x="240.256807" y="328.6512" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="240.256807" y="342.78995" transform="rotate(-0 240.256807 342.78995)">2</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 351.012227 328.6512  L 351.012227 67.9968  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use ns4:href="#ma886aa6d1a" x="351.012227" y="328.6512" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="351.012227" y="342.78995" transform="rotate(-0 351.012227 342.78995)">3</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 461.767648 328.6512  L 461.767648 67.9968  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use ns4:href="#ma886aa6d1a" x="461.767648" y="328.6512" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="461.767648" y="342.78995" transform="rotate(-0 461.767648 342.78995)">4</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 572.523068 328.6512  L 572.523068 67.9968  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use ns4:href="#ma886aa6d1a" x="572.523068" y="328.6512" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="572.523068" y="342.78995" transform="rotate(-0 572.523068 342.78995)">5</text>
+     </g>
+    </g>
+    <g id="text_6">
+     
+     <g style="fill: #20231f" transform="translate(316.881 357.70995)">
+      <text>
+       <tspan style="font: 10.5px 'STIXGeneral'" x="0 2.918991 8.168991 13.418991 16.915482 23.681683 45.082278" y="-0.09375">log(1+)</tspan>
+       <tspan style="font: italic 10.5px 'STIXGeneral'" x="32.39039" y="-0.09375">d</tspan>
+       <tspan style="font: italic 7.35px 'STIXGeneral'" x="38.879609 40.922903" y="-3.96875">in</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11">
+      <path d="M 46.368 316.770573  L 635.904 316.770573  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_12">
+      <defs>
+       <path id="m6dc0919e6e" d="M 0 0  L -3 0  " style="stroke: #68716b; stroke-width: 0.7" />
+      </defs>
+      <g>
+       <use ns4:href="#m6dc0919e6e" x="46.368" y="316.770573" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="39.868" y="320.589948" transform="rotate(-0 39.868 320.589948)">−7</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_13">
+      <path d="M 46.368 269.69731  L 635.904 269.69731  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_14">
+      <g>
+       <use ns4:href="#m6dc0919e6e" x="46.368" y="269.69731" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="39.868" y="273.516685" transform="rotate(-0 39.868 273.516685)">−6</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15">
+      <path d="M 46.368 222.624047  L 635.904 222.624047  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use ns4:href="#m6dc0919e6e" x="46.368" y="222.624047" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="39.868" y="226.443422" transform="rotate(-0 39.868 226.443422)">−5</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_17">
+      <path d="M 46.368 175.550784  L 635.904 175.550784  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use ns4:href="#m6dc0919e6e" x="46.368" y="175.550784" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="39.868" y="179.370159" transform="rotate(-0 39.868 179.370159)">−4</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_19">
+      <path d="M 46.368 128.477521  L 635.904 128.477521  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_20">
+      <g>
+       <use ns4:href="#m6dc0919e6e" x="46.368" y="128.477521" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="39.868" y="132.296896" transform="rotate(-0 39.868 132.296896)">−3</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_21">
+      <path d="M 46.368 81.404258  L 635.904 81.404258  " clip-path="url(#p9152834d5e)" style="fill: none; stroke: #dedbd2; stroke-opacity: 0.8; stroke-width: 0.7; stroke-linecap: square" />
+     </g>
+     <g id="line2d_22">
+      <g>
+       <use ns4:href="#m6dc0919e6e" x="46.368" y="81.404258" style="fill: #68716b; stroke: #68716b; stroke-width: 0.7" />
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="39.868" y="85.223633" transform="rotate(-0 39.868 85.223633)">−2</text>
+     </g>
+    </g>
+    <g id="text_13">
+     
+     <g style="fill: #20231f" transform="translate(21.363234 208.3515) rotate(-90)">
+      <text>
+       <tspan style="font: 10.5px 'STIXGeneral'" x="0 2.918991 8.168991" y="-0.484375">log</tspan>
+       <tspan style="font: italic 10.5px 'STIXGeneral'" x="14.682518" y="-0.484375">π</tspan>
+      </text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 46.368 328.6512  L 46.368 67.9968  " style="fill: none; stroke: #68716b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="patch_4">
+    <path d="M 46.368 328.6512  L 635.904 328.6512  " style="fill: none; stroke: #68716b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="text_14">
+    <text style="fill: #20231f; font: 11.2px 'Palatino'; text-anchor: start" x="46.368" y="59.9968" transform="rotate(-0 46.368 59.9968)">одинаковая степень — разный поток</text>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m5db4e2766a" d="M 0 3.24037  C 0.859356 3.24037 1.683631 2.898944 2.291288 2.291288  C 2.898944 1.683631 3.24037 0.859356 3.24037 0  C 3.24037 -0.859356 2.898944 -1.683631 2.291288 -2.291288  C 1.683631 -2.898944 0.859356 -3.24037 0 -3.24037  C -0.859356 -3.24037 -1.683631 -2.898944 -2.291288 -2.291288  C -2.898944 -1.683631 -3.24037 -0.859356 -3.24037 0  C -3.24037 0.859356 -2.898944 1.683631 -2.291288 2.291288  C -1.683631 2.898944 -0.859356 3.24037 0 3.24037  z " style="stroke: #b94a3b" />
+    </defs>
+    <g clip-path="url(#p9152834d5e)">
+     <use ns4:href="#m5db4e2766a" x="134.988847" y="194.278071" style="fill: #b94a3b; stroke: #b94a3b" />
+     <use ns4:href="#m5db4e2766a" x="165.825257" y="173.771741" style="fill: #b94a3b; stroke: #b94a3b" />
+     <use ns4:href="#m5db4e2766a" x="213.857453" y="138.353532" style="fill: #b94a3b; stroke: #b94a3b" />
+     <use ns4:href="#m5db4e2766a" x="248.014157" y="120.68914" style="fill: #b94a3b; stroke: #b94a3b" />
+    </g>
+   </g>
+   <g id="text_15">
+    <g id="patch_5">
+     <path d="M 140.019497 194.401154  L 156.539497 194.401154  Q 158.299497 194.401154 158.299497 192.641154  L 158.299497 184.617404  Q 158.299497 182.857404 156.539497 182.857404  L 140.019497 182.857404  Q 138.259497 182.857404 138.259497 184.617404  L 138.259497 192.641154  Q 138.259497 194.401154 140.019497 194.401154  z " style="fill: #fffdf7; opacity: 0.92" />
+    </g>
+    <text style="fill: #b94a3b; font: 8px 'Palatino'; text-anchor: middle" x="148.279497" y="190.437404" transform="rotate(-0 148.279497 190.437404)">v127</text>
+   </g>
+   <g id="text_16">
+    <g id="patch_6">
+     <path d="M 170.855908 173.894824  L 187.375908 173.894824  Q 189.135908 173.894824 189.135908 172.134824  L 189.135908 164.111074  Q 189.135908 162.351074 187.375908 162.351074  L 170.855908 162.351074  Q 169.095908 162.351074 169.095908 164.111074  L 169.095908 172.134824  Q 169.095908 173.894824 170.855908 173.894824  z " style="fill: #fffdf7; opacity: 0.92" />
+    </g>
+    <text style="fill: #b94a3b; font: 8px 'Palatino'; text-anchor: middle" x="179.115908" y="169.931074" transform="rotate(-0 179.115908 169.931074)">v136</text>
+   </g>
+   <g id="text_17">
+    <g id="patch_7">
+     <path d="M 218.888103 138.476616  L 235.408103 138.476616  Q 237.168103 138.476616 237.168103 136.716616  L 237.168103 128.692866  Q 237.168103 126.932866 235.408103 126.932866  L 218.888103 126.932866  Q 217.128103 126.932866 217.128103 128.692866  L 217.128103 136.716616  Q 217.128103 138.476616 218.888103 138.476616  z " style="fill: #fffdf7; opacity: 0.92" />
+    </g>
+    <text style="fill: #b94a3b; font: 8px 'Palatino'; text-anchor: middle" x="227.148103" y="134.512866" transform="rotate(-0 227.148103 134.512866)">v134</text>
+   </g>
+   <g id="text_18">
+    <g id="patch_8">
+     <path d="M 255.044808 120.812223  L 267.564808 120.812223  Q 269.324808 120.812223 269.324808 119.052223  L 269.324808 111.028473  Q 269.324808 109.268473 267.564808 109.268473  L 255.044808 109.268473  Q 253.284808 109.268473 253.284808 111.028473  L 253.284808 119.052223  Q 253.284808 120.812223 255.044808 120.812223  z " style="fill: #fffdf7; opacity: 0.92" />
+    </g>
+    <text style="fill: #b94a3b; font: 8px 'Palatino'; text-anchor: middle" x="261.304808" y="116.848473" transform="rotate(-0 261.304808 116.848473)">v41</text>
+   </g>
+  </g>
+  <g id="text_19">
+   <text style="fill: #20231f; font: 15.5px 'Palatino'; text-anchor: start" x="36.432" y="24.354959" transform="rotate(-0 36.432 24.354959)">Ранг не равен числу входящих ссылок</text>
+  </g>
+  <g id="text_20">
+   <text style="fill: #68716b; font: 8.8px 'Palatino'; text-anchor: start" x="36.432" y="365.81075" transform="rotate(-0 36.432 365.81075)">Урок 65 · рисунок 3</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9152834d5e">
+   <rect x="46.368" y="67.9968" width="589.536" height="260.6544" />
+  </clipPath>
+ </defs>
+</svg>

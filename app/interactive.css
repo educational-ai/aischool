@@ -1,0 +1,225 @@
+.kontur-int {
+  margin: 2rem 0 2.4rem;
+  color: #171915;
+  font-family: "ET Book", Palatino, Georgia, serif;
+}
+
+.kontur-int-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.kontur-int-row.controls {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid #deddd4;
+}
+
+.kontur-int-canvas {
+  display: block;
+  border: 1px solid #deddd4;
+  background: #fffef9;
+}
+
+.kontur-int-hint {
+  margin: 0 0 0.65rem;
+  color: #63675f;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.kontur-int-control {
+  min-width: 190px;
+  flex: 1 1 220px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.kontur-int-label {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.88rem;
+}
+
+.kontur-int-label-name {
+  color: #373a35;
+  font: 600 0.75rem/1.3 var(--font-ui, system-ui, sans-serif);
+}
+
+.kontur-int-label-value {
+  color: #315f8c;
+  font: 0.75rem/1.3 var(--font-mono, ui-monospace, monospace);
+  font-variant-numeric: tabular-nums;
+}
+
+.kontur-int-range {
+  width: 100%;
+  height: 1rem;
+  margin: 0.45rem 0 0;
+  cursor: pointer;
+  accent-color: #315f8c;
+}
+
+.kontur-int-control--segmented legend {
+  margin-bottom: 0.45rem;
+}
+
+.kontur-int-segments {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.kontur-int-segment {
+  padding: 0.25rem 0.52rem;
+  border: 1px solid #cac9bf;
+  background: transparent;
+  color: #555950;
+  cursor: pointer;
+  font: 0.75rem/1.25 var(--font-ui, system-ui, sans-serif);
+}
+
+.kontur-int-segment:hover,
+.kontur-int-segment:focus-visible {
+  border-color: #315f8c;
+}
+
+.kontur-int-segment.is-active {
+  border-color: #315f8c;
+  background: #315f8c;
+  color: #fff;
+}
+
+.kontur-int-action {
+  margin-top: 0.45rem;
+  padding: 0.28rem 0.58rem;
+  border: 1px solid #cac9bf;
+  background: transparent;
+  color: #373a35;
+  cursor: pointer;
+  font: 0.75rem/1.25 var(--font-ui, system-ui, sans-serif);
+}
+
+.kontur-int-action:hover,
+.kontur-int-action:focus-visible {
+  border-color: #315f8c;
+  color: #315f8c;
+}
+
+.kontur-int-readout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.5rem;
+  margin: 0.95rem 0 0;
+  padding: 0;
+  font-size: 0.86rem;
+}
+
+.kontur-int-metric {
+  display: flex;
+  gap: 0.38rem;
+}
+
+.kontur-int-metric dt {
+  color: #6e726a;
+}
+
+.kontur-int-metric dd {
+  margin: 0;
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-variant-numeric: tabular-nums;
+}
+
+.kontur-int-caption {
+  max-width: 46rem;
+  margin: 0.75rem 0 0;
+  color: #676b63;
+  font-size: 0.86rem;
+  font-style: italic;
+  line-height: 1.45;
+}
+
+.kontur-int-table-wrap {
+  max-width: 64rem;
+  margin-top: 1.1rem;
+  overflow-x: auto;
+  scrollbar-color: #cac9bf transparent;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+
+.kontur-int-data-table {
+  width: 100%;
+  min-width: 690px;
+  border-collapse: collapse;
+  color: #373a35;
+  font: 0.78rem/1.35 var(--font-ui, system-ui, sans-serif);
+  font-variant-numeric: tabular-nums;
+}
+
+.kontur-int-data-table th,
+.kontur-int-data-table td {
+  padding: 0.42rem 0.55rem;
+  border-bottom: 1px solid #deddd4;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.kontur-int-data-table th {
+  color: #6e726a;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.015em;
+}
+
+.kontur-int-data-table tr.is-selected {
+  background: #f1efe5;
+  box-shadow: inset 2px 0 #315f8c;
+}
+
+.kontur-int-data-table .is-observed {
+  color: #35694f;
+}
+
+.kontur-int-data-table .is-missing {
+  color: #9f3e33;
+}
+
+.kontur-int-error {
+  padding-left: 0.8rem;
+  border-left: 2px solid #b94a3b;
+  color: #8e332b;
+}
+
+@media (max-width: 640px) {
+  .kontur-int {
+    margin: 1.5rem 0 1.8rem;
+  }
+
+  .kontur-int > .kontur-int-row:not(.controls) {
+    overflow-x: auto;
+    padding-bottom: 0.35rem;
+    scrollbar-color: #cac9bf transparent;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .kontur-int-canvas {
+    min-width: 620px;
+  }
+
+  .kontur-int-control {
+    min-width: 100%;
+  }
+
+  .kontur-int-hint,
+  .kontur-int-caption,
+  .kontur-int-readout {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="374.4pt" viewBox="0 0 676.8 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Блочное умножение и повторное использование</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Блочное умножение и повторное использование</dc:title>
+    <dc:date>2026-07-18T11:03:01.978732</dc:date>
+    <dc:description>Матрицы разбиты на плитки, выделены A_IK B_KJ C_IJ, стрелки загрузки в схематичный cache и график времени от размера блока. Левая часть показывает один шаг по блокам. Правая напоминает, что слишком малый блок теряет эффективность, слишком большой перестаёт помещаться в кэш.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 676.8 374.4 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.81736 197.020282 
+L 129.50568 197.020282 
+Q 136.774512 197.020282 136.774512 194.189818 
+L 136.774512 152.878982 
+Q 136.774512 150.048518 129.50568 150.048518 
+L 56.81736 150.048518 
+Q 49.548528 150.048518 49.548528 152.878982 
+L 49.548528 194.189818 
+Q 49.548528 197.020282 56.81736 197.020282 
+z
+" clip-path="url(#p7718bc3f4f)" style="fill: #f6f2e7; stroke: #315f8c; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 131.50747 173.5344 
+Q 179.733209 173.5344 226.617308 173.5344 
+" clip-path="url(#p7718bc3f4f)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 221.817308 171.1344 
+L 226.617308 173.5344 
+L 221.817308 175.9344 
+z
+" clip-path="url(#p7718bc3f4f)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 229.9569 202.222216 
+L 295.5783 202.222216 
+Q 302.847132 202.222216 302.847132 199.391752 
+L 302.847132 147.677048 
+Q 302.847132 144.846584 295.5783 144.846584 
+L 229.9569 144.846584 
+Q 222.688068 144.846584 222.688068 147.677048 
+L 222.688068 199.391752 
+Q 222.688068 202.222216 229.9569 202.222216 
+z
+" clip-path="url(#p7718bc3f4f)" style="fill: #f6f2e7; stroke: #b94a3b; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 297.576547 173.5344 
+Q 349.336618 173.5344 399.755048 173.5344 
+" clip-path="url(#p7718bc3f4f)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 394.955048 171.1344 
+L 399.755048 173.5344 
+L 394.955048 175.9344 
+z
+" clip-path="url(#p7718bc3f4f)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 403.09644 203.168387 
+L 461.65092 203.168387 
+Q 468.919752 203.168387 468.919752 200.337923 
+L 468.919752 146.730877 
+Q 468.919752 143.900413 461.65092 143.900413 
+L 403.09644 143.900413 
+Q 395.827608 143.900413 395.827608 146.730877 
+L 395.827608 200.337923 
+Q 395.827608 203.168387 403.09644 203.168387 
+z
+" clip-path="url(#p7718bc3f4f)" style="fill: #f6f2e7; stroke: #38735d; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 463.647626 173.5344 
+Q 518.940231 173.5344 572.891196 173.5344 
+" clip-path="url(#p7718bc3f4f)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 568.091196 171.1344 
+L 572.891196 173.5344 
+L 568.091196 175.9344 
+z
+" clip-path="url(#p7718bc3f4f)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 576.23598 198.988889 
+L 627.72354 198.988889 
+Q 634.992372 198.988889 634.992372 196.158425 
+L 634.992372 150.910375 
+Q 634.992372 148.079911 627.72354 148.079911 
+L 576.23598 148.079911 
+Q 568.967148 148.079911 568.967148 150.910375 
+L 568.967148 196.158425 
+Q 568.967148 198.988889 576.23598 198.988889 
+z
+" clip-path="url(#p7718bc3f4f)" style="fill: #f6f2e7; stroke: #a57920; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 93.16152 247.83408 
+L 262.7676 241.93728 
+L 432.37368 230.14368 
+L 601.97976 212.45328 
+" clip-path="url(#p7718bc3f4f)" style="fill: none; stroke: #38735d; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="m943f1b88b6" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #38735d"/>
+    </defs>
+    <g clip-path="url(#p7718bc3f4f)">
+     <use xlink:href="#m943f1b88b6" x="93.16152" y="247.83408" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m943f1b88b6" x="262.7676" y="241.93728" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m943f1b88b6" x="432.37368" y="230.14368" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m943f1b88b6" x="601.97976" y="212.45328" style="fill: #38735d; stroke: #38735d"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <!-- $A_{IK}$ -->
+    <g style="fill: #171915" transform="translate(87.04152 175.568541)">
+     <text>
+      <tspan style="font: italic 9px 'STIXGeneral'" x="0" y="-0.984375">A</tspan>
+      <tspan style="font: italic 6.3px 'STIXGeneral'" x="5.498993 7.596889" y="0.20624999999999982">IK</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="93.16152" y="210.700858" transform="rotate(-0 93.16152 210.700858)">32×32</text>
+   </g>
+   <g id="text_3">
+    <!-- $B_{KJ}$ -->
+    <g style="fill: #171915" transform="translate(256.2876 175.568541)">
+     <text>
+      <tspan style="font: italic 9px 'STIXGeneral'" x="0" y="-0.125">B</tspan>
+      <tspan style="font: italic 6.3px 'STIXGeneral'" x="5.498993 9.701086" y="1.0656249999999998">KJ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="262.7676" y="215.902792" transform="rotate(-0 262.7676 215.902792)">16×16</text>
+   </g>
+   <g id="text_5">
+    <!-- $C_{IJ}$ -->
+    <g style="fill: #171915" transform="translate(426.70368 175.568541)">
+     <text>
+      <tspan style="font: italic 9px 'STIXGeneral'" x="0" y="-0.0">C</tspan>
+      <tspan style="font: italic 6.3px 'STIXGeneral'" x="6.002991 8.100887" y="1.1906249999999998">IJ</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="432.37368" y="216.848963" transform="rotate(-0 432.37368 216.848963)">10×10</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="601.97976" y="175.568541" transform="rotate(-0 601.97976 175.568541)">cache</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="601.97976" y="212.669465" transform="rotate(-0 601.97976 212.669465)">8×8</text>
+   </g>
+   <g id="text_9">
+    <!-- блок $K$ -->
+    <g style="fill: #6f746d" transform="translate(74.98944 95.69664)">
+     <text>
+      <tspan style="font: 10px 'Palatino'" x="0 5.595703 11.333008 16.928711 22.167969" y="-0.78125">блок </tspan>
+      <tspan style="font: italic 10px 'STIXGeneral'" x="24.667969" y="-0.78125">K</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_10">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: end" x="632.26656" y="95.69664" transform="rotate(-0 632.26656 95.69664)">данные</text>
+   </g>
+   <g id="text_11">
+    <!-- $C_{IJ}{+}=A_{IK}B_{KJ}$ -->
+    <g style="fill: #171915" transform="translate(325.078 88.62048)">
+     <text>
+      <tspan style="font: italic 10px 'STIXGeneral'" x="0 29.137566 42.688155" y="-0.3125">CAB</tspan>
+      <tspan style="font: italic 7px 'STIXGeneral'" x="6.669983 9.000974 35.247551 37.578542 48.79814 53.467128" y="1.0093750000000004">IJIKKJ</tspan>
+      <tspan style="font: 10px 'STIXGeneral'" x="12.54959 20.843578" y="-0.3125">+=</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="text_12">
+   <text style="fill: #171915; font: 700 17px 'Palatino'; text-anchor: start" x="37.224" y="25.314781" transform="rotate(-0 37.224 25.314781)">Блочное умножение и повторное использование</text>
+  </g>
+  <g id="text_13">
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 350.57442)">Рис. 37.2. Левая часть показывает один шаг по блокам. Правая напоминает, что слишком малый блок теряет эффективность,</text>
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 360.00045)">слишком большой перестаёт помещаться в кэш.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7718bc3f4f">
+   <rect x="50.76" y="67.392" width="605.736" height="235.872"/>
+  </clipPath>
+ </defs>
+</svg>

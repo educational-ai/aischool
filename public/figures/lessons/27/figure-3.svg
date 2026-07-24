@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="374.4pt" viewBox="0 0 676.8 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Рост рецептивного поля через три слоя</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Рост рецептивного поля через три слоя</dc:title>
+    <dc:date>2026-07-18T11:02:58.187540</dc:date>
+    <dc:description>Три сетки признаков над исходным изображением, зависимости одного выхода 3 на 3, 5 на 5 и 7 на 7, таблица r и j. Обратные цветные связи показывают, какие входные пиксели влияют на выбранный выход. Таблица отделяет размер поля от шага центров.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 676.8 374.4 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.81736 201.916821 
+L 129.50568 201.916821 
+Q 136.774512 201.916821 136.774512 199.086357 
+L 136.774512 147.982443 
+Q 136.774512 145.151979 129.50568 145.151979 
+L 56.81736 145.151979 
+Q 49.548528 145.151979 49.548528 147.982443 
+L 49.548528 199.086357 
+Q 49.548528 201.916821 56.81736 201.916821 
+z
+" clip-path="url(#p45a609f299)" style="fill: #f6f2e7; stroke: #315f8c; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 131.506133 173.5344 
+Q 223.015581 173.5344 313.183388 173.5344 
+" clip-path="url(#p45a609f299)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 308.383388 171.1344 
+L 313.183388 173.5344 
+L 308.383388 175.9344 
+z
+" clip-path="url(#p45a609f299)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 316.52667 196.555061 
+L 378.61461 196.555061 
+Q 385.883442 196.555061 385.883442 193.724597 
+L 385.883442 153.344203 
+Q 385.883442 150.513739 378.61461 150.513739 
+L 316.52667 150.513739 
+Q 309.257838 150.513739 309.257838 153.344203 
+L 309.257838 193.724597 
+Q 309.257838 196.555061 316.52667 196.555061 
+z
+" clip-path="url(#p45a609f299)" style="fill: #f6f2e7; stroke: #b94a3b; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 380.613862 173.5344 
+Q 477.423468 173.5344 572.891433 173.5344 
+" clip-path="url(#p45a609f299)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 568.091433 171.1344 
+L 572.891433 173.5344 
+L 568.091433 175.9344 
+z
+" clip-path="url(#p45a609f299)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 576.23598 192.147894 
+L 627.72354 192.147894 
+Q 634.992372 192.147894 634.992372 189.31743 
+L 634.992372 157.75137 
+Q 634.992372 154.920906 627.72354 154.920906 
+L 576.23598 154.920906 
+Q 568.967148 154.920906 568.967148 157.75137 
+L 568.967148 189.31743 
+Q 568.967148 192.147894 576.23598 192.147894 
+z
+" clip-path="url(#p45a609f299)" style="fill: #f6f2e7; stroke: #38735d; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 93.16152 259.62768 
+L 347.57064 247.83408 
+L 601.97976 230.14368 
+" clip-path="url(#p45a609f299)" style="fill: none; stroke: #38735d; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="mfdb2546a5d" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #38735d"/>
+    </defs>
+    <g clip-path="url(#p45a609f299)">
+     <use xlink:href="#mfdb2546a5d" x="93.16152" y="259.62768" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#mfdb2546a5d" x="347.57064" y="247.83408" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#mfdb2546a5d" x="601.97976" y="230.14368" style="fill: #38735d; stroke: #38735d"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <!-- $3\times3$ -->
+    <g style="fill: #171915" transform="translate(84.47652 175.568541)">
+     <text>
+      <tspan style="font: 9px 'STIXGeneral'" x="0 5.7996 12.859195" y="-0.921875">3×3</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="93.16152" y="215.597397" transform="rotate(-0 93.16152 215.597397)">32×32</text>
+   </g>
+   <g id="text_3">
+    <!-- $5\times5$ -->
+    <g style="fill: #171915" transform="translate(338.88564 175.568541)">
+     <text>
+      <tspan style="font: 9px 'STIXGeneral'" x="0 5.7996 12.859195" y="-0.8125">5×5</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="347.57064" y="210.235637" transform="rotate(-0 347.57064 210.235637)">16×16</text>
+   </g>
+   <g id="text_5">
+    <!-- $7\times7$ -->
+    <g style="fill: #171915" transform="translate(593.29476 175.568541)">
+     <text>
+      <tspan style="font: 9px 'STIXGeneral'" x="0 5.7996 12.859195" y="-0.046875">7×7</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="601.97976" y="205.82847" transform="rotate(-0 601.97976 205.82847)">10×10</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: start" x="74.98944" y="95.69664" transform="rotate(-0 74.98944 95.69664)">глубина</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: end" x="632.26656" y="95.69664" transform="rotate(-0 632.26656 95.69664)">поле</text>
+   </g>
+   <g id="text_9">
+    <!-- $r_l=r_{l-1}+(k_l-1)j_{l-1}$ -->
+    <g style="fill: #171915" transform="translate(310.578 88.62048)">
+     <text>
+      <tspan style="font: italic 10px 'STIXGeneral'" x="0 16.014583 45.675731 70.570288" y="-0.171875">rrkj</tspan>
+      <tspan style="font: italic 7px 'STIXGeneral'" x="3.889984 19.904567 50.115718 73.350272" y="1.1500000000000004">llll</tspan>
+      <tspan style="font: 10px 'STIXGeneral'" x="7.720595 34.051757 42.345745 53.946329 62.240317 67.240302" y="-0.171875">=+(−1)</tspan>
+      <tspan style="font: 7px 'STIXGeneral'" x="22.861353 28.667145 76.307058 82.11285" y="1.1500000000000004">−1−1</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="fill: #171915; font: 700 17px 'Palatino'; text-anchor: start" x="37.224" y="25.373219" transform="rotate(-0 37.224 25.373219)">Рост рецептивного поля через три слоя</text>
+  </g>
+  <g id="text_11">
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 350.57442)">Рис. 27.3. Обратные цветные связи показывают, какие входные пиксели влияют на выбранный выход. Таблица отделяет размер поля</text>
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 360.00045)">от шага центров.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p45a609f299">
+   <rect x="50.76" y="67.392" width="605.736" height="235.872"/>
+  </clipPath>
+ </defs>
+</svg>

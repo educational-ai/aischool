@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="374.4pt" viewBox="0 0 676.8 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Паспорт маленькой свёрточной сети</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Паспорт маленькой свёрточной сети</dc:title>
+    <dc:date>2026-07-18T11:02:59.001857</dc:date>
+    <dc:description>Лента слоёв с формами 32x32x3, 32x32x16, 16x16x16, 16x16x32, 8x8x32 и классами; таблица параметров операций и поля. Ширина блоков кодирует пространственный размер, высота — число каналов. Под каждым блоком стоят параметры, MAC-операции и рецептивное поле.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 676.8 374.4 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.81736 198.218331 
+L 129.50568 198.218331 
+Q 136.774512 198.218331 136.774512 195.387867 
+L 136.774512 151.680933 
+Q 136.774512 148.850469 129.50568 148.850469 
+L 56.81736 148.850469 
+Q 49.548528 148.850469 49.548528 151.680933 
+L 49.548528 195.387867 
+Q 49.548528 198.218331 56.81736 198.218331 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #f6f2e7; stroke: #315f8c; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 131.504966 173.5344 
+Q 158.090137 173.5344 183.333666 173.5344 
+" clip-path="url(#p5a01f45303)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 178.533666 171.1344 
+L 183.333666 173.5344 
+L 178.533666 175.9344 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 186.672015 192.996988 
+L 254.060145 192.996988 
+Q 261.328977 192.996988 261.328977 190.166524 
+L 261.328977 156.902276 
+Q 261.328977 154.071812 254.060145 154.071812 
+L 186.672015 154.071812 
+Q 179.403183 154.071812 179.403183 156.902276 
+L 179.403183 190.166524 
+Q 179.403183 192.996988 186.672015 192.996988 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #f6f2e7; stroke: #b94a3b; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 256.061788 173.5344 
+Q 285.295953 173.5344 313.188478 173.5344 
+" clip-path="url(#p5a01f45303)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 308.388478 171.1344 
+L 313.188478 173.5344 
+L 308.388478 175.9344 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 316.52667 192.001514 
+L 378.61461 192.001514 
+Q 385.883442 192.001514 385.883442 189.17105 
+L 385.883442 157.89775 
+Q 385.883442 155.067286 378.61461 155.067286 
+L 316.52667 155.067286 
+Q 309.257838 155.067286 309.257838 157.89775 
+L 309.257838 189.17105 
+Q 309.257838 192.001514 316.52667 192.001514 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #f6f2e7; stroke: #38735d; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 380.612371 173.5344 
+Q 412.495301 173.5344 443.036589 173.5344 
+" clip-path="url(#p5a01f45303)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 438.236589 171.1344 
+L 443.036589 173.5344 
+L 438.236589 175.9344 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 446.381325 196.147142 
+L 503.169075 196.147142 
+Q 510.437907 196.147142 510.437907 193.316678 
+L 510.437907 153.752122 
+Q 510.437907 150.921658 503.169075 150.921658 
+L 446.381325 150.921658 
+Q 439.112493 150.921658 439.112493 153.752122 
+L 439.112493 193.316678 
+Q 439.112493 196.147142 446.381325 196.147142 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #f6f2e7; stroke: #a57920; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 505.171458 173.5344 
+Q 539.70394 173.5344 572.894782 173.5344 
+" clip-path="url(#p5a01f45303)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 568.094782 171.1344 
+L 572.894782 173.5344 
+L 568.094782 175.9344 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 576.23598 201.622402 
+L 627.72354 201.622402 
+Q 634.992372 201.622402 634.992372 198.791938 
+L 634.992372 148.276862 
+Q 634.992372 145.446398 627.72354 145.446398 
+L 576.23598 145.446398 
+Q 568.967148 145.446398 568.967148 148.276862 
+L 568.967148 198.791938 
+Q 568.967148 201.622402 576.23598 201.622402 
+z
+" clip-path="url(#p5a01f45303)" style="fill: #f6f2e7; stroke: #6f5a8f; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 93.16152 253.73088 
+L 220.36608 236.04048 
+L 347.57064 230.14368 
+L 474.7752 218.35008 
+L 601.97976 200.65968 
+" clip-path="url(#p5a01f45303)" style="fill: none; stroke: #38735d; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="m34f804f972" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #38735d"/>
+    </defs>
+    <g clip-path="url(#p5a01f45303)">
+     <use xlink:href="#m34f804f972" x="93.16152" y="253.73088" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m34f804f972" x="220.36608" y="236.04048" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m34f804f972" x="347.57064" y="230.14368" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m34f804f972" x="474.7752" y="218.35008" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m34f804f972" x="601.97976" y="200.65968" style="fill: #38735d; stroke: #38735d"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="93.16152" y="175.568541" transform="rotate(-0 93.16152 175.568541)">32²×3</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="93.16152" y="211.898907" transform="rotate(-0 93.16152 211.898907)">32×32</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="220.36608" y="175.568541" transform="rotate(-0 220.36608 175.568541)">32²×16</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="220.36608" y="206.677564" transform="rotate(-0 220.36608 206.677564)">16×16</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="347.57064" y="175.568541" transform="rotate(-0 347.57064 175.568541)">16²×16</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="347.57064" y="205.68209" transform="rotate(-0 347.57064 205.68209)">10×10</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="474.7752" y="175.568541" transform="rotate(-0 474.7752 175.568541)">8²×32</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="474.7752" y="209.827718" transform="rotate(-0 474.7752 209.827718)">8×8</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="601.97976" y="175.568541" transform="rotate(-0 601.97976 175.568541)">классы</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="601.97976" y="215.302978" transform="rotate(-0 601.97976 215.302978)">6×6</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: start" x="74.98944" y="95.69664" transform="rotate(-0 74.98944 95.69664)">слой</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: end" x="632.26656" y="95.69664" transform="rotate(-0 632.26656 95.69664)">форма</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="353.628" y="88.62048" transform="rotate(-0 353.628 88.62048)">параметры • MAC • receptive field</text>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="fill: #171915; font: 700 17px 'Palatino'; text-anchor: start" x="37.224" y="25.373219" transform="rotate(-0 37.224 25.373219)">Паспорт маленькой свёрточной сети</text>
+  </g>
+  <g id="text_15">
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 350.544858)">Рис. 30.1. Ширина блоков кодирует пространственный размер, высота — число каналов. Под каждым блоком стоят параметры, MAC-</text>
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 360.00045)">операции и рецептивное поле.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5a01f45303">
+   <rect x="50.76" y="67.392" width="605.736" height="235.872"/>
+  </clipPath>
+ </defs>
+</svg>

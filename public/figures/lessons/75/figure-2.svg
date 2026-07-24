@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="662.4pt" height="377.76pt" viewBox="0 0 662.4 377.76" version="1.1" role="img">
+ <title>Видимый знак и последовательность кодов</title><desc>Unicode разбор букв и emoji по code points bytes и токенам. Для трёх визуальных фрагментов показаны code points, UTF-8 bytes и итоговые токены до и после NFC. Стрелки отмечают места, где одинаковый вид не означает одинаковые данные, а один glyph состоит из нескольких кодов.</desc><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-07-18T10:23:36.726708</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 377.76  L 662.4 377.76  L 662.4 0  L 0 0  z " style="fill: #fffdf7" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 258.60096 220.878891  Q 258.60096 197.019552 258.60096 173.160214  " clip-path="url(#p99010244f6)" style="fill: none; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 260.60096 216.878891  L 258.60096 220.878891  L 256.60096 216.878891  " clip-path="url(#p99010244f6)" style="fill: none; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 256.60096 177.160214  L 258.60096 173.160214  L 260.60096 177.160214  " clip-path="url(#p99010244f6)" style="fill: none; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="text_1">
+    <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="105.3216" y="104.488416" transform="rotate(-0 105.3216 104.488416)">вид</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="258.60096" y="104.488416" transform="rotate(-0 258.60096 104.488416)">code points</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="429.5664" y="104.488416" transform="rotate(-0 429.5664 104.488416)">UTF-8</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: middle" x="565.15968" y="104.488416" transform="rotate(-0 565.15968 104.488416)">токены</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 58.15872 174.865104  L 152.48448 174.865104  Q 167.22288 174.865104 167.22288 168.348744  L 167.22288 144.889848  Q 167.22288 138.373488 152.48448 138.373488  L 58.15872 138.373488  Q 43.42032 138.373488 43.42032 144.889848  L 43.42032 168.348744  Q 43.42032 174.865104 58.15872 174.865104  z " clip-path="url(#p99010244f6)" style="fill: #dce9f2; stroke: #315f8c; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_4">
+    <path d="M 211.43808 174.865104  L 305.76384 174.865104  Q 320.50224 174.865104 320.50224 168.348744  L 320.50224 144.889848  Q 320.50224 138.373488 305.76384 138.373488  L 211.43808 138.373488  Q 196.69968 138.373488 196.69968 144.889848  L 196.69968 168.348744  Q 196.69968 174.865104 211.43808 174.865104  z " clip-path="url(#p99010244f6)" style="fill: #dce9f2; stroke: #315f8c; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_5">
+    <path d="M 382.40352 174.865104  L 476.72928 174.865104  Q 491.46768 174.865104 491.46768 168.348744  L 491.46768 144.889848  Q 491.46768 138.373488 476.72928 138.373488  L 382.40352 138.373488  Q 367.66512 138.373488 367.66512 144.889848  L 367.66512 168.348744  Q 367.66512 174.865104 382.40352 174.865104  z " clip-path="url(#p99010244f6)" style="fill: #dce9f2; stroke: #315f8c; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_6">
+    <path d="M 517.9968 174.865104  L 612.32256 174.865104  Q 627.06096 174.865104 627.06096 168.348744  L 627.06096 144.889848  Q 627.06096 138.373488 612.32256 138.373488  L 517.9968 138.373488  Q 503.2584 138.373488 503.2584 144.889848  L 503.2584 168.348744  Q 503.2584 174.865104 517.9968 174.865104  z " clip-path="url(#p99010244f6)" style="fill: #dce9f2; stroke: #315f8c; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_7">
+    <path d="M 58.15872 232.209072  L 152.48448 232.209072  Q 167.22288 232.209072 167.22288 225.692712  L 167.22288 202.233816  Q 167.22288 195.717456 152.48448 195.717456  L 58.15872 195.717456  Q 43.42032 195.717456 43.42032 202.233816  L 43.42032 225.692712  Q 43.42032 232.209072 58.15872 232.209072  z " clip-path="url(#p99010244f6)" style="fill: #f2dfda; stroke: #b94a3b; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_8">
+    <path d="M 211.43808 232.209072  L 305.76384 232.209072  Q 320.50224 232.209072 320.50224 225.692712  L 320.50224 202.233816  Q 320.50224 195.717456 305.76384 195.717456  L 211.43808 195.717456  Q 196.69968 195.717456 196.69968 202.233816  L 196.69968 225.692712  Q 196.69968 232.209072 211.43808 232.209072  z " clip-path="url(#p99010244f6)" style="fill: #f2dfda; stroke: #b94a3b; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_9">
+    <path d="M 382.40352 232.209072  L 476.72928 232.209072  Q 491.46768 232.209072 491.46768 225.692712  L 491.46768 202.233816  Q 491.46768 195.717456 476.72928 195.717456  L 382.40352 195.717456  Q 367.66512 195.717456 367.66512 202.233816  L 367.66512 225.692712  Q 367.66512 232.209072 382.40352 232.209072  z " clip-path="url(#p99010244f6)" style="fill: #f2dfda; stroke: #b94a3b; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_10">
+    <path d="M 517.9968 232.209072  L 612.32256 232.209072  Q 627.06096 232.209072 627.06096 225.692712  L 627.06096 202.233816  Q 627.06096 195.717456 612.32256 195.717456  L 517.9968 195.717456  Q 503.2584 195.717456 503.2584 202.233816  L 503.2584 225.692712  Q 503.2584 232.209072 517.9968 232.209072  z " clip-path="url(#p99010244f6)" style="fill: #f2dfda; stroke: #b94a3b; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_11">
+    <path d="M 58.15872 289.55304  L 152.48448 289.55304  Q 167.22288 289.55304 167.22288 283.03668  L 167.22288 259.577784  Q 167.22288 253.061424 152.48448 253.061424  L 58.15872 253.061424  Q 43.42032 253.061424 43.42032 259.577784  L 43.42032 283.03668  Q 43.42032 289.55304 58.15872 289.55304  z " clip-path="url(#p99010244f6)" style="fill: #dcebe3; stroke: #38735d; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_12">
+    <path d="M 211.43808 289.55304  L 305.76384 289.55304  Q 320.50224 289.55304 320.50224 283.03668  L 320.50224 259.577784  Q 320.50224 253.061424 305.76384 253.061424  L 211.43808 253.061424  Q 196.69968 253.061424 196.69968 259.577784  L 196.69968 283.03668  Q 196.69968 289.55304 211.43808 289.55304  z " clip-path="url(#p99010244f6)" style="fill: #dcebe3; stroke: #38735d; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_13">
+    <path d="M 382.40352 289.55304  L 476.72928 289.55304  Q 491.46768 289.55304 491.46768 283.03668  L 491.46768 259.577784  Q 491.46768 253.061424 476.72928 253.061424  L 382.40352 253.061424  Q 367.66512 253.061424 367.66512 259.577784  L 367.66512 283.03668  Q 367.66512 289.55304 382.40352 289.55304  z " clip-path="url(#p99010244f6)" style="fill: #dcebe3; stroke: #38735d; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_14">
+    <path d="M 517.9968 289.55304  L 612.32256 289.55304  Q 627.06096 289.55304 627.06096 283.03668  L 627.06096 259.577784  Q 627.06096 253.061424 612.32256 253.061424  L 517.9968 253.061424  Q 503.2584 253.061424 503.2584 259.577784  L 503.2584 283.03668  Q 503.2584 289.55304 517.9968 289.55304  z " clip-path="url(#p99010244f6)" style="fill: #dcebe3; stroke: #38735d; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="text_5">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="105.3216" y="158.427421" transform="rotate(-0 105.3216 158.427421)">й</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="258.60096" y="158.427421" transform="rotate(-0 258.60096 158.427421)">U+0439</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="429.5664" y="158.427421" transform="rotate(-0 429.5664 158.427421)">D0 B9</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="565.15968" y="158.427421" transform="rotate(-0 565.15968 158.427421)">[742]</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="105.3216" y="215.771389" transform="rotate(-0 105.3216 215.771389)">й</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="258.60096" y="215.771389" transform="rotate(-0 258.60096 215.771389)">U+0438 U+0306</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="429.5664" y="215.771389" transform="rotate(-0 429.5664 215.771389)">D0 B8 CC 86</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="565.15968" y="215.771389" transform="rotate(-0 565.15968 215.771389)">[81, 992]</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="105.3216" y="273.107857" transform="rotate(-0 105.3216 273.107857)">emoji ZWJ</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="258.60096" y="273.115357" transform="rotate(-0 258.60096 273.115357)">3 code points</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="429.5664" y="273.107857" transform="rotate(-0 429.5664 273.107857)">11 bytes</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="565.15968" y="273.115357" transform="rotate(-0 565.15968 273.115357)">[4182, 9921]</text>
+   </g>
+   <g id="text_17">
+    <g id="patch_15">
+     <path d="M 331.702875 202.210815  L 350.569125 202.210815  Q 352.549125 202.210815 352.549125 200.230815  L 352.549125 191.204097  Q 352.549125 189.224097 350.569125 189.224097  L 331.702875 189.224097  Q 329.722875 189.224097 329.722875 191.204097  L 329.722875 200.230815  Q 329.722875 202.210815 331.702875 202.210815  z " style="fill: #fffdf7; opacity: 0.92" />
+    </g>
+    <text style="fill: #a57920; font: 9px 'Palatino'; text-anchor: middle" x="341.136" y="197.751597" transform="rotate(-0 341.136 197.751597)">NFC</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="fill: #20231f; font: 15.5px 'Palatino'; text-anchor: start" x="36.432" y="24.49785" transform="rotate(-0 36.432 24.49785)">Видимый знак и последовательность кодов</text>
+  </g>
+  <g id="text_19">
+   <text style="fill: #68716b; font: 8.8px 'Palatino'; text-anchor: start" x="36.432" y="365.81075" transform="rotate(-0 36.432 365.81075)">Урок 75 · рисунок 2</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p99010244f6">
+   <rect x="46.368" y="67.9968" width="589.536" height="260.6544" />
+  </clipPath>
+ </defs>
+</svg>

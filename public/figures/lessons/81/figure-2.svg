@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="662.4pt" height="377.76pt" viewBox="0 0 662.4 377.76" version="1.1" role="img">
+ <title>PPO и DPO используют один сигнал разными маршрутами</title><desc>Параллельные схемы PPO online sampling reward critic и DPO offline preference pairs. Слева PPO замыкает online-цикл генерации, scoring и обновления. Справа DPO получает замороженные пары и reference log-probabilities. Общая нижняя ось показывает сдвиг log-odds chosen против rejected и ограничение reference.</desc><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-07-18T10:23:38.478644</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 377.76  L 662.4 377.76  L 662.4 0  L 0 0  z " style="fill: #fffdf7" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 118.907332 140.980032  Q 132.024068 140.980032 143.631457 140.980032  " clip-path="url(#paf64123752)" style="fill: none; stroke: #315f8c; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 139.631457 138.980032  L 143.631457 140.980032  L 139.631457 142.980032  z " clip-path="url(#paf64123752)" style="fill: #315f8c; stroke: #315f8c; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_3">
+    <path d="M 199.533176 140.980032  Q 210.128283 140.980032 219.214043 140.980032  " clip-path="url(#paf64123752)" style="fill: none; stroke: #38735d; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 215.214043 138.980032  L 219.214043 140.980032  L 215.214043 142.980032  z " clip-path="url(#paf64123752)" style="fill: #38735d; stroke: #38735d; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_4">
+    <path d="M 246.908494 160.950464  Q 222.725343 202.233099 199.305099 242.21339  " clip-path="url(#paf64123752)" style="fill: none; stroke: #b94a3b; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 203.052624 239.772887  L 199.305099 242.21339  L 199.601212 237.751068  z " clip-path="url(#paf64123752)" style="fill: #b94a3b; stroke: #b94a3b; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_5">
+    <path d="M 145.564073 244.019348  Q 104.507519 211.850845 92.534862 162.637906  " clip-path="url(#paf64123752)" style="fill: none; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 91.537096 166.997316  L 92.534862 162.637906  L 95.423731 166.051765  z " clip-path="url(#paf64123752)" style="fill: #a57920; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_6">
+    <path d="M 69.042462 163.135656  L 114.391385 163.135656  Q 120.689846 163.135656 120.689846 156.619296  L 120.689846 125.340768  Q 120.689846 118.824408 114.391385 118.824408  L 69.042462 118.824408  Q 62.744 118.824408 62.744 125.340768  L 62.744 156.619296  Q 62.744 163.135656 69.042462 163.135656  z " clip-path="url(#paf64123752)" style="fill: #dce9f2; stroke: #315f8c; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_7">
+    <path d="M 149.662769 163.135656  L 195.011692 163.135656  Q 201.310154 163.135656 201.310154 156.619296  L 201.310154 125.340768  Q 201.310154 118.824408 195.011692 118.824408  L 149.662769 118.824408  Q 143.364308 118.824408 143.364308 125.340768  L 143.364308 156.619296  Q 143.364308 163.135656 149.662769 163.135656  z " clip-path="url(#paf64123752)" style="fill: #f2dfda; stroke: #38735d; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_8">
+    <path d="M 225.244308 163.135656  L 270.593231 163.135656  Q 276.891692 163.135656 276.891692 156.619296  L 276.891692 125.340768  Q 276.891692 118.824408 270.593231 118.824408  L 225.244308 118.824408  Q 218.945846 118.824408 218.945846 125.340768  L 218.945846 156.619296  Q 218.945846 163.135656 225.244308 163.135656  z " clip-path="url(#paf64123752)" style="fill: #dcebe3; stroke: #b94a3b; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_9">
+    <path d="M 149.662769 267.397416  L 195.011692 267.397416  Q 201.310154 267.397416 201.310154 260.881056  L 201.310154 229.602528  Q 201.310154 223.086168 195.011692 223.086168  L 149.662769 223.086168  Q 143.364308 223.086168 143.364308 229.602528  L 143.364308 260.881056  Q 143.364308 267.397416 149.662769 267.397416  z " clip-path="url(#paf64123752)" style="fill: #efe5c9; stroke: #a57920; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="text_1">
+    <text style="fill: #20231f; font: 11.2px 'Palatino'; text-anchor: start" x="46.368" y="59.9968" transform="rotate(-0 46.368 59.9968)">PPO: online</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="91.716923" y="142.780657" transform="rotate(-0 91.716923 142.780657)">policy</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="172.337231" y="142.788157" transform="rotate(-0 172.337231 142.788157)">samples</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="247.918769" y="142.788157" transform="rotate(-0 247.918769 142.788157)">reward</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="172.337231" y="247.049917" transform="rotate(-0 172.337231 247.049917)">critic + KL</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_10">
+    <path d="M 456.504871 148.799664  Q 469.621606 148.799664 481.228996 148.799664  " clip-path="url(#p0ff6200ef0)" style="fill: none; stroke: #38735d; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 477.228996 146.799664  L 481.228996 148.799664  L 477.228996 150.799664  z " clip-path="url(#p0ff6200ef0)" style="fill: #38735d; stroke: #38735d; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_11">
+    <path d="M 537.130714 148.799664  Q 547.725821 148.799664 556.811582 148.799664  " clip-path="url(#p0ff6200ef0)" style="fill: none; stroke: #315f8c; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 552.811582 146.799664  L 556.811582 148.799664  L 552.811582 150.799664  z " clip-path="url(#p0ff6200ef0)" style="fill: #315f8c; stroke: #315f8c; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_12">
+    <path d="M 509.934769 227.60562  Q 509.934769 198.325395 509.934769 170.554515  " clip-path="url(#p0ff6200ef0)" style="fill: none; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 507.934769 174.554515  L 509.934769 170.554515  L 511.934769 174.554515  z " clip-path="url(#p0ff6200ef0)" style="fill: #a57920; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_13">
+    <path d="M 406.64 170.955288  L 451.988923 170.955288  Q 458.287385 170.955288 458.287385 164.438928  L 458.287385 133.1604  Q 458.287385 126.64404 451.988923 126.64404  L 406.64 126.64404  Q 400.341538 126.64404 400.341538 133.1604  L 400.341538 164.438928  Q 400.341538 170.955288 406.64 170.955288  z " clip-path="url(#p0ff6200ef0)" style="fill: #dce9f2; stroke: #38735d; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_14">
+    <path d="M 487.260308 170.955288  L 532.609231 170.955288  Q 538.907692 170.955288 538.907692 164.438928  L 538.907692 133.1604  Q 538.907692 126.64404 532.609231 126.64404  L 487.260308 126.64404  Q 480.961846 126.64404 480.961846 133.1604  L 480.961846 164.438928  Q 480.961846 170.955288 487.260308 170.955288  z " clip-path="url(#p0ff6200ef0)" style="fill: #f2dfda; stroke: #315f8c; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_15">
+    <path d="M 562.841846 170.955288  L 608.190769 170.955288  Q 614.489231 170.955288 614.489231 164.438928  L 614.489231 133.1604  Q 614.489231 126.64404 608.190769 126.64404  L 562.841846 126.64404  Q 556.543385 126.64404 556.543385 133.1604  L 556.543385 164.438928  Q 556.543385 170.955288 562.841846 170.955288  z " clip-path="url(#p0ff6200ef0)" style="fill: #dcebe3; stroke: #b94a3b; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_16">
+    <path d="M 487.260308 270.00396  L 532.609231 270.00396  Q 538.907692 270.00396 538.907692 263.4876  L 538.907692 232.209072  Q 538.907692 225.692712 532.609231 225.692712  L 487.260308 225.692712  Q 480.961846 225.692712 480.961846 232.209072  L 480.961846 263.4876  Q 480.961846 270.00396 487.260308 270.00396  z " clip-path="url(#p0ff6200ef0)" style="fill: #efe5c9; stroke: #a57920; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="text_6">
+    <text style="fill: #20231f; font: 11.2px 'Palatino'; text-anchor: start" x="383.965538" y="59.9968" transform="rotate(-0 383.965538 59.9968)">DPO: offline</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="429.314462" y="150.561539" transform="rotate(-0 429.314462 150.561539)">пары</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="509.934769" y="150.604039" transform="rotate(-0 509.934769 150.604039)">log-ratio</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="585.516308" y="150.607789" transform="rotate(-0 585.516308 150.607789)">DPO loss</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="509.934769" y="249.656461" transform="rotate(-0 509.934769 249.656461)">reference</text>
+   </g>
+  </g>
+  <g id="text_11">
+   <text style="fill: #20231f; font: 15.5px 'Palatino'; text-anchor: start" x="36.432" y="24.354959" transform="rotate(-0 36.432 24.354959)">PPO и DPO используют один сигнал разными маршрутами</text>
+  </g>
+  <g id="text_12">
+   <text style="fill: #68716b; font: 8.8px 'Palatino'; text-anchor: start" x="36.432" y="365.81075" transform="rotate(-0 36.432 365.81075)">Урок 81 · рисунок 2</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="paf64123752">
+   <rect x="46.368" y="67.9968" width="251.938462" height="260.6544" />
+  </clipPath>
+  <clipPath id="p0ff6200ef0">
+   <rect x="383.965538" y="67.9968" width="251.938462" height="260.6544" />
+  </clipPath>
+ </defs>
+</svg>

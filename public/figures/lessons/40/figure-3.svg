@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="374.4pt" viewBox="0 0 676.8 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Конвейер аудио-эмбеддинга</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Конвейер аудио-эмбеддинга</dc:title>
+    <dc:date>2026-07-18T11:03:04.071078</dc:date>
+    <dc:description>Waveform, STFT, mel bands, набор временных статистик, PCA embedding и три ближайших трека с расстояниями. Над каждой стрелкой указано, какую информацию она сохраняет и теряет. У ближайших соседей подписаны исполнитель, жанр и длительность.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 676.8 374.4 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.81736 194.881385 
+L 129.50568 194.881385 
+Q 136.774512 194.881385 136.774512 192.050921 
+L 136.774512 155.017879 
+Q 136.774512 152.187415 129.50568 152.187415 
+L 56.81736 152.187415 
+Q 49.548528 152.187415 49.548528 155.017879 
+L 49.548528 192.050921 
+Q 49.548528 194.881385 56.81736 194.881385 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #f6f2e7; stroke: #315f8c; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 131.504897 173.5344 
+Q 145.103292 173.5344 157.360046 173.5344 
+" clip-path="url(#p52af3d4f62)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 152.560046 171.1344 
+L 157.360046 173.5344 
+L 152.560046 175.9344 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 160.701084 191.721977 
+L 229.149252 191.721977 
+Q 236.418084 191.721977 236.418084 188.891513 
+L 236.418084 158.177287 
+Q 236.418084 155.346823 229.149252 155.346823 
+L 160.701084 155.346823 
+Q 153.432252 155.346823 153.432252 158.177287 
+L 153.432252 188.891513 
+Q 153.432252 191.721977 160.701084 191.721977 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #f6f2e7; stroke: #b94a3b; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 231.152018 173.5344 
+Q 246.866491 173.5344 261.239322 173.5344 
+" clip-path="url(#p52af3d4f62)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 256.439322 171.1344 
+L 261.239322 173.5344 
+L 256.439322 175.9344 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 264.584808 193.960677 
+L 328.792824 193.960677 
+Q 336.061656 193.960677 336.061656 191.130213 
+L 336.061656 155.938587 
+Q 336.061656 153.108123 328.792824 153.108123 
+L 264.584808 153.108123 
+Q 257.315976 153.108123 257.315976 155.938587 
+L 257.315976 191.130213 
+Q 257.315976 193.960677 264.584808 193.960677 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #f6f2e7; stroke: #38735d; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 330.793076 173.5344 
+Q 348.63051 173.5344 365.126302 173.5344 
+" clip-path="url(#p52af3d4f62)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 360.326302 171.1344 
+L 365.126302 173.5344 
+L 360.326302 175.9344 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 368.468532 199.539234 
+L 428.436396 199.539234 
+Q 435.705228 199.539234 435.705228 196.70877 
+L 435.705228 150.36003 
+Q 435.705228 147.529566 428.436396 147.529566 
+L 368.468532 147.529566 
+Q 361.1997 147.529566 361.1997 150.36003 
+L 361.1997 196.70877 
+Q 361.1997 199.539234 368.468532 199.539234 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #f6f2e7; stroke: #a57920; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 430.438663 173.5344 
+Q 450.396482 173.5344 469.012659 173.5344 
+" clip-path="url(#p52af3d4f62)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 464.212659 171.1344 
+L 469.012659 173.5344 
+L 464.212659 175.9344 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 472.352256 203.328749 
+L 528.079968 203.328749 
+Q 535.3488 203.328749 535.3488 200.498285 
+L 535.3488 146.570515 
+Q 535.3488 143.740051 528.079968 143.740051 
+L 472.352256 143.740051 
+Q 465.083424 143.740051 465.083424 146.570515 
+L 465.083424 200.498285 
+Q 465.083424 203.328749 472.352256 203.328749 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #f6f2e7; stroke: #6f5a8f; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 530.08157 173.5344 
+Q 552.160134 173.5344 572.897057 173.5344 
+" clip-path="url(#p52af3d4f62)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 568.097057 171.1344 
+L 572.897057 173.5344 
+L 568.097057 175.9344 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 576.23598 201.845159 
+L 627.72354 201.845159 
+Q 634.992372 201.845159 634.992372 199.014695 
+L 634.992372 148.054105 
+Q 634.992372 145.223641 627.72354 145.223641 
+L 576.23598 145.223641 
+Q 568.967148 145.223641 568.967148 148.054105 
+L 568.967148 199.014695 
+Q 568.967148 201.845159 576.23598 201.845159 
+z
+" clip-path="url(#p52af3d4f62)" style="fill: #f6f2e7; stroke: #2f7f83; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 93.16152 259.62768 
+L 194.925168 247.83408 
+L 296.688816 230.14368 
+L 398.452464 224.24688 
+L 500.216112 212.45328 
+L 601.97976 194.76288 
+" clip-path="url(#p52af3d4f62)" style="fill: none; stroke: #38735d; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="ma3fb79acce" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #38735d"/>
+    </defs>
+    <g clip-path="url(#p52af3d4f62)">
+     <use xlink:href="#ma3fb79acce" x="93.16152" y="259.62768" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#ma3fb79acce" x="194.925168" y="247.83408" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#ma3fb79acce" x="296.688816" y="230.14368" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#ma3fb79acce" x="398.452464" y="224.24688" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#ma3fb79acce" x="500.216112" y="212.45328" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#ma3fb79acce" x="601.97976" y="194.76288" style="fill: #38735d; stroke: #38735d"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="93.16152" y="175.568541" transform="rotate(-0 93.16152 175.568541)">waveform</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="93.16152" y="208.561961" transform="rotate(-0 93.16152 208.561961)">32×32</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="194.925168" y="175.568541" transform="rotate(-0 194.925168 175.568541)">STFT</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="194.925168" y="205.402553" transform="rotate(-0 194.925168 205.402553)">16×16</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="296.688816" y="175.568541" transform="rotate(-0 296.688816 175.568541)">mel</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="296.688816" y="207.641253" transform="rotate(-0 296.688816 207.641253)">10×10</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="398.452464" y="175.568541" transform="rotate(-0 398.452464 175.568541)">статистики</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="398.452464" y="213.21981" transform="rotate(-0 398.452464 213.21981)">8×8</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="500.216112" y="175.568541" transform="rotate(-0 500.216112 175.568541)">PCA</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="500.216112" y="217.009325" transform="rotate(-0 500.216112 217.009325)">6×6</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="601.97976" y="175.568541" transform="rotate(-0 601.97976 175.568541)">соседи</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="601.97976" y="215.525735" transform="rotate(-0 601.97976 215.525735)">5×5</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: start" x="74.98944" y="95.69664" transform="rotate(-0 74.98944 95.69664)">представление</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: end" x="632.26656" y="95.69664" transform="rotate(-0 632.26656 95.69664)">размер</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="353.628" y="88.62048" transform="rotate(-0 353.628 88.62048)">аудио-эмбеддинг</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="fill: #171915; font: 700 17px 'Palatino'; text-anchor: start" x="37.224" y="25.36525" transform="rotate(-0 37.224 25.36525)">Конвейер аудио-эмбеддинга</text>
+  </g>
+  <g id="text_17">
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 350.544858)">Рис. 40.3. Над каждой стрелкой указано, какую информацию она сохраняет и теряет. У ближайших соседей подписаны исполнитель,</text>
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 360.00045)">жанр и длительность.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p52af3d4f62">
+   <rect x="50.76" y="67.392" width="605.736" height="235.872"/>
+  </clipPath>
+ </defs>
+</svg>

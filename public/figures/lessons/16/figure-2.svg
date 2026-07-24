@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="374.4pt" viewBox="0 0 676.8 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Два минимальных рассказа о XOR</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Два минимальных рассказа о XOR</dc:title>
+    <dc:date>2026-07-18T11:02:52.720427</dc:date>
+    <dc:description>Две параллельные схемы пороговых сетей XOR с логическими подписями скрытых нейронов и общей таблицей истинности. Одинаковые четыре ответа получаются через «хотя бы один, но не оба» и через «первый без второго или второй без первого». Рисунок показывает, что вычислительная эквивалентность не делает внутренние признаки одинаковыми.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 676.8 374.4 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 99.21888 252.079776 
+C 104.520101 252.079776 109.604912 251.259628 113.353441 249.799961 
+C 117.101971 248.340293 119.208168 246.360282 119.208168 244.296 
+C 119.208168 242.231718 117.101971 240.251707 113.353441 238.792039 
+C 109.604912 237.332372 104.520101 236.512224 99.21888 236.512224 
+C 93.917659 236.512224 88.832848 237.332372 85.084319 238.792039 
+C 81.335789 240.251707 79.229592 242.231718 79.229592 244.296 
+C 79.229592 246.360282 81.335789 248.340293 85.084319 249.799961 
+C 88.832848 251.259628 93.917659 252.079776 99.21888 252.079776 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #fffef9; stroke: #38735d; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 99.21888 193.111776 
+C 104.520101 193.111776 109.604912 192.291628 113.353441 190.831961 
+C 117.101971 189.372293 119.208168 187.392282 119.208168 185.328 
+C 119.208168 183.263718 117.101971 181.283707 113.353441 179.824039 
+C 109.604912 178.364372 104.520101 177.544224 99.21888 177.544224 
+C 93.917659 177.544224 88.832848 178.364372 85.084319 179.824039 
+C 81.335789 181.283707 79.229592 183.263718 79.229592 185.328 
+C 79.229592 187.392282 81.335789 189.372293 85.084319 190.831961 
+C 88.832848 192.291628 93.917659 193.111776 99.21888 193.111776 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #fffef9; stroke: #a57920; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 99.21888 134.143776 
+C 104.520101 134.143776 109.604912 133.323628 113.353441 131.863961 
+C 117.101971 130.404293 119.208168 128.424282 119.208168 126.36 
+C 119.208168 124.295718 117.101971 122.315707 113.353441 120.856039 
+C 109.604912 119.396372 104.520101 118.576224 99.21888 118.576224 
+C 93.917659 118.576224 88.832848 119.396372 85.084319 120.856039 
+C 81.335789 122.315707 79.229592 124.295718 79.229592 126.36 
+C 79.229592 128.424282 81.335789 130.404293 85.084319 131.863961 
+C 88.832848 133.323628 93.917659 134.143776 99.21888 134.143776 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #fffef9; stroke: #6f5a8f; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 311.22648 252.079776 
+C 316.527701 252.079776 321.612512 251.259628 325.361041 249.799961 
+C 329.109571 248.340293 331.215768 246.360282 331.215768 244.296 
+C 331.215768 242.231718 329.109571 240.251707 325.361041 238.792039 
+C 321.612512 237.332372 316.527701 236.512224 311.22648 236.512224 
+C 305.925259 236.512224 300.840448 237.332372 297.091919 238.792039 
+C 293.343389 240.251707 291.237192 242.231718 291.237192 244.296 
+C 291.237192 246.360282 293.343389 248.340293 297.091919 249.799961 
+C 300.840448 251.259628 305.925259 252.079776 311.22648 252.079776 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #fffef9; stroke: #a57920; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 311.22648 134.143776 
+C 316.527701 134.143776 321.612512 133.323628 325.361041 131.863961 
+C 329.109571 130.404293 331.215768 128.424282 331.215768 126.36 
+C 331.215768 124.295718 329.109571 122.315707 325.361041 120.856039 
+C 321.612512 119.396372 316.527701 118.576224 311.22648 118.576224 
+C 305.925259 118.576224 300.840448 119.396372 297.091919 120.856039 
+C 293.343389 122.315707 291.237192 124.295718 291.237192 126.36 
+C 291.237192 128.424282 293.343389 130.404293 297.091919 131.863961 
+C 300.840448 133.323628 305.925259 134.143776 311.22648 134.143776 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #fffef9; stroke: #6f5a8f; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 523.23408 252.079776 
+C 528.535301 252.079776 533.620112 251.259628 537.368641 249.799961 
+C 541.117171 248.340293 543.223368 246.360282 543.223368 244.296 
+C 543.223368 242.231718 541.117171 240.251707 537.368641 238.792039 
+C 533.620112 237.332372 528.535301 236.512224 523.23408 236.512224 
+C 517.932859 236.512224 512.848048 237.332372 509.099519 238.792039 
+C 505.350989 240.251707 503.244792 242.231718 503.244792 244.296 
+C 503.244792 246.360282 505.350989 248.340293 509.099519 249.799961 
+C 512.848048 251.259628 517.932859 252.079776 523.23408 252.079776 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #fffef9; stroke: #6f5a8f; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 101.221332 244.296 
+Q 205.222523 244.296 308.329288 244.296 
+" clip-path="url(#p79af420ef8)" style="fill: none; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 305.529288 242.896 
+L 308.329288 244.296 
+L 305.529288 245.696 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #d9d8d0; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 100.969004 243.322438 
+Q 205.223487 185.327551 308.696342 127.76747 
+" clip-path="url(#p79af420ef8)" style="fill: none; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 305.568877 127.905186 
+L 308.696342 127.76747 
+L 306.930035 130.352071 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #d9d8d0; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 101.143693 185.863369 
+Q 205.221801 214.811755 308.438193 243.520463 
+" clip-path="url(#p79af420ef8)" style="fill: none; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 306.115752 241.421352 
+L 308.438193 243.520463 
+L 305.36544 244.11895 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #d9d8d0; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 101.143693 184.792631 
+Q 205.221801 155.844245 308.438193 127.135537 
+" clip-path="url(#p79af420ef8)" style="fill: none; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 305.36544 126.53705 
+L 308.438193 127.135537 
+L 306.115752 129.234648 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #d9d8d0; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 100.969004 127.333562 
+Q 205.223487 185.328449 308.696342 242.88853 
+" clip-path="url(#p79af420ef8)" style="fill: none; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 306.930035 240.303929 
+L 308.696342 242.88853 
+L 305.568877 242.750814 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #d9d8d0; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 101.221332 126.36 
+Q 205.222523 126.36 308.329288 126.36 
+" clip-path="url(#p79af420ef8)" style="fill: none; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 305.529288 124.96 
+L 308.329288 126.36 
+L 305.529288 127.76 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #d9d8d0; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 313.228932 244.296 
+Q 417.230123 244.296 520.336888 244.296 
+" clip-path="url(#p79af420ef8)" style="fill: none; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 517.536888 242.896 
+L 520.336888 244.296 
+L 517.536888 245.696 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #d9d8d0; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 312.976604 127.333562 
+Q 417.231087 185.328449 520.703942 242.88853 
+" clip-path="url(#p79af420ef8)" style="fill: none; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 518.937635 240.303929 
+L 520.703942 242.88853 
+L 517.576477 242.750814 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #d9d8d0; stroke: #d9d8d0; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 559.57824 254.91024 
+L 644.38128 254.91024 
+Q 653.46732 254.91024 653.46732 251.37216 
+L 653.46732 119.28384 
+Q 653.46732 115.74576 644.38128 115.74576 
+L 559.57824 115.74576 
+Q 550.4922 115.74576 550.4922 119.28384 
+L 550.4922 251.37216 
+Q 550.4922 254.91024 559.57824 254.91024 
+z
+" clip-path="url(#p79af420ef8)" style="fill: #f5f2e9; stroke: #d9d8d0; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <!-- x$_{1}$ -->
+    <g style="fill: #171915" transform="translate(95.03388 246.330141)">
+     <text>
+      <tspan style="font: 9px 'Palatino'" x="0" y="-0.765625">x</tspan>
+      <tspan style="font: 6.3px 'STIXGeneral'" x="4.783926" y="0.4249999999999998">1</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- x$_{2}$ -->
+    <g style="fill: #171915" transform="translate(95.03388 187.362141)">
+     <text>
+      <tspan style="font: 9px 'Palatino'" x="0" y="-0.765625">x</tspan>
+      <tspan style="font: 6.3px 'STIXGeneral'" x="4.783926" y="0.4249999999999998">2</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- x$_{3}$ -->
+    <g style="fill: #171915" transform="translate(95.03388 128.394141)">
+     <text>
+      <tspan style="font: 9px 'Palatino'" x="0" y="-0.765625">x</tspan>
+      <tspan style="font: 6.3px 'STIXGeneral'" x="4.783926" y="0.4249999999999998">3</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_4">
+    <!-- h$_{1}$ -->
+    <g style="fill: #171915" transform="translate(306.72648 246.330141)">
+     <text>
+      <tspan style="font: 9px 'Palatino'" x="0" y="-0.0">h</tspan>
+      <tspan style="font: 6.3px 'STIXGeneral'" x="5.377187" y="1.1906250000000007">1</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    <!-- h$_{2}$ -->
+    <g style="fill: #171915" transform="translate(306.72648 128.394141)">
+     <text>
+      <tspan style="font: 9px 'Palatino'" x="0" y="-0.0">h</tspan>
+      <tspan style="font: 6.3px 'STIXGeneral'" x="5.377187" y="1.1906250000000007">2</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <!-- z$_{1}$ -->
+    <g style="fill: #171915" transform="translate(519.13908 246.330141)">
+     <text>
+      <tspan style="font: 9px 'Palatino'" x="0" y="-0.890625">z</tspan>
+      <tspan style="font: 6.3px 'STIXGeneral'" x="4.638906" y="0.2999999999999998">1</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="fill: #315f8c; font: 9px 'Palatino'; text-anchor: middle" x="601.97976" y="144.905181" transform="rotate(-0 601.97976 144.905181)">OR + NAND</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #b94a3b; font: 9px 'Palatino'; text-anchor: middle" x="601.97976" y="175.485572" transform="rotate(-0 601.97976 175.485572)">два случая</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #38735d; font: 9px 'Palatino'; text-anchor: middle" x="601.97976" y="206.231901" transform="rotate(-0 601.97976 206.231901)">XOR</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: start" x="99.21888" y="95.69664" transform="rotate(-0 99.21888 95.69664)">два входа</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: start" x="499.00464" y="95.69664" transform="rotate(-0 499.00464 95.69664)">один выход</text>
+   </g>
+   <g id="text_12">
+    <!-- $h_1\vee h_2$ -->
+    <g style="fill: #171915" transform="translate(340.128 284.39424)">
+     <text>
+      <tspan style="font: italic 10px 'STIXGeneral'" x="0 18.028575" y="-0.171875">hh</tspan>
+      <tspan style="font: 7px 'STIXGeneral'" x="4.999985 23.02856" y="1.1500000000000004">12</tspan>
+      <tspan style="font: 10px 'STIXGeneral'" x="10.384596" y="-0.171875">∨</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="fill: #171915; font: 700 17px 'Palatino'; text-anchor: start" x="37.224" y="25.373219" transform="rotate(-0 37.224 25.373219)">Два минимальных рассказа о XOR</text>
+  </g>
+  <g id="text_14">
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 350.515295)">Рис. 16.2. Одинаковые четыре ответа получаются через «хотя бы один, но не оба» и через «первый без второго или второй без</text>
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 359.970888)">первого». Рисунок показывает, что вычислительная эквивалентность не делает внутренние призн…</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p79af420ef8">
+   <rect x="50.76" y="67.392" width="605.736" height="235.872"/>
+  </clipPath>
+ </defs>
+</svg>

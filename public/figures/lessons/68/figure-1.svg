@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="662.4pt" height="377.76pt" viewBox="0 0 662.4 377.76" version="1.1" role="img">
+ <title>Подстановка сохраняет рисунок повторов</title><desc>Открытая фраза, таблица ключа и шифротекст с соединёнными повторяющимися буквами. Верхняя строка — фрагмент открытого текста, средняя — таблица замен букв, нижняя — шифротекст. Дуги соединяют одинаковые позиции до и после шифрования. Цветом отмечены биграммы: сами символы меняются, но число и взаимное расположение повторов остаются.</desc><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-07-18T10:23:34.691977</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 377.76  L 662.4 377.76  L 662.4 0  L 0 0  z " style="fill: #fffdf7" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 105.3216 150.884899  C 111.262777 150.884899 116.961419 149.84126 121.162466 147.983831  C 125.363513 146.126402 127.723968 143.606833 127.723968 140.980032  C 127.723968 138.353231 125.363513 135.833662 121.162466 133.976233  C 116.961419 132.118804 111.262777 131.075165 105.3216 131.075165  C 99.380423 131.075165 93.681781 132.118804 89.480734 133.976233  C 85.279687 135.833662 82.919232 138.353231 82.919232 140.980032  C 82.919232 143.606833 85.279687 146.126402 89.480734 147.983831  C 93.681781 149.84126 99.380423 150.884899 105.3216 150.884899  L 105.3216 150.884899  z " clip-path="url(#p3b47308519)" style="fill: none; stroke: #a57920; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_3">
+    <path d="M 223.2288 150.884899  C 229.169977 150.884899 234.868619 149.84126 239.069666 147.983831  C 243.270713 146.126402 245.631168 143.606833 245.631168 140.980032  C 245.631168 138.353231 243.270713 135.833662 239.069666 133.976233  C 234.868619 132.118804 229.169977 131.075165 223.2288 131.075165  C 217.287623 131.075165 211.588981 132.118804 207.387934 133.976233  C 203.186887 135.833662 200.826432 138.353231 200.826432 140.980032  C 200.826432 143.606833 203.186887 146.126402 207.387934 147.983831  C 211.588981 149.84126 217.287623 150.884899 223.2288 150.884899  L 223.2288 150.884899  z " clip-path="url(#p3b47308519)" style="fill: none; stroke: #a57920; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_4">
+    <path d="M 164.2752 150.884899  C 170.216377 150.884899 175.915019 149.84126 180.116066 147.983831  C 184.317113 146.126402 186.677568 143.606833 186.677568 140.980032  C 186.677568 138.353231 184.317113 135.833662 180.116066 133.976233  C 175.915019 132.118804 170.216377 131.075165 164.2752 131.075165  C 158.334023 131.075165 152.635381 132.118804 148.434334 133.976233  C 144.233287 135.833662 141.872832 138.353231 141.872832 140.980032  C 141.872832 143.606833 144.233287 146.126402 148.434334 147.983831  C 152.635381 149.84126 158.334023 150.884899 164.2752 150.884899  L 164.2752 150.884899  z " clip-path="url(#p3b47308519)" style="fill: none; stroke: #38735d; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_5">
+    <path d="M 282.1824 150.884899  C 288.123577 150.884899 293.822219 149.84126 298.023266 147.983831  C 302.224313 146.126402 304.584768 143.606833 304.584768 140.980032  C 304.584768 138.353231 302.224313 135.833662 298.023266 133.976233  C 293.822219 132.118804 288.123577 131.075165 282.1824 131.075165  C 276.241223 131.075165 270.542581 132.118804 266.341534 133.976233  C 262.140487 135.833662 259.780032 138.353231 259.780032 140.980032  C 259.780032 143.606833 262.140487 146.126402 266.341534 147.983831  C 270.542581 149.84126 276.241223 150.884899 282.1824 150.884899  L 282.1824 150.884899  z " clip-path="url(#p3b47308519)" style="fill: none; stroke: #38735d; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_6">
+    <path d="M 517.9968 150.884899  C 523.937977 150.884899 529.636619 149.84126 533.837666 147.983831  C 538.038713 146.126402 540.399168 143.606833 540.399168 140.980032  C 540.399168 138.353231 538.038713 135.833662 533.837666 133.976233  C 529.636619 132.118804 523.937977 131.075165 517.9968 131.075165  C 512.055623 131.075165 506.356981 132.118804 502.155934 133.976233  C 497.954887 135.833662 495.594432 138.353231 495.594432 140.980032  C 495.594432 143.606833 497.954887 146.126402 502.155934 147.983831  C 506.356981 149.84126 512.055623 150.884899 517.9968 150.884899  L 517.9968 150.884899  z " clip-path="url(#p3b47308519)" style="fill: none; stroke: #38735d; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_7">
+    <path d="M 105.3216 161.22593  Q 105.3216 195.718867 105.3216 229.093771  " clip-path="url(#p3b47308519)" style="fill: none; stroke: #dedbd2; stroke-linecap: round" />
+    <path d="M 107.3216 225.093771  L 105.3216 229.093771  L 103.3216 225.093771  z " clip-path="url(#p3b47308519)" style="fill: #dedbd2; stroke: #dedbd2; stroke-linecap: round" />
+   </g>
+   <g id="patch_8">
+    <path d="M 164.2752 161.22593  Q 164.2752 195.718867 164.2752 229.093771  " clip-path="url(#p3b47308519)" style="fill: none; stroke: #dedbd2; stroke-linecap: round" />
+    <path d="M 166.2752 225.093771  L 164.2752 229.093771  L 162.2752 225.093771  z " clip-path="url(#p3b47308519)" style="fill: #dedbd2; stroke: #dedbd2; stroke-linecap: round" />
+   </g>
+   <g id="patch_9">
+    <path d="M 223.2288 161.22593  Q 223.2288 195.718867 223.2288 229.093771  " clip-path="url(#p3b47308519)" style="fill: none; stroke: #dedbd2; stroke-linecap: round" />
+    <path d="M 225.2288 225.093771  L 223.2288 229.093771  L 221.2288 225.093771  z " clip-path="url(#p3b47308519)" style="fill: #dedbd2; stroke: #dedbd2; stroke-linecap: round" />
+   </g>
+   <g id="patch_10">
+    <path d="M 282.1824 161.22593  Q 282.1824 195.718867 282.1824 229.093771  " clip-path="url(#p3b47308519)" style="fill: none; stroke: #dedbd2; stroke-linecap: round" />
+    <path d="M 284.1824 225.093771  L 282.1824 229.093771  L 280.1824 225.093771  z " clip-path="url(#p3b47308519)" style="fill: #dedbd2; stroke: #dedbd2; stroke-linecap: round" />
+   </g>
+   <g id="patch_11">
+    <path d="M 400.0896 161.22593  Q 400.0896 195.718867 400.0896 229.093771  " clip-path="url(#p3b47308519)" style="fill: none; stroke: #dedbd2; stroke-linecap: round" />
+    <path d="M 402.0896 225.093771  L 400.0896 229.093771  L 398.0896 225.093771  z " clip-path="url(#p3b47308519)" style="fill: #dedbd2; stroke: #dedbd2; stroke-linecap: round" />
+   </g>
+   <g id="patch_12">
+    <path d="M 459.0432 161.22593  Q 459.0432 195.718867 459.0432 229.093771  " clip-path="url(#p3b47308519)" style="fill: none; stroke: #dedbd2; stroke-linecap: round" />
+    <path d="M 461.0432 225.093771  L 459.0432 229.093771  L 457.0432 225.093771  z " clip-path="url(#p3b47308519)" style="fill: #dedbd2; stroke: #dedbd2; stroke-linecap: round" />
+   </g>
+   <g id="patch_13">
+    <path d="M 517.9968 161.22593  Q 517.9968 195.718867 517.9968 229.093771  " clip-path="url(#p3b47308519)" style="fill: none; stroke: #dedbd2; stroke-linecap: round" />
+    <path d="M 519.9968 225.093771  L 517.9968 229.093771  L 515.9968 225.093771  z " clip-path="url(#p3b47308519)" style="fill: #dedbd2; stroke: #dedbd2; stroke-linecap: round" />
+   </g>
+   <g id="patch_14">
+    <path d="M 576.9504 161.22593  Q 576.9504 195.718867 576.9504 229.093771  " clip-path="url(#p3b47308519)" style="fill: none; stroke: #dedbd2; stroke-linecap: round" />
+    <path d="M 578.9504 225.093771  L 576.9504 229.093771  L 574.9504 225.093771  z " clip-path="url(#p3b47308519)" style="fill: #dedbd2; stroke: #dedbd2; stroke-linecap: round" />
+   </g>
+   <g id="text_1">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="105.3216" y="140.980032" transform="rotate(-0 105.3216 140.980032)">М</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="105.3216" y="255.667968" transform="rotate(-0 105.3216 255.667968)">Х</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="164.2752" y="140.980032" transform="rotate(-0 164.2752 140.980032)">А</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="164.2752" y="255.667968" transform="rotate(-0 164.2752 255.667968)">Ф</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="223.2288" y="140.980032" transform="rotate(-0 223.2288 140.980032)">М</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="223.2288" y="255.667968" transform="rotate(-0 223.2288 255.667968)">Х</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="282.1824" y="140.980032" transform="rotate(-0 282.1824 140.980032)">А</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="282.1824" y="255.667968" transform="rotate(-0 282.1824 255.667968)">Ф</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="341.136" y="140.980032" transform="rotate(-0 341.136 140.980032)"> </text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="341.136" y="255.667968" transform="rotate(-0 341.136 255.667968)"> </text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="400.0896" y="140.980032" transform="rotate(-0 400.0896 140.980032)">М</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="400.0896" y="255.667968" transform="rotate(-0 400.0896 255.667968)">Ц</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="459.0432" y="140.980032" transform="rotate(-0 459.0432 140.980032)">Ы</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="459.0432" y="255.667968" transform="rotate(-0 459.0432 255.667968)">Ы</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="517.9968" y="140.980032" transform="rotate(-0 517.9968 140.980032)">Л</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="517.9968" y="255.667968" transform="rotate(-0 517.9968 255.667968)">П</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #315f8c; font: 16px 'Palatino'; text-anchor: middle" x="576.9504" y="140.980032" transform="rotate(-0 576.9504 140.980032)">А</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #b94a3b; font: 16px 'Palatino'; text-anchor: middle" x="576.9504" y="255.667968" transform="rotate(-0 576.9504 255.667968)">Ф</text>
+   </g>
+   <g id="text_19">
+    <g id="patch_15">
+     <path d="M 272.665687 205.538844  L 409.606313 205.538844  Q 411.806312 205.538844 411.806312 203.338844  L 411.806312 193.309156  Q 411.806312 191.109156 409.606313 191.109156  L 272.665687 191.109156  Q 270.465688 191.109156 270.465688 193.309156  L 270.465688 203.338844  Q 270.465688 205.538844 272.665687 205.538844  z " style="fill: #fffdf7; opacity: 0.92" />
+    </g>
+    <text style="fill: #20231f; font: 10px 'Palatino'; text-anchor: middle" x="341.136" y="200.526344" transform="rotate(-0 341.136 200.526344)">повторы сохраняют позиции</text>
+   </g>
+  </g>
+  <g id="text_20">
+   <text style="fill: #20231f; font: 15.5px 'Palatino'; text-anchor: start" x="36.432" y="24.354959" transform="rotate(-0 36.432 24.354959)">Подстановка сохраняет рисунок повторов</text>
+  </g>
+  <g id="text_21">
+   <text style="fill: #68716b; font: 8.8px 'Palatino'; text-anchor: start" x="36.432" y="365.81075" transform="rotate(-0 36.432 365.81075)">Урок 68 · рисунок 1</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3b47308519">
+   <rect x="46.368" y="67.9968" width="589.536" height="260.6544" />
+  </clipPath>
+ </defs>
+</svg>

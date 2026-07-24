@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="374.4pt" viewBox="0 0 676.8 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Из пикселей в ответ локального фильтра</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Из пикселей в ответ локального фильтра</dc:title>
+    <dc:date>2026-07-18T11:02:57.933697</dc:date>
+    <dc:description>Матрица изображения с вертикальной границей, окно 5 на 5, ядро с отрицательными и положительными весами, произведения и сумма. Каждой клетке окна соответствует клетка ядра. Под схемой три числовых примера сравнивают однородную область, вертикальный и горизонтальный края.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 676.8 374.4 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 50.76 268.533495 
+L 217.170989 268.533495 
+L 217.170989 102.122505 
+L 50.76 102.122505 
+z
+" style="fill: #fffef9"/>
+   </g>
+   <g id="QuadMesh_1">
+    <path d="M 50.76 102.122505 
+L 133.965495 102.122505 
+L 133.965495 185.328 
+L 50.76 185.328 
+L 50.76 102.122505 
+" clip-path="url(#pe9c81dab28)" style="fill: #3787c0; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 133.965495 102.122505 
+L 217.170989 102.122505 
+L 217.170989 185.328 
+L 133.965495 185.328 
+L 133.965495 102.122505 
+" clip-path="url(#pe9c81dab28)" style="fill: #abd0e6; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 50.76 185.328 
+L 133.965495 185.328 
+L 133.965495 268.533495 
+L 50.76 268.533495 
+L 50.76 185.328 
+" clip-path="url(#pe9c81dab28)" style="fill: #f7fbff; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 133.965495 185.328 
+L 217.170989 185.328 
+L 217.170989 268.533495 
+L 133.965495 268.533495 
+L 133.965495 185.328 
+" clip-path="url(#pe9c81dab28)" style="fill: #08306b; stroke: #fffef9; stroke-width: 1.5"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 50.76 268.533495 
+L 50.76 102.122505 
+" style="fill: none; stroke: #171915; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 50.76 268.533495 
+L 217.170989 268.533495 
+" style="fill: none; stroke: #171915; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="50.76" y="104.382662" transform="rotate(-0 50.76 104.382662)">2</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="133.965495" y="104.382662" transform="rotate(-0 133.965495 104.382662)">1</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="217.170989" y="104.382662" transform="rotate(-0 217.170989 104.382662)">0</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="50.76" y="187.588156" transform="rotate(-0 50.76 187.588156)">3</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="133.965495" y="187.588156" transform="rotate(-0 133.965495 187.588156)">2</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="217.170989" y="187.588156" transform="rotate(-0 217.170989 187.588156)">1</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="50.76" y="270.793651" transform="rotate(-0 50.76 270.793651)">0</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="133.965495" y="270.793651" transform="rotate(-0 133.965495 270.793651)">1</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="217.170989" y="270.793651" transform="rotate(-0 217.170989 270.793651)">2</text>
+   </g>
+   <g id="text_10">
+    <!-- $\odot$ -->
+    <g style="fill: #171915" transform="translate(223.553868 189.396281)">
+     <text>
+      <tspan style="font: 18px 'STIXGeneral'" x="0" y="-0.5">⊙</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_11">
+    <!-- Фрагмент $X_{i:i+3,j:j+3}$ -->
+    <g style="fill: #171915" transform="translate(89.600495 96.122505)">
+     <text>
+      <tspan style="font: 9.5px 'Palatino'" x="0 7.087891 12.798096 17.548096 21.351807 28.32373 32.874268 38.41748 42.898438" y="-0.09375">Фрагмент </tspan>
+      <tspan style="font: italic 9.5px 'STIXGeneral'" x="45.273438" y="-0.09375">X</tspan>
+      <tspan style="font: italic 6.65px 'STIXGeneral'" x="51.077927 56.695833 70.968037 76.585943" y="1.2281250000000004">iijj</tspan>
+      <tspan style="font: 6.65px 'STIXGeneral'" x="53.88688 59.504785 65.020289 68.345278 73.77699 79.394896 84.9104" y="1.2281250000000004">:+3,:+3</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 270.422505 268.533495 
+L 436.833495 268.533495 
+L 436.833495 102.122505 
+L 270.422505 102.122505 
+z
+" style="fill: #fffef9"/>
+   </g>
+   <g id="QuadMesh_2">
+    <path d="M 270.422505 102.122505 
+L 353.628 102.122505 
+L 353.628 185.328 
+L 270.422505 185.328 
+L 270.422505 102.122505 
+" clip-path="url(#p3681ce1f26)" style="fill: #f7b799; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 353.628 102.122505 
+L 436.833495 102.122505 
+L 436.833495 185.328 
+L 353.628 185.328 
+L 353.628 102.122505 
+" clip-path="url(#p3681ce1f26)" style="fill: #f7f6f6; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 270.422505 185.328 
+L 353.628 185.328 
+L 353.628 268.533495 
+L 270.422505 268.533495 
+L 270.422505 185.328 
+" clip-path="url(#p3681ce1f26)" style="fill: #a7d0e4; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 353.628 185.328 
+L 436.833495 185.328 
+L 436.833495 268.533495 
+L 353.628 268.533495 
+L 353.628 185.328 
+" clip-path="url(#p3681ce1f26)" style="fill: #f7b799; stroke: #fffef9; stroke-width: 1.5"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4"/>
+   <g id="patch_6">
+    <path d="M 270.422505 268.533495 
+L 270.422505 102.122505 
+" style="fill: none; stroke: #171915; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 270.422505 268.533495 
+L 436.833495 268.533495 
+" style="fill: none; stroke: #171915; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="270.422505" y="104.382662" transform="rotate(-0 270.422505 104.382662)">1</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="353.628" y="104.382662" transform="rotate(-0 353.628 104.382662)">0</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="436.833495" y="104.382662" transform="rotate(-0 436.833495 104.382662)">-1</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="270.422505" y="187.588156" transform="rotate(-0 270.422505 187.588156)">1</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="353.628" y="187.588156" transform="rotate(-0 353.628 187.588156)">0</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="436.833495" y="187.588156" transform="rotate(-0 436.833495 187.588156)">-1</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="270.422505" y="270.793651" transform="rotate(-0 270.422505 270.793651)">1</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="353.628" y="270.793651" transform="rotate(-0 353.628 270.793651)">0</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="436.833495" y="270.793651" transform="rotate(-0 436.833495 270.793651)">-1</text>
+   </g>
+   <g id="text_21">
+    <!-- $\longrightarrow\sum$ -->
+    <g style="fill: #171915" transform="translate(433.466374 188.202375)">
+     <text>
+      <tspan style="font: 12px 'STIXGeneral'" x="1.732797 22.35358" y="-0.84375">⟶∑</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_22">
+    <!-- Ядро $K$ -->
+    <g style="fill: #171915" transform="translate(337.953 96.122505)">
+     <text>
+      <tspan style="font: 9.5px 'Palatino'" x="0 6.345703 11.587402 17.297607 22.613525" y="-0.09375">Ядро </tspan>
+      <tspan style="font: italic 9.5px 'STIXGeneral'" x="24.988525" y="-0.09375">K</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_8">
+    <path d="M 490.085011 268.533495 
+L 656.496 268.533495 
+L 656.496 102.122505 
+L 490.085011 102.122505 
+z
+" style="fill: #fffef9"/>
+   </g>
+   <g id="QuadMesh_3">
+    <path d="M 490.085011 102.122505 
+L 573.290505 102.122505 
+L 573.290505 185.328 
+L 490.085011 185.328 
+L 490.085011 102.122505 
+" clip-path="url(#p331126d334)" style="fill: #c94741; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 573.290505 102.122505 
+L 656.496 102.122505 
+L 656.496 185.328 
+L 573.290505 185.328 
+L 573.290505 102.122505 
+" clip-path="url(#p331126d334)" style="fill: #f7f6f6; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 490.085011 185.328 
+L 573.290505 185.328 
+L 573.290505 268.533495 
+L 490.085011 268.533495 
+L 490.085011 185.328 
+" clip-path="url(#p331126d334)" style="fill: #f7f6f6; stroke: #fffef9; stroke-width: 1.5"/>
+    <path d="M 573.290505 185.328 
+L 656.496 185.328 
+L 656.496 268.533495 
+L 573.290505 268.533495 
+L 573.290505 185.328 
+" clip-path="url(#p331126d334)" style="fill: #67001f; stroke: #fffef9; stroke-width: 1.5"/>
+   </g>
+   <g id="matplotlib.axis_5"/>
+   <g id="matplotlib.axis_6"/>
+   <g id="patch_9">
+    <path d="M 490.085011 268.533495 
+L 490.085011 102.122505 
+" style="fill: none; stroke: #171915; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 490.085011 268.533495 
+L 656.496 268.533495 
+" style="fill: none; stroke: #171915; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_23">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="490.085011" y="104.382662" transform="rotate(-0 490.085011 104.382662)">2</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="573.290505" y="104.382662" transform="rotate(-0 573.290505 104.382662)">0</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="656.496" y="104.382662" transform="rotate(-0 656.496 104.382662)">-0</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="490.085011" y="187.588156" transform="rotate(-0 490.085011 187.588156)">3</text>
+   </g>
+   <g id="text_27">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="573.290505" y="187.588156" transform="rotate(-0 573.290505 187.588156)">0</text>
+   </g>
+   <g id="text_28">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="656.496" y="187.588156" transform="rotate(-0 656.496 187.588156)">-1</text>
+   </g>
+   <g id="text_29">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="490.085011" y="270.793651" transform="rotate(-0 490.085011 270.793651)">0</text>
+   </g>
+   <g id="text_30">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="573.290505" y="270.793651" transform="rotate(-0 573.290505 270.793651)">0</text>
+   </g>
+   <g id="text_31">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="656.496" y="270.793651" transform="rotate(-0 656.496 270.793651)">-2</text>
+   </g>
+   <g id="text_32">
+    <!-- $z_{ij}=\sum K_{uv}X_{i+u,j+v}=2$ -->
+    <g style="fill: #171915" transform="translate(533.195505 290.166923)">
+     <text>
+      <tspan style="font: italic 9px 'STIXGeneral'" x="0 24.390857 36.737924" y="-0.140625">zKX</tspan>
+      <tspan style="font: italic 6.3px 'STIXGeneral'" x="3.500992 5.252391 30.393848 33.543848 42.236917 50.123252 55.757972 63.644307" y="1.0500000000000007">ijuviujv</tspan>
+      <tspan style="font: 9px 'STIXGeneral'" x="8.700266 16.164859 68.137984 75.602577" y="-0.140625">=∑=2</tspan>
+      <tspan style="font: 6.3px 'STIXGeneral'" x="44.898036 53.273252 58.419091" y="1.0500000000000007">+,+</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_33">
+    <text style="fill: #171915; font: 9.5px 'Palatino'; text-anchor: middle" x="573.290505" y="96.122505" transform="rotate(-0 573.290505 96.122505)">Покомпонентное произведение</text>
+   </g>
+  </g>
+  <g id="text_34">
+   <text style="fill: #171915; font: 700 17px 'Palatino'; text-anchor: start" x="37.224" y="25.405094" transform="rotate(-0 37.224 25.405094)">Из пикселей в ответ локального фильтра</text>
+  </g>
+  <g id="text_35">
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 350.544858)">Рис. 27.1. Каждой клетке окна соответствует клетка ядра. Под схемой три числовых примера сравнивают однородную область,</text>
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 360.00045)">вертикальный и горизонтальный края.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe9c81dab28">
+   <rect x="50.76" y="102.122505" width="166.410989" height="166.410989"/>
+  </clipPath>
+  <clipPath id="p3681ce1f26">
+   <rect x="270.422505" y="102.122505" width="166.410989" height="166.410989"/>
+  </clipPath>
+  <clipPath id="p331126d334">
+   <rect x="490.085011" y="102.122505" width="166.410989" height="166.410989"/>
+  </clipPath>
+ </defs>
+</svg>

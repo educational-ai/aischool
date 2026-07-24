@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="374.4pt" viewBox="0 0 676.8 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Три уровня доступа к данным</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Три уровня доступа к данным</dc:title>
+    <dc:date>2026-07-18T11:02:59.833375</dc:date>
+    <dc:description>Конвейер train обновляет веса, validation выбирает конфигурацию, закрытый test выдаёт отчёт; красные запрещённые стрелки назад. Сплошные стрелки показывают разрешённый поток информации. Красная стрелка от test к выбору модели превращает его в ещё одну validation-часть.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 676.8 374.4 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.81736 199.831815 
+L 129.50568 199.831815 
+Q 136.774512 199.831815 136.774512 197.001351 
+L 136.774512 150.067449 
+Q 136.774512 147.236985 129.50568 147.236985 
+L 56.81736 147.236985 
+Q 49.548528 147.236985 49.548528 150.067449 
+L 49.548528 197.001351 
+Q 49.548528 199.831815 56.81736 199.831815 
+z
+" clip-path="url(#p9f5edb0f61)" style="fill: #f6f2e7; stroke: #315f8c; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 131.506133 173.5344 
+Q 223.015581 173.5344 313.183388 173.5344 
+" clip-path="url(#p9f5edb0f61)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 308.383388 171.1344 
+L 313.183388 173.5344 
+L 308.383388 175.9344 
+z
+" clip-path="url(#p9f5edb0f61)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 316.52667 194.212226 
+L 378.61461 194.212226 
+Q 385.883442 194.212226 385.883442 191.381762 
+L 385.883442 155.687038 
+Q 385.883442 152.856574 378.61461 152.856574 
+L 316.52667 152.856574 
+Q 309.257838 152.856574 309.257838 155.687038 
+L 309.257838 191.381762 
+Q 309.257838 194.212226 316.52667 194.212226 
+z
+" clip-path="url(#p9f5edb0f61)" style="fill: #f6f2e7; stroke: #b94a3b; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 380.613862 173.5344 
+Q 477.423468 173.5344 572.891433 173.5344 
+" clip-path="url(#p9f5edb0f61)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 568.091433 171.1344 
+L 572.891433 173.5344 
+L 568.091433 175.9344 
+z
+" clip-path="url(#p9f5edb0f61)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 576.23598 191.701221 
+L 627.72354 191.701221 
+Q 634.992372 191.701221 634.992372 188.870757 
+L 634.992372 158.198043 
+Q 634.992372 155.367579 627.72354 155.367579 
+L 576.23598 155.367579 
+Q 568.967148 155.367579 568.967148 158.198043 
+L 568.967148 188.870757 
+Q 568.967148 191.701221 576.23598 191.701221 
+z
+" clip-path="url(#p9f5edb0f61)" style="fill: #f6f2e7; stroke: #38735d; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 93.16152 253.73088 
+L 347.57064 236.04048 
+L 601.97976 230.14368 
+" clip-path="url(#p9f5edb0f61)" style="fill: none; stroke: #38735d; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="m593a4b8daa" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #38735d"/>
+    </defs>
+    <g clip-path="url(#p9f5edb0f61)">
+     <use xlink:href="#m593a4b8daa" x="93.16152" y="253.73088" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m593a4b8daa" x="347.57064" y="236.04048" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m593a4b8daa" x="601.97976" y="230.14368" style="fill: #38735d; stroke: #38735d"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="fill: #171915; font: 9px 'Palatino'" transform="translate(79.129254 170.400431)">train  к</text>
+    <text style="fill: #171915; font: 9px 'Palatino'" transform="translate(84.635426 180.73665)">веса</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="93.16152" y="213.512391" transform="rotate(-0 93.16152 213.512391)">32×32</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #171915; font: 9px 'Palatino'" transform="translate(327.305874 170.374416)">validation</text>
+    <text style="fill: #171915; font: 9px 'Palatino'" transform="translate(329.836421 180.710634)">к  выбор</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="347.57064" y="207.892802" transform="rotate(-0 347.57064 207.892802)">16×16</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #171915; font: 9px 'Palatino'" transform="translate(590.372573 170.400431)">test  к</text>
+    <text style="fill: #171915; font: 9px 'Palatino'" transform="translate(590.650307 180.73665)">отчёт</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="601.97976" y="205.381797" transform="rotate(-0 601.97976 205.381797)">10×10</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: start" x="74.98944" y="95.69664" transform="rotate(-0 74.98944 95.69664)">данные</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: end" x="632.26656" y="95.69664" transform="rotate(-0 632.26656 95.69664)">доступ</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #171915; font: 10px 'Palatino'; text-anchor: middle" x="353.628" y="88.62048" transform="rotate(-0 353.628 88.62048)">запрещённая стрелка назад</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="fill: #171915; font: 700 17px 'Palatino'; text-anchor: start" x="37.224" y="25.314781" transform="rotate(-0 37.224 25.314781)">Три уровня доступа к данным</text>
+  </g>
+  <g id="text_11">
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 350.515295)">Рис. 32.1. Сплошные стрелки показывают разрешённый поток информации. Красная стрелка от test к выбору модели превращает его</text>
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 359.970888)">в ещё одну validation-часть.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p9f5edb0f61">
+   <rect x="50.76" y="67.392" width="605.736" height="235.872"/>
+  </clipPath>
+ </defs>
+</svg>

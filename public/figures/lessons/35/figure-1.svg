@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="374.4pt" viewBox="0 0 676.8 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Три режима бутылочного горлышка</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Три режима бутылочного горлышка</dc:title>
+    <dc:date>2026-07-18T11:03:00.952259</dc:date>
+    <dc:description>Автокодировщики 784-2-784, 784-32-784 и 784-1024-784, примеры реконструкций, train test error и полезность кода. Одинаковые изображения проходят через коды разной ширины. Рядом разделены качество копирования и точность простого классификатора по коду.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 374.4 
+L 676.8 374.4 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #fffef9"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.81736 193.30553 
+L 129.50568 193.30553 
+Q 136.774512 193.30553 136.774512 190.475066 
+L 136.774512 156.593734 
+Q 136.774512 153.76327 129.50568 153.76327 
+L 56.81736 153.76327 
+Q 49.548528 153.76327 49.548528 156.593734 
+L 49.548528 190.475066 
+Q 49.548528 193.30553 56.81736 193.30553 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #f6f2e7; stroke: #315f8c; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 131.504966 173.5344 
+Q 158.090137 173.5344 183.333666 173.5344 
+" clip-path="url(#p940d4db9a6)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 178.533666 171.1344 
+L 183.333666 173.5344 
+L 178.533666 175.9344 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 186.672015 198.682965 
+L 254.060145 198.682965 
+Q 261.328977 198.682965 261.328977 195.852501 
+L 261.328977 151.216299 
+Q 261.328977 148.385835 254.060145 148.385835 
+L 186.672015 148.385835 
+Q 179.403183 148.385835 179.403183 151.216299 
+L 179.403183 195.852501 
+Q 179.403183 198.682965 186.672015 198.682965 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #f6f2e7; stroke: #b94a3b; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 256.061788 173.5344 
+Q 285.295953 173.5344 313.188478 173.5344 
+" clip-path="url(#p940d4db9a6)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 308.388478 171.1344 
+L 313.188478 173.5344 
+L 308.388478 175.9344 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 316.52667 203.058607 
+L 378.61461 203.058607 
+Q 385.883442 203.058607 385.883442 200.228143 
+L 385.883442 146.840657 
+Q 385.883442 144.010193 378.61461 144.010193 
+L 316.52667 144.010193 
+Q 309.257838 144.010193 309.257838 146.840657 
+L 309.257838 200.228143 
+Q 309.257838 203.058607 316.52667 203.058607 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #f6f2e7; stroke: #38735d; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 380.612371 173.5344 
+Q 412.495301 173.5344 443.036589 173.5344 
+" clip-path="url(#p940d4db9a6)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 438.236589 171.1344 
+L 443.036589 173.5344 
+L 438.236589 175.9344 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 446.381325 202.409512 
+L 503.169075 202.409512 
+Q 510.437907 202.409512 510.437907 199.579048 
+L 510.437907 147.489752 
+Q 510.437907 144.659288 503.169075 144.659288 
+L 446.381325 144.659288 
+Q 439.112493 144.659288 439.112493 147.489752 
+L 439.112493 199.579048 
+Q 439.112493 202.409512 446.381325 202.409512 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #f6f2e7; stroke: #a57920; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 505.171458 173.5344 
+Q 539.70394 173.5344 572.894782 173.5344 
+" clip-path="url(#p940d4db9a6)" style="fill: none; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+    <path d="M 568.094782 171.1344 
+L 572.894782 173.5344 
+L 568.094782 175.9344 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #171915; stroke: #171915; stroke-width: 1.2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 576.23598 197.332454 
+L 627.72354 197.332454 
+Q 634.992372 197.332454 634.992372 194.50199 
+L 634.992372 152.56681 
+Q 634.992372 149.736346 627.72354 149.736346 
+L 576.23598 149.736346 
+Q 568.967148 149.736346 568.967148 152.56681 
+L 568.967148 194.50199 
+Q 568.967148 197.332454 576.23598 197.332454 
+z
+" clip-path="url(#p940d4db9a6)" style="fill: #f6f2e7; stroke: #6f5a8f; stroke-width: 1.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 93.16152 253.73088 
+L 220.36608 236.04048 
+L 347.57064 230.14368 
+L 474.7752 218.35008 
+L 601.97976 200.65968 
+" clip-path="url(#p940d4db9a6)" style="fill: none; stroke: #38735d; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="m208b4cd7ed" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #38735d"/>
+    </defs>
+    <g clip-path="url(#p940d4db9a6)">
+     <use xlink:href="#m208b4cd7ed" x="93.16152" y="253.73088" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m208b4cd7ed" x="220.36608" y="236.04048" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m208b4cd7ed" x="347.57064" y="230.14368" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m208b4cd7ed" x="474.7752" y="218.35008" style="fill: #38735d; stroke: #38735d"/>
+     <use xlink:href="#m208b4cd7ed" x="601.97976" y="200.65968" style="fill: #38735d; stroke: #38735d"/>
+    </g>
+   </g>
+   <g id="text_1">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="93.16152" y="175.568541" transform="rotate(-0 93.16152 175.568541)">784</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="93.16152" y="206.986106" transform="rotate(-0 93.16152 206.986106)">32×32</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="220.36608" y="175.568541" transform="rotate(-0 220.36608 175.568541)">128</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="220.36608" y="212.363541" transform="rotate(-0 220.36608 212.363541)">16×16</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="347.57064" y="175.568541" transform="rotate(-0 347.57064 175.568541)">код 16</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="347.57064" y="216.739183" transform="rotate(-0 347.57064 216.739183)">10×10</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="474.7752" y="175.568541" transform="rotate(-0 474.7752 175.568541)">128</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="474.7752" y="216.090088" transform="rotate(-0 474.7752 216.090088)">8×8</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #171915; font: 9px 'Palatino'; text-anchor: middle" x="601.97976" y="175.568541" transform="rotate(-0 601.97976 175.568541)">784</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #6f746d; font: 7.5px 'Palatino'; text-anchor: middle" x="601.97976" y="211.01303" transform="rotate(-0 601.97976 211.01303)">6×6</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: start" x="74.98944" y="95.69664" transform="rotate(-0 74.98944 95.69664)">слой</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #6f746d; font: 10px 'Palatino'; text-anchor: end" x="632.26656" y="95.69664" transform="rotate(-0 632.26656 95.69664)">размер</text>
+   </g>
+   <g id="text_13">
+    <!-- $x\to z\to\hat x$ -->
+    <g style="fill: #171915" transform="translate(334.928 88.62048)">
+     <text>
+      <tspan style="font: italic 10px 'STIXGeneral'" x="0 16.587961 32.625919" y="-0.671875">xzx</tspan>
+      <tspan style="font: 10px 'STIXGeneral'" x="5.883984 21.921942 37.668887" y="-0.671875 -0.671875 -1.265625">→→̂</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+  <g id="text_14">
+   <text style="fill: #171915; font: 700 17px 'Palatino'; text-anchor: start" x="37.224" y="25.36525" transform="rotate(-0 37.224 25.36525)">Три режима бутылочного горлышка</text>
+  </g>
+  <g id="text_15">
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 350.544858)">Рис. 35.1. Одинаковые изображения проходят через коды разной ширины. Рядом разделены качество копирования и точность</text>
+   <text style="fill: #6f746d; font: 8.6px 'Palatino'" transform="translate(37.224 359.970888)">простого классификатора по коду.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p940d4db9a6">
+   <rect x="50.76" y="67.392" width="605.736" height="235.872"/>
+  </clipPath>
+ </defs>
+</svg>

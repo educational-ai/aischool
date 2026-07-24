@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:ns4="http://www.w3.org/1999/xlink" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="662.4pt" height="377.76pt" viewBox="0 0 662.4 377.76" version="1.1" role="img">
+ <title>Победа над предшественником скрывает цикл</title><desc>Матрица результатов трёх стратегий и циклический граф доминирования. Слева дана матрица win rate, справа стрелки показывают отношение «побеждает чаще 50%». Упорядочить вершины сверху вниз невозможно: граф содержит цикл. Серый столбец «против смеси» даёт другой, более устойчивый итог.</desc><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-07-18T10:23:35.787526</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 377.76  L 662.4 377.76  L 662.4 0  L 0 0  z " style="fill: #fffdf7" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 46.368 328.6512  L 298.306462 328.6512  L 298.306462 67.9968  L 46.368 67.9968  z " style="fill: #fffdf7" />
+   </g>
+   <g clip-path="url(#p3096b475ba)">
+    <image ns4:href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAg0AAAIgCAYAAAAGKlp8AAAJKUlEQVR4nO3YwYkCQRRFUR0MpFORSaDX5jAIHYQxmIxZiUs1hUttysFz1r/gLS+1v//9vnbwD23rMnsCDLkeT7MnwJCfsWcAwLcRDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAksO2Lu0SPsz1eJo9AYY8zpfZE2CInwYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAIloAAAS0QAAJKIBAEhEAwCQiAYAIBENAEAiGgCARDQAAMn++by92il8lsf5MnsCDNnWZfYEGOKnAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQBAIhoAgEQ0AACJaAAAEtEAACSiAQBIRAMAkIgGACARDQDArngD/Y4TfnkFj7MAAAAASUVORK5CYII=" id="imagee5d8aabbf7" transform="scale(1 -1) translate(0 -261.12)" x="46.368" y="-67.5312" width="252" height="261.12" />
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1" />
+     <g id="text_1">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'" transform="translate(58.337947 358.266924) rotate(-35)">камень</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2" />
+     <g id="text_2">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'" transform="translate(131.607725 365.765943) rotate(-35)">ножницы</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3" />
+     <g id="text_3">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'" transform="translate(226.907986 357.746419) rotate(-35)">бумага</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4" />
+     <g id="text_4">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="42.868" y="115.258575" transform="rotate(-0 42.868 115.258575)">камень</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_5" />
+     <g id="text_5">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="42.868" y="202.143375" transform="rotate(-0 42.868 202.143375)">ножницы</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_6" />
+     <g id="text_6">
+      <text style="fill: #68716b; font: 10.5px 'Palatino'; text-anchor: end" x="42.868" y="288.995363" transform="rotate(-0 42.868 288.995363)">бумага</text>
+     </g>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="fill: #20231f; font: 11.2px 'Palatino'; text-anchor: start" x="46.368" y="59.9968" transform="rotate(-0 46.368 59.9968)">win rate</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 508.610524 113.809173  Q 451.890343 178.441406 430.210117 260.094222  " clip-path="url(#p939442f4f9)" style="fill: none; stroke: #b94a3b; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 433.16964 256.741428  L 430.210117 260.094222  L 429.303596 255.714927  z " clip-path="url(#p939442f4f9)" style="fill: #b94a3b; stroke: #b94a3b; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_4">
+    <path d="M 431.260588 263.949033  Q 509.933145 282.374661 587.136121 264.293965  " clip-path="url(#p939442f4f9)" style="fill: none; stroke: #38735d; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 582.785448 263.258763  L 587.136121 264.293965  L 583.697555 267.153382  z " clip-path="url(#p939442f4f9)" style="fill: #38735d; stroke: #38735d; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_5">
+    <path d="M 590.046372 261.551568  Q 567.978506 178.440114 512.253597 114.942484  " clip-path="url(#p939442f4f9)" style="fill: none; stroke: #315f8c; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 513.388802 119.268141  L 512.253597 114.942484  L 516.395246 116.629715  z " clip-path="url(#p939442f4f9)" style="fill: #315f8c; stroke: #315f8c; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_6">
+    <path d="M 509.934769 135.766944  C 515.948107 135.766944 521.715963 133.295167 525.968035 128.895992  C 530.220106 124.496818 532.609231 118.52942 532.609231 112.308048  C 532.609231 106.086676 530.220106 100.119278 525.968035 95.720104  C 521.715963 91.320929 515.948107 88.849152 509.934769 88.849152  C 503.921432 88.849152 498.153575 91.320929 493.901504 95.720104  C 489.649432 100.119278 487.260308 106.086676 487.260308 112.308048  C 487.260308 118.52942 489.649432 124.496818 493.901504 128.895992  C 498.153575 133.295167 503.921432 135.766944 509.934769 135.766944  z " clip-path="url(#p939442f4f9)" style="fill: #dce9f2; stroke: #315f8c; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_7">
+    <path d="M 429.314462 286.946496  C 435.327799 286.946496 441.095655 284.474719 445.347727 280.075544  C 449.599799 275.67637 451.988923 269.708972 451.988923 263.4876  C 451.988923 257.266228 449.599799 251.29883 445.347727 246.899656  C 441.095655 242.500481 435.327799 240.028704 429.314462 240.028704  C 423.301124 240.028704 417.533268 242.500481 413.281196 246.899656  C 409.029124 251.29883 406.64 257.266228 406.64 263.4876  C 406.64 269.708972 409.029124 275.67637 413.281196 280.075544  C 417.533268 284.474719 423.301124 286.946496 429.314462 286.946496  z " clip-path="url(#p939442f4f9)" style="fill: #f2dfda; stroke: #b94a3b; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_8">
+    <path d="M 590.555077 286.946496  C 596.568414 286.946496 602.336271 284.474719 606.588342 280.075544  C 610.840414 275.67637 613.229538 269.708972 613.229538 263.4876  C 613.229538 257.266228 610.840414 251.29883 606.588342 246.899656  C 602.336271 242.500481 596.568414 240.028704 590.555077 240.028704  C 584.541739 240.028704 578.773883 242.500481 574.521811 246.899656  C 570.26974 251.29883 567.880615 257.266228 567.880615 263.4876  C 567.880615 269.708972 570.26974 275.67637 574.521811 280.075544  C 578.773883 284.474719 584.541739 286.946496 590.555077 286.946496  z " clip-path="url(#p939442f4f9)" style="fill: #dcebe3; stroke: #38735d; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="text_8">
+    <text style="fill: #20231f; font: 11.2px 'Palatino'; text-anchor: start" x="383.965538" y="59.9968" transform="rotate(-0 383.965538 59.9968)">цикл доминирования</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="509.934769" y="114.116173" transform="rotate(-0 509.934769 114.116173)">камень</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="429.314462" y="265.295725" transform="rotate(-0 429.314462 265.295725)">ножницы</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="590.555077" y="265.23385" transform="rotate(-0 590.555077 265.23385)">бумага</text>
+   </g>
+  </g>
+  <g id="text_12">
+   <text style="fill: #20231f; font: 15.5px 'Palatino'; text-anchor: start" x="36.432" y="24.408241" transform="rotate(-0 36.432 24.408241)">Победа над предшественником скрывает цикл</text>
+  </g>
+  <g id="text_13">
+   <text style="fill: #68716b; font: 8.8px 'Palatino'; text-anchor: start" x="36.432" y="365.81075" transform="rotate(-0 36.432 365.81075)">Урок 72 · рисунок 1</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3096b475ba">
+   <rect x="46.368" y="67.9968" width="251.938462" height="260.6544" />
+  </clipPath>
+  <clipPath id="p939442f4f9">
+   <rect x="383.965538" y="67.9968" width="251.938462" height="260.6544" />
+  </clipPath>
+ </defs>
+</svg>

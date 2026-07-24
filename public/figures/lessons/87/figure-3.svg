@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="662.4pt" height="377.76pt" viewBox="0 0 662.4 377.76" version="1.1" role="img">
+ <title>Проверка как дерево свидетельств</title><desc>Decision flow provenance signature watermark detector source corroboration human review. Схема не выдаёт бинарный приговор из detector score. Ветви подписаны типом свидетельства и возможным отказом: подпись отсутствует, watermark повреждён, classifier вне домена. Финал — уровни уверенности и действие, а не ярлык «фейк».</desc><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-07-18T10:23:40.501478</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.9.4, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 377.76  L 662.4 377.76  L 662.4 0  L 0 0  z " style="fill: #fffdf7" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 106.873882 197.065751  Q 140.693898 169.651904 173.341388 143.188484  " clip-path="url(#pc9d384cf0c)" style="fill: none; stroke: #315f8c; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 168.974627 144.153574  L 173.341388 143.188484  L 171.493403 147.260947  z " clip-path="url(#pc9d384cf0c)" style="fill: #315f8c; stroke: #315f8c; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_3">
+    <path d="M 106.930014 199.509227  Q 140.693055 224.388921 173.241017 248.373234  " clip-path="url(#pc9d384cf0c)" style="fill: none; stroke: #38735d; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 171.207319 244.390261  L 173.241017 248.373234  L 168.83442 247.610408  z " clip-path="url(#pc9d384cf0c)" style="fill: #38735d; stroke: #38735d; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_4">
+    <path d="M 272.388704 140.980032  Q 299.867541 140.980032 325.837031 140.980032  " clip-path="url(#pc9d384cf0c)" style="fill: none; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 321.837031 138.980032  L 325.837031 140.980032  L 321.837031 142.980032  z " clip-path="url(#pc9d384cf0c)" style="fill: #a57920; stroke: #a57920; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_5">
+    <path d="M 272.388704 250.45488  Q 299.867541 250.45488 325.837031 250.45488  " clip-path="url(#pc9d384cf0c)" style="fill: none; stroke: #6f5a8f; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 321.837031 248.45488  L 325.837031 250.45488  L 321.837031 252.45488  z " clip-path="url(#pc9d384cf0c)" style="fill: #6f5a8f; stroke: #6f5a8f; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_6">
+    <path d="M 425.015343 142.46594  Q 447.254859 167.048102 468.481772 190.510996  " clip-path="url(#pc9d384cf0c)" style="fill: none; stroke: #b94a3b; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 467.281334 186.202986  L 468.481772 190.510996  L 464.315102 188.886541  z " clip-path="url(#pc9d384cf0c)" style="fill: #b94a3b; stroke: #b94a3b; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_7">
+    <path d="M 425.090187 249.043108  Q 447.254287 226.994186 468.348343 206.009749  " clip-path="url(#pc9d384cf0c)" style="fill: none; stroke: #b94a3b; stroke-width: 1.35; stroke-linecap: round" />
+    <path d="M 464.102032 207.412905  L 468.348343 206.009749  L 466.923082 210.248691  z " clip-path="url(#pc9d384cf0c)" style="fill: #b94a3b; stroke: #b94a3b; stroke-width: 1.35; stroke-linecap: round" />
+   </g>
+   <g id="patch_8">
+    <path d="M 105.3216 213.963264  C 114.702406 213.963264 123.700262 212.315412 130.333494 209.38263  C 136.966726 206.449847 140.69376 202.471581 140.69376 198.324  C 140.69376 194.176419 136.966726 190.198153 130.333494 187.26537  C 123.700262 184.332588 114.702406 182.684736 105.3216 182.684736  C 95.940794 182.684736 86.942938 184.332588 80.309706 187.26537  C 73.676474 190.198153 69.94944 194.176419 69.94944 198.324  C 69.94944 202.471581 73.676474 206.449847 80.309706 209.38263  C 86.942938 212.315412 95.940794 213.963264 105.3216 213.963264  z " clip-path="url(#pc9d384cf0c)" style="fill: #dce9f2; stroke: #315f8c; stroke-width: 1.4; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_9">
+    <path d="M 181.96128 159.22584  L 264.49632 159.22584  Q 279.23472 159.22584 279.23472 152.70948  L 279.23472 129.250584  Q 279.23472 122.734224 264.49632 122.734224  L 181.96128 122.734224  Q 167.22288 122.734224 167.22288 129.250584  L 167.22288 152.70948  Q 167.22288 159.22584 181.96128 159.22584  z " clip-path="url(#pc9d384cf0c)" style="fill: #dce9f2; stroke: #315f8c; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_10">
+    <path d="M 181.96128 268.700688  L 264.49632 268.700688  Q 279.23472 268.700688 279.23472 262.184328  L 279.23472 238.725432  Q 279.23472 232.209072 264.49632 232.209072  L 181.96128 232.209072  Q 167.22288 232.209072 167.22288 238.725432  L 167.22288 262.184328  Q 167.22288 268.700688 181.96128 268.700688  z " clip-path="url(#pc9d384cf0c)" style="fill: #f2dfda; stroke: #b94a3b; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_11">
+    <path d="M 335.24064 159.22584  L 417.77568 159.22584  Q 432.51408 159.22584 432.51408 152.70948  L 432.51408 129.250584  Q 432.51408 122.734224 417.77568 122.734224  L 335.24064 122.734224  Q 320.50224 122.734224 320.50224 129.250584  L 320.50224 152.70948  Q 320.50224 159.22584 335.24064 159.22584  z " clip-path="url(#pc9d384cf0c)" style="fill: #dcebe3; stroke: #38735d; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_12">
+    <path d="M 335.24064 268.700688  L 417.77568 268.700688  Q 432.51408 268.700688 432.51408 262.184328  L 432.51408 238.725432  Q 432.51408 232.209072 417.77568 232.209072  L 335.24064 232.209072  Q 320.50224 232.209072 320.50224 238.725432  L 320.50224 262.184328  Q 320.50224 268.700688 335.24064 268.700688  z " clip-path="url(#pc9d384cf0c)" style="fill: #efe5c9; stroke: #a57920; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="patch_13">
+    <path d="M 476.72928 216.569808  L 559.26432 216.569808  Q 574.00272 216.569808 574.00272 210.053448  L 574.00272 186.594552  Q 574.00272 180.078192 559.26432 180.078192  L 476.72928 180.078192  Q 461.99088 180.078192 461.99088 186.594552  L 461.99088 210.053448  Q 461.99088 216.569808 476.72928 216.569808  z " clip-path="url(#pc9d384cf0c)" style="fill: #e8e1ed; stroke: #6f5a8f; stroke-width: 1.35; stroke-linejoin: miter" />
+   </g>
+   <g id="text_1">
+    <text style="fill: #20231f; font: 9.5px 'Palatino'; text-anchor: middle" x="105.3216" y="200.427359" transform="rotate(-0 105.3216 200.427359)">файл</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="223.2288" y="142.788157" transform="rotate(-0 223.2288 142.788157)">подпись</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="223.2288" y="252.263005" transform="rotate(-0 223.2288 252.263005)">watermark</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="376.50816" y="142.741907" transform="rotate(-0 376.50816 142.741907)">детектор</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="376.50816" y="252.263005" transform="rotate(-0 376.50816 252.263005)">источники</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #20231f; font: 8px 'Palatino'; text-anchor: middle" x="517.9968" y="200.085875" transform="rotate(-0 517.9968 200.085875)">эксперт</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_14">
+     <path d="M 476.437777 274.501209  L 559.555823 274.501209  Q 561.425823 274.501209 561.425823 272.631209  L 561.425823 254.265631  Q 561.425823 252.395631 559.555823 252.395631  L 476.437777 252.395631  Q 474.567777 252.395631 474.567777 254.265631  L 474.567777 272.631209  Q 474.567777 274.501209 476.437777 274.501209  z " style="fill: #fffdf7; opacity: 0.92" />
+    </g>
+    <text style="fill: #20231f; font: 8.5px 'Palatino'" transform="translate(476.437777 260.449381)">уровень уверенности</text>
+    <text style="fill: #20231f; font: 8.5px 'Palatino'" transform="translate(496.675081 270.289725)">+ действие</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="fill: #20231f; font: 15.5px 'Palatino'; text-anchor: start" x="36.432" y="24.408241" transform="rotate(-0 36.432 24.408241)">Проверка как дерево свидетельств</text>
+  </g>
+  <g id="text_9">
+   <text style="fill: #68716b; font: 8.8px 'Palatino'; text-anchor: start" x="36.432" y="365.81075" transform="rotate(-0 36.432 365.81075)">Урок 87 · рисунок 3</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc9d384cf0c">
+   <rect x="46.368" y="67.9968" width="589.536" height="260.6544" />
+  </clipPath>
+ </defs>
+</svg>
