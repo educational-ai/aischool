@@ -180,9 +180,9 @@ export function LessonView({
           <header className="article-head">
             <nav className="breadcrumbs" aria-label="Путь к уроку">
               <Link href="/">Оглавление</Link>
-              <span>›</span>
+              <span aria-hidden="true">/</span>
               <span>{courseModule.number}</span>
-              <span>›</span>
+              <span aria-hidden="true">/</span>
               <span>Урок {lesson.id}</span>
             </nav>
             <p className="article-kicker">

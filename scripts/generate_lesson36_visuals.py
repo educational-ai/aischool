@@ -188,7 +188,7 @@ def side_eigen() -> None:
 
 # --------------------------------------------- margin: real photo warp (inverse gather vs forward scatter)
 def side_warp() -> None:
-    with cbook.get_sample_data("grace_hopper.jpg") as f:
+    with open(Path(__file__).resolve().parent / "data" / "vision-photo.jpg", "rb") as f:
         img = plt.imread(f)
     g = img[..., :3].mean(2)[::6, ::6] / 255.0  # downsample grayscale
     h, w = g.shape

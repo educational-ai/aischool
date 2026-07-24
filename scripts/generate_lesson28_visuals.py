@@ -43,7 +43,7 @@ def save(fig, path, *, dpi=160):
 
 def load_rgb():
     d = os.path.join(os.path.dirname(mpl.__file__), "mpl-data", "sample_data")
-    return mpimg.imread(os.path.join(d, "grace_hopper.jpg")).astype(float) / 255.0
+    return mpimg.imread(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "vision-photo.jpg")).astype(float) / 255.0
 
 
 def outsize(n, k, p, s):

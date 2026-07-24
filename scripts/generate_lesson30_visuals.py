@@ -84,7 +84,7 @@ def fig_architecture() -> None:
 # ============================================================ real feature maps
 def load_gray():
     d = os.path.join(os.path.dirname(mpl.__file__), "mpl-data", "sample_data")
-    return mpimg.imread(os.path.join(d, "grace_hopper.jpg")).astype(float) @ [0.299, 0.587, 0.114] / 255.0
+    return mpimg.imread(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "vision-photo.jpg")).astype(float) @ [0.299, 0.587, 0.114] / 255.0
 
 
 def conv(a, k):
@@ -113,9 +113,12 @@ def fig_featuremaps() -> None:
     b = relu(conv(p1, lap))
     p2 = maxpool(b)
     fig, axes = plt.subplots(1, 5, figsize=(11.4, 3.0))
-    panels = [(g, "вход\n600×512", "gray"), (p1, "слой 1: края\n300×256", "magma"),
-              (p2, "слой 2: пятна и углы\n150×128", "magma"),
-              (maxpool(p2), "слой 3\n75×64", "magma"), (maxpool(maxpool(p2)), "слой 4\n37×32", "magma")]
+    p3 = maxpool(p2)
+    p4 = maxpool(p3)
+    dim = lambda a: f"{a.shape[0]}×{a.shape[1]}"
+    panels = [(g, f"вход\n{dim(g)}", "gray"), (p1, f"слой 1: края\n{dim(p1)}", "magma"),
+              (p2, f"слой 2: пятна и углы\n{dim(p2)}", "magma"),
+              (p3, f"слой 3\n{dim(p3)}", "magma"), (p4, f"слой 4\n{dim(p4)}", "magma")]
     for ax, (im, title, cmap) in zip(axes, panels):
         ax.imshow(im, cmap=cmap, vmax=None if cmap == "gray" else np.percentile(im, 99) + 1e-6)
         ax.set_title(title, fontsize=10); ax.axis("off")

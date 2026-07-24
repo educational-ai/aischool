@@ -43,7 +43,7 @@ def save(fig, path, *, dpi=160):
 
 def load_rgb():
     d = os.path.join(os.path.dirname(mpl.__file__), "mpl-data", "sample_data")
-    return mpimg.imread(os.path.join(d, "grace_hopper.jpg")).astype(float) / 255.0
+    return mpimg.imread(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "vision-photo.jpg")).astype(float) / 255.0
 
 
 # ---------------------------- fig 34.1: image -> per-pixel segmentation
@@ -56,7 +56,7 @@ def fig_segmentation() -> None:
     seg = km.cluster_centers_[labels]
     fracs = [100 * (labels == k).mean() for k in range(4)]
     print("seg fractions:", [round(f, 1) for f in fracs])
-    assert abs(max(fracs) - 55.0) < 3
+    assert abs(max(fracs) - 31.6) < 3
     # a discrete class map with distinct palette
     palette = np.array([[0.19, 0.37, 0.55], [0.12, 0.12, 0.14], [0.72, 0.43, 0.33], [0.85, 0.78, 0.7]])
     order = np.argsort(km.cluster_centers_.sum(1))

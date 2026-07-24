@@ -1,7 +1,7 @@
 """Deterministic figures for lesson 27: how vision finds features.
 
 A receptive field / convolution mechanic, Sobel edge detection on a real
-photograph (Grace Hopper, bundled with matplotlib), and a bank of Gabor
+photograph (neutral RGB portrait photo), and a bank of Gabor
 filters at four orientations with their response maps. Numbers reproduced.
 """
 
@@ -44,7 +44,7 @@ def save(fig, path, *, dpi=160):
 
 def load_gray():
     d = os.path.join(os.path.dirname(mpl.__file__), "mpl-data", "sample_data")
-    img = mpimg.imread(os.path.join(d, "grace_hopper.jpg")).astype(float)
+    img = mpimg.imread(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "vision-photo.jpg")).astype(float)
     gray = img[..., :3] @ [0.299, 0.587, 0.114]
     return gray / 255.0
 
@@ -99,7 +99,7 @@ def fig_receptive() -> None:
     fig.text(0.365, 0.5, "скользит\nпо полю", ha="center", va="center", fontsize=9.5, color=MUTED)
     fig.text(0.635, 0.5, "даёт\nотклик", ha="center", va="center", fontsize=9.5, color=MUTED)
     print(f"receptive: edge mag mean={mag.mean():.3f} max={mag.max():.3f}")
-    assert abs(mag.mean() - 0.251) < 0.01
+    assert abs(mag.mean() - 0.347) < 0.01
     fig.suptitle("Нейрон смотрит в маленькое окно и отвечает на локальный признак", y=1.02, fontsize=14)
     save(fig, OUT / "receptive.png")
 
@@ -110,9 +110,9 @@ def fig_sobel() -> None:
     mag = np.hypot(Gx, Gy)
     strong = (mag > 0.5).mean()
     print(f"sobel: strong-edge fraction={strong:.3f}")
-    assert abs(strong - 0.106) < 0.01
+    assert abs(strong - 0.243) < 0.01
     fig, (a1, a2) = plt.subplots(1, 2, figsize=(8.6, 5.4))
-    a1.imshow(GRAY, cmap="gray"); a1.set_title("фотография (Грейс Хоппер)", fontsize=12.5); a1.axis("off")
+    a1.imshow(GRAY, cmap="gray"); a1.set_title("фотография", fontsize=12.5); a1.axis("off")
     a2.imshow(mag, cmap="magma", vmax=1.5); a2.set_title("карта краёв (детектор Собеля)", fontsize=12.5); a2.axis("off")
     a2.text(0.5, -0.04, f"сильных краёв: {strong*100:.0f}% пикселей",
             transform=a2.transAxes, ha="center", fontsize=10.5, color=MUTED)
@@ -131,7 +131,7 @@ def fig_gabor() -> None:
     win = stack.argmax(0)
     fracs = [100 * (win == i).mean() for i in range(4)]
     print("gabor wins:", [f"{d}:{f:.1f}%" for d, f in zip(degs, fracs)])
-    assert abs(fracs[0] - 30.4) < 1.5
+    assert abs(fracs[0] - 24.4) < 1.5
     fig, axes = plt.subplots(2, 4, figsize=(11.2, 5.8),
                              gridspec_kw={"height_ratios": [0.5, 1]})
     for j, deg in enumerate(degs):

@@ -80,7 +80,7 @@ def fig_pooling() -> None:
 # ============================================================ real feature map
 def load_gray():
     d = os.path.join(os.path.dirname(mpl.__file__), "mpl-data", "sample_data")
-    return mpimg.imread(os.path.join(d, "grace_hopper.jpg")).astype(float) @ [0.299, 0.587, 0.114] / 255.0
+    return mpimg.imread(os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "vision-photo.jpg")).astype(float) @ [0.299, 0.587, 0.114] / 255.0
 
 
 KX = np.array([[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]], float); KY = KX.T
@@ -106,7 +106,7 @@ def fig_invariance() -> None:
     e0 = edge(gray); e1 = edge(np.roll(gray, 1, axis=1))
     raw = relchange(e1, e0); pool = relchange(maxpool(e1), maxpool(e0))
     print(f"invariance: unpooled change={raw:.3f}, pooled change={pool:.3f}, {raw/pool:.2f}x")
-    assert abs(raw - 0.567) < 0.02 and abs(pool - 0.380) < 0.02
+    assert abs(raw - 0.447) < 0.02 and abs(pool - 0.247) < 0.02
     fig, axes = plt.subplots(2, 2, figsize=(8.6, 6.4))
     axes[0, 0].imshow(e0, cmap="magma", vmax=1.5); axes[0, 0].set_title("карта признаков", fontsize=11.5)
     axes[0, 1].imshow(e1, cmap="magma", vmax=1.5); axes[0, 1].set_title(f"вход сдвинут на 1 пикс.\nизменение {raw*100:.0f}%", fontsize=11.5)
