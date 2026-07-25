@@ -735,7 +735,7 @@ def check_prose() -> None:
 
 
 def fig_flows() -> None:
-    """Непрерывный поток, его дискретизация и то, где живёт ускорение.
+    """Эталонная траектория, шаги спуска и выигрыш инерции.
 
     Плохо обусловленный квадратичный овраг (kappa = 80). Поток dx/dt = -grad f идёт
     прямо ко дну: у него нет ограничения на шаг. Спуск - явная схема Эйлера для
@@ -800,7 +800,7 @@ def fig_flows() -> None:
     zz = 0.5 * (H[0, 0] * xx ** 2 + 2 * H[0, 1] * xx * yy + H[1, 1] * yy ** 2)
     a1.contour(xx, yy, zz, levels=np.geomspace(0.05, 260, 14), colors=[GRID], linewidths=0.7)
     a1.plot(flow[:, 0], flow[:, 1], color=BLUE, lw=3.4, alpha=0.95,
-            label=r"поток $\dot x=-\nabla f$", zorder=3)
+            label="идеальная траектория", zorder=3)
     a1.plot(gd[:60, 0], gd[:60, 1], color=RED, lw=1.0, marker="o", ms=1.9, alpha=0.9,
             label=f"спуск, шаг {fmt(a_gd, 3)}", zorder=4)
     a1.plot(hb[:60, 0], hb[:60, 1], color=GREEN, lw=1.4, marker="o", ms=2.4, alpha=0.95,
@@ -808,7 +808,7 @@ def fig_flows() -> None:
     a1.plot(0, 0, "*", color=INK, ms=15, zorder=6)
     a1.set_xlim(-0.9, 3.7); a1.set_ylim(-0.9, 2.5)
     a1.set_xticks([]); a1.set_yticks([])
-    a1.set_title(f"Овраг $\\kappa={kappa:.0f}$: поток и две его дискретизации", fontsize=12.5)
+    a1.set_title(f"Овраг $\\kappa={kappa:.0f}$: эталон и два метода", fontsize=12.5)
     a1.legend(frameon=False, fontsize=9.5, loc="upper left")
 
     it = np.arange(len(f_gd))
@@ -817,14 +817,14 @@ def fig_flows() -> None:
     a2.axhline(1e-6, color=LINE, lw=1.0, ls=(0, (4, 3)))
     a2.set_xlim(0, 300); a2.set_ylim(1e-12, 2)
     a2.set_xlabel("число шагов"); a2.set_ylabel("$f/f_0$")
-    a2.set_title("Ускорение живёт в дискретном мире", fontsize=12.5)
+    a2.set_title("Инерция экономит шаги", fontsize=12.5)
     a2.grid(True, color=GRID, lw=0.6, alpha=0.6); a2.set_axisbelow(True)
     a2.legend(frameon=False, fontsize=10, loc="upper right")
     a2.annotate(f"до $10^{{-6}}$: {n_hb6} против {n_gd6} шагов",
                 xy=(n_hb6, 1e-6), xytext=(70, 2e-10), fontsize=10.5, color=MUTED,
                 arrowprops=dict(arrowstyle="->", color=LINE, lw=1.0))
 
-    fig.suptitle("Спуск — это шаг по потоку; момент нужен там, где шаг ограничен", y=1.02, fontsize=13.5)
+    fig.suptitle("Шаг ограничен самым крутым направлением — инерция это обходит", y=1.02, fontsize=13.5)
     fig.tight_layout()
     save(fig, OUT / "flows.png")
 
